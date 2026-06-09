@@ -1,0 +1,375 @@
+{
+  "rules": [
+    {
+      "id": "rule_transform_benefits_trim_001",
+      "type": "transformation",
+      "column": "benefits",
+      "parameters": {
+        "operation": "trim"
+      },
+      "enabled": true,
+      "priority": 10,
+      "description": "Trim leading and trailing whitespace in benefits.",
+      "created_by": "semantic"
+    },
+    {
+      "id": "rule_transform_company_address_trim_001",
+      "type": "transformation",
+      "column": "company_address",
+      "parameters": {
+        "operation": "trim"
+      },
+      "enabled": true,
+      "priority": 10,
+      "description": "Trim leading and trailing whitespace in company_address.",
+      "created_by": "semantic"
+    },
+    {
+      "id": "rule_transform_company_name_trim_001",
+      "type": "transformation",
+      "column": "company_name",
+      "parameters": {
+        "operation": "trim"
+      },
+      "enabled": true,
+      "priority": 10,
+      "description": "Trim leading and trailing whitespace in company_name.",
+      "created_by": "semantic"
+    },
+    {
+      "id": "rule_transform_company_size_trim_001",
+      "type": "transformation",
+      "column": "company_size",
+      "parameters": {
+        "operation": "trim"
+      },
+      "enabled": true,
+      "priority": 10,
+      "description": "Trim leading and trailing whitespace in company_size.",
+      "created_by": "semantic"
+    },
+    {
+      "id": "rule_transform_experience_trim_001",
+      "type": "transformation",
+      "column": "experience",
+      "parameters": {
+        "operation": "trim"
+      },
+      "enabled": true,
+      "priority": 10,
+      "description": "Trim leading and trailing whitespace in experience.",
+      "created_by": "semantic"
+    },
+    {
+      "id": "rule_transform_job_description_trim_001",
+      "type": "transformation",
+      "column": "job_description",
+      "parameters": {
+        "operation": "trim"
+      },
+      "enabled": true,
+      "priority": 10,
+      "description": "Trim leading and trailing whitespace in job_description.",
+      "created_by": "semantic"
+    },
+    {
+      "id": "rule_transform_job_requirements_trim_001",
+      "type": "transformation",
+      "column": "job_requirements",
+      "parameters": {
+        "operation": "trim"
+      },
+      "enabled": true,
+      "priority": 10,
+      "description": "Trim leading and trailing whitespace in job_requirements.",
+      "created_by": "semantic"
+    },
+    {
+      "id": "rule_transform_location_trim_001",
+      "type": "transformation",
+      "column": "location",
+      "parameters": {
+        "operation": "trim"
+      },
+      "enabled": true,
+      "priority": 10,
+      "description": "Trim leading and trailing whitespace in location.",
+      "created_by": "semantic"
+    },
+    {
+      "id": "rule_transform_salary_trim_001",
+      "type": "transformation",
+      "column": "salary",
+      "parameters": {
+        "operation": "trim"
+      },
+      "enabled": true,
+      "priority": 10,
+      "description": "Trim leading and trailing whitespace in salary.",
+      "created_by": "semantic"
+    },
+    {
+      "id": "rule_transform_title_trim_001",
+      "type": "transformation",
+      "column": "title",
+      "parameters": {
+        "operation": "trim"
+      },
+      "enabled": true,
+      "priority": 10,
+      "description": "Trim leading and trailing whitespace in title.",
+      "created_by": "semantic"
+    },
+    {
+      "id": "rule_transform_work_location_detail_trim_001",
+      "type": "transformation",
+      "column": "work_location_detail",
+      "parameters": {
+        "operation": "trim"
+      },
+      "enabled": true,
+      "priority": 10,
+      "description": "Trim leading and trailing whitespace in work_location_detail.",
+      "created_by": "semantic"
+    },
+    {
+      "id": "rule_transform_working_time_trim_001",
+      "type": "transformation",
+      "column": "working_time",
+      "parameters": {
+        "operation": "trim"
+      },
+      "enabled": true,
+      "priority": 10,
+      "description": "Trim leading and trailing whitespace in working_time.",
+      "created_by": "semantic"
+    },
+    {
+      "id": "rule_transform_benefits_remove_extra_spaces_001",
+      "type": "transformation",
+      "column": "benefits",
+      "parameters": {
+        "operation": "remove_extra_spaces"
+      },
+      "enabled": true,
+      "priority": 11,
+      "description": "Collapse repeated spaces in benefits.",
+      "created_by": "semantic"
+    },
+    {
+      "id": "rule_transform_company_address_remove_extra_spaces_001",
+      "type": "transformation",
+      "column": "company_address",
+      "parameters": {
+        "operation": "remove_extra_spaces"
+      },
+      "enabled": true,
+      "priority": 11,
+      "description": "Collapse repeated spaces in company_address.",
+      "created_by": "semantic"
+    },
+    {
+      "id": "rule_transform_company_name_remove_extra_spaces_001",
+      "type": "transformation",
+      "column": "company_name",
+      "parameters": {
+        "operation": "remove_extra_spaces"
+      },
+      "enabled": true,
+      "priority": 11,
+      "description": "Collapse repeated spaces in company_name.",
+      "created_by": "semantic"
+    },
+    {
+      "id": "rule_transform_company_size_remove_extra_spaces_001",
+      "type": "transformation",
+      "column": "company_size",
+      "parameters": {
+        "operation": "remove_extra_spaces"
+      },
+      "enabled": true,
+      "priority": 11,
+      "description": "Collapse repeated spaces in company_size.",
+      "created_by": "semantic"
+    },
+    {
+      "id": "rule_transform_experience_remove_extra_spaces_001",
+      "type": "transformation",
+      "column": "experience",
+      "parameters": {
+        "operation": "remove_extra_spaces"
+      },
+      "enabled": true,
+      "priority": 11,
+      "description": "Collapse repeated spaces in experience.",
+      "created_by": "semantic"
+    },
+    {
+      "id": "rule_transform_job_description_remove_extra_spaces_001",
+      "type": "transformation",
+      "column": "job_description",
+      "parameters": {
+        "operation": "remove_extra_spaces"
+      },
+      "enabled": true,
+      "priority": 11,
+      "description": "Collapse repeated spaces in job_description.",
+      "created_by": "semantic"
+    },
+    {
+      "id": "rule_transform_job_requirements_remove_extra_spaces_001",
+      "type": "transformation",
+      "column": "job_requirements",
+      "parameters": {
+        "operation": "remove_extra_spaces"
+      },
+      "enabled": true,
+      "priority": 11,
+      "description": "Collapse repeated spaces in job_requirements.",
+      "created_by": "semantic"
+    },
+    {
+      "id": "rule_transform_location_remove_extra_spaces_001",
+      "type": "transformation",
+      "column": "location",
+      "parameters": {
+        "operation": "remove_extra_spaces"
+      },
+      "enabled": true,
+      "priority": 11,
+      "description": "Collapse repeated spaces in location.",
+      "created_by": "semantic"
+    },
+    {
+      "id": "rule_transform_salary_remove_extra_spaces_001",
+      "type": "transformation",
+      "column": "salary",
+      "parameters": {
+        "operation": "remove_extra_spaces"
+      },
+      "enabled": true,
+      "priority": 11,
+      "description": "Collapse repeated spaces in salary.",
+      "created_by": "semantic"
+    },
+    {
+      "id": "rule_transform_title_remove_extra_spaces_001",
+      "type": "transformation",
+      "column": "title",
+      "parameters": {
+        "operation": "remove_extra_spaces"
+      },
+      "enabled": true,
+      "priority": 11,
+      "description": "Collapse repeated spaces in title.",
+      "created_by": "semantic"
+    },
+    {
+      "id": "rule_transform_work_location_detail_remove_extra_spaces_001",
+      "type": "transformation",
+      "column": "work_location_detail",
+      "parameters": {
+        "operation": "remove_extra_spaces"
+      },
+      "enabled": true,
+      "priority": 11,
+      "description": "Collapse repeated spaces in work_location_detail.",
+      "created_by": "semantic"
+    },
+    {
+      "id": "rule_transform_working_time_remove_extra_spaces_001",
+      "type": "transformation",
+      "column": "working_time",
+      "parameters": {
+        "operation": "remove_extra_spaces"
+      },
+      "enabled": true,
+      "priority": 11,
+      "description": "Collapse repeated spaces in working_time.",
+      "created_by": "semantic"
+    },
+    {
+      "id": "rule_regex_experience_001",
+      "type": "regex",
+      "column": "experience",
+      "parameters": {
+        "pattern": "(\\d+)",
+        "output_columns": [
+          "experience_years"
+        ],
+        "output_types": {
+          "experience_years": "int"
+        }
+      },
+      "enabled": true,
+      "priority": 30,
+      "description": "Extract numeric years from experience.",
+      "created_by": "semantic"
+    },
+    {
+      "id": "rule_regex_salary_001",
+      "type": "regex",
+      "column": "salary",
+      "parameters": {
+        "pattern": "(\\d+)\\s*-\\s*(\\d+)",
+        "output_columns": [
+          "salary_min",
+          "salary_max"
+        ],
+        "output_types": {
+          "salary_min": "int",
+          "salary_max": "int"
+        }
+      },
+      "enabled": true,
+      "priority": 30,
+      "description": "Extract numeric range from salary.",
+      "created_by": "semantic"
+    },
+    {
+      "id": "rule_validation_experience_years_001",
+      "type": "validation",
+      "column": "experience_years",
+      "parameters": {
+        "operator": ">=",
+        "value": 0,
+        "message": "experience_years must be >= 0",
+        "allow_null": true
+      },
+      "enabled": true,
+      "priority": 40,
+      "description": "Validate derived numeric column experience_years.",
+      "created_by": "semantic"
+    },
+    {
+      "id": "rule_validation_salary_max_001",
+      "type": "validation",
+      "column": "salary_max",
+      "parameters": {
+        "operator": ">",
+        "value": 0,
+        "message": "salary_max must be > 0",
+        "allow_null": true
+      },
+      "enabled": true,
+      "priority": 40,
+      "description": "Validate derived numeric column salary_max.",
+      "created_by": "semantic"
+    },
+    {
+      "id": "rule_validation_salary_min_001",
+      "type": "validation",
+      "column": "salary_min",
+      "parameters": {
+        "operator": ">",
+        "value": 0,
+        "message": "salary_min must be > 0",
+        "allow_null": true
+      },
+      "enabled": true,
+      "priority": 40,
+      "description": "Validate derived numeric column salary_min.",
+      "created_by": "semantic"
+    }
+  ]
+}

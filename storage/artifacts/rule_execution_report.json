@@ -1,0 +1,36 @@
+{
+  "results": [
+    {
+      "rule_id": "trim_title",
+      "rule_type": "transformation",
+      "status": "applied",
+      "affected_rows": 0,
+      "execution_time_ms": 2.4842,
+      "message": "Rule applied"
+    },
+    {
+      "rule_id": "normalize_location",
+      "rule_type": "mapping",
+      "status": "applied",
+      "affected_rows": 7,
+      "execution_time_ms": 1.4383,
+      "message": "Rule applied"
+    },
+    {
+      "rule_id": "extract_salary_range",
+      "rule_type": "regex",
+      "status": "applied",
+      "affected_rows": 73,
+      "execution_time_ms": 2.2601,
+      "message": "Rule applied"
+    },
+    {
+      "rule_id": "salary_min_positive",
+      "rule_type": "validation",
+      "status": "applied",
+      "affected_rows": 210,
+      "execution_time_ms": 2.0951,
+      "message": "Rule applied"
+    }
+  ]
+}

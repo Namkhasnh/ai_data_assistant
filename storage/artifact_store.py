@@ -5,6 +5,7 @@ import logging
 from pathlib import Path
 from typing import Any
 
+import pandas as pd
 from pydantic import BaseModel
 
 
@@ -42,4 +43,11 @@ class ArtifactStore:
             encoding="utf-8",
         )
         logger.info("Wrote artifact to %s", output_path)
+        return output_path
+
+    def write_dataframe_csv(self, filename: str, dataframe: pd.DataFrame) -> Path:
+        output_path = self.artifact_path(filename)
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        dataframe.to_csv(output_path, index=False)
+        logger.info("Wrote dataframe artifact to %s", output_path)
         return output_path

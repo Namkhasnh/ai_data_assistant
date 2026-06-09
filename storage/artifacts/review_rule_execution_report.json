@@ -1,0 +1,236 @@
+{
+  "results": [
+    {
+      "rule_id": "rule_transform_benefits_trim_001",
+      "rule_type": "transformation",
+      "status": "applied",
+      "affected_rows": 0,
+      "execution_time_ms": 2.1512,
+      "message": "Rule applied"
+    },
+    {
+      "rule_id": "rule_transform_company_address_trim_001",
+      "rule_type": "transformation",
+      "status": "applied",
+      "affected_rows": 0,
+      "execution_time_ms": 1.533,
+      "message": "Rule applied"
+    },
+    {
+      "rule_id": "rule_transform_company_name_trim_001",
+      "rule_type": "transformation",
+      "status": "applied",
+      "affected_rows": 0,
+      "execution_time_ms": 1.744,
+      "message": "Rule applied"
+    },
+    {
+      "rule_id": "rule_transform_company_size_trim_001",
+      "rule_type": "transformation",
+      "status": "applied",
+      "affected_rows": 0,
+      "execution_time_ms": 1.5135,
+      "message": "Rule applied"
+    },
+    {
+      "rule_id": "rule_transform_experience_trim_001",
+      "rule_type": "transformation",
+      "status": "applied",
+      "affected_rows": 0,
+      "execution_time_ms": 1.6676,
+      "message": "Rule applied"
+    },
+    {
+      "rule_id": "rule_transform_job_description_trim_001",
+      "rule_type": "transformation",
+      "status": "applied",
+      "affected_rows": 0,
+      "execution_time_ms": 1.8836,
+      "message": "Rule applied"
+    },
+    {
+      "rule_id": "rule_transform_job_requirements_trim_001",
+      "rule_type": "transformation",
+      "status": "applied",
+      "affected_rows": 0,
+      "execution_time_ms": 1.8133,
+      "message": "Rule applied"
+    },
+    {
+      "rule_id": "rule_transform_location_trim_001",
+      "rule_type": "transformation",
+      "status": "applied",
+      "affected_rows": 0,
+      "execution_time_ms": 1.6903,
+      "message": "Rule applied"
+    },
+    {
+      "rule_id": "rule_transform_salary_trim_001",
+      "rule_type": "transformation",
+      "status": "applied",
+      "affected_rows": 0,
+      "execution_time_ms": 1.6931,
+      "message": "Rule applied"
+    },
+    {
+      "rule_id": "rule_transform_title_trim_001",
+      "rule_type": "transformation",
+      "status": "applied",
+      "affected_rows": 0,
+      "execution_time_ms": 1.621,
+      "message": "Rule applied"
+    },
+    {
+      "rule_id": "rule_transform_work_location_detail_trim_001",
+      "rule_type": "transformation",
+      "status": "applied",
+      "affected_rows": 0,
+      "execution_time_ms": 1.6102,
+      "message": "Rule applied"
+    },
+    {
+      "rule_id": "rule_transform_working_time_trim_001",
+      "rule_type": "transformation",
+      "status": "applied",
+      "affected_rows": 0,
+      "execution_time_ms": 1.6503,
+      "message": "Rule applied"
+    },
+    {
+      "rule_id": "rule_transform_benefits_remove_extra_spaces_001",
+      "rule_type": "transformation",
+      "status": "applied",
+      "affected_rows": 81,
+      "execution_time_ms": 4.8163,
+      "message": "Rule applied"
+    },
+    {
+      "rule_id": "rule_transform_company_address_remove_extra_spaces_001",
+      "rule_type": "transformation",
+      "status": "applied",
+      "affected_rows": 2,
+      "execution_time_ms": 2.006,
+      "message": "Rule applied"
+    },
+    {
+      "rule_id": "rule_transform_company_name_remove_extra_spaces_001",
+      "rule_type": "transformation",
+      "status": "applied",
+      "affected_rows": 2,
+      "execution_time_ms": 1.7738,
+      "message": "Rule applied"
+    },
+    {
+      "rule_id": "rule_transform_company_size_remove_extra_spaces_001",
+      "rule_type": "transformation",
+      "status": "applied",
+      "affected_rows": 0,
+      "execution_time_ms": 1.6503,
+      "message": "Rule applied"
+    },
+    {
+      "rule_id": "rule_transform_experience_remove_extra_spaces_001",
+      "rule_type": "transformation",
+      "status": "applied",
+      "affected_rows": 0,
+      "execution_time_ms": 1.6248,
+      "message": "Rule applied"
+    },
+    {
+      "rule_id": "rule_transform_job_description_remove_extra_spaces_001",
+      "rule_type": "transformation",
+      "status": "applied",
+      "affected_rows": 20,
+      "execution_time_ms": 5.5245,
+      "message": "Rule applied"
+    },
+    {
+      "rule_id": "rule_transform_job_requirements_remove_extra_spaces_001",
+      "rule_type": "transformation",
+      "status": "applied",
+      "affected_rows": 82,
+      "execution_time_ms": 5.1025,
+      "message": "Rule applied"
+    },
+    {
+      "rule_id": "rule_transform_location_remove_extra_spaces_001",
+      "rule_type": "transformation",
+      "status": "applied",
+      "affected_rows": 0,
+      "execution_time_ms": 2.0878,
+      "message": "Rule applied"
+    },
+    {
+      "rule_id": "rule_transform_salary_remove_extra_spaces_001",
+      "rule_type": "transformation",
+      "status": "applied",
+      "affected_rows": 0,
+      "execution_time_ms": 2.0652,
+      "message": "Rule applied"
+    },
+    {
+      "rule_id": "rule_transform_title_remove_extra_spaces_001",
+      "rule_type": "transformation",
+      "status": "applied",
+      "affected_rows": 3,
+      "execution_time_ms": 2.0267,
+      "message": "Rule applied"
+    },
+    {
+      "rule_id": "rule_transform_work_location_detail_remove_extra_spaces_001",
+      "rule_type": "transformation",
+      "status": "applied",
+      "affected_rows": 22,
+      "execution_time_ms": 2.2869,
+      "message": "Rule applied"
+    },
+    {
+      "rule_id": "rule_transform_working_time_remove_extra_spaces_001",
+      "rule_type": "transformation",
+      "status": "applied",
+      "affected_rows": 11,
+      "execution_time_ms": 1.8467,
+      "message": "Rule applied"
+    },
+    {
+      "rule_id": "rule_regex_experience_001",
+      "rule_type": "regex",
+      "status": "applied",
+      "affected_rows": 194,
+      "execution_time_ms": 2.3073,
+      "message": "Rule applied"
+    },
+    {
+      "rule_id": "rule_regex_salary_001",
+      "rule_type": "regex",
+      "status": "applied",
+      "affected_rows": 73,
+      "execution_time_ms": 2.1967,
+      "message": "Rule applied"
+    },
+    {
+      "rule_id": "rule_validation_experience_years_001",
+      "rule_type": "validation",
+      "status": "applied",
+      "affected_rows": 210,
+      "execution_time_ms": 2.0653,
+      "message": "Rule applied"
+    },
+    {
+      "rule_id": "rule_validation_salary_max_001",
+      "rule_type": "validation",
+      "status": "applied",
+      "affected_rows": 210,
+      "execution_time_ms": 3.3477,
+      "message": "Rule applied"
+    },
+    {
+      "rule_id": "rule_validation_salary_min_001",
+      "rule_type": "validation",
+      "status": "applied",
+      "affected_rows": 210,
+      "execution_time_ms": 2.3358,
+      "message": "Rule applied"
+    }
+  ]
+}
