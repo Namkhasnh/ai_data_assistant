@@ -1,0 +1,64 @@
+{
+  "source_file": "jobs_sample.csv",
+  "file_format": "csv",
+  "row_count": 4,
+  "column_count": 3,
+  "duplicate_count": 1,
+  "columns": [
+    {
+      "name": "title",
+      "data_type": "object",
+      "null_count": 1,
+      "null_percentage": 25.0,
+      "unique_value_count": 2,
+      "top_values": [
+        {
+          "value": "AI Engineer",
+          "count": 2
+        },
+        {
+          "value": "Data Analyst",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "location",
+      "data_type": "object",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_value_count": 3,
+      "top_values": [
+        {
+          "value": "HN",
+          "count": 2
+        },
+        {
+          "value": "Ha Noi",
+          "count": 1
+        },
+        {
+          "value": "HCM",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "salary",
+      "data_type": "object",
+      "null_count": 1,
+      "null_percentage": 25.0,
+      "unique_value_count": 2,
+      "top_values": [
+        {
+          "value": "20-30tr",
+          "count": 2
+        },
+        {
+          "value": "15M-20M",
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+[project]
+name = "ai-data-assistant"
+version = "0.1.0"
+description = "Private local AI data standardization and enrichment assistant"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas>=2.0",
+    "polars>=0.20",
+    "pydantic>=2.0",
+    "openpyxl>=3.1",
+    "pytest>=8.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
