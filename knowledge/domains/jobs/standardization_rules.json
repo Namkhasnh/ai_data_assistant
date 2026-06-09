@@ -1,0 +1,41 @@
+{
+  "JOB_TITLE": {
+    "standardizer": "mapping",
+    "knowledge_file": "knowledge/job_titles.json"
+  },
+  "LOCATION": {
+    "standardizer": "mapping",
+    "knowledge_file": "knowledge/cities.json"
+  },
+  "EXPERIENCE": {
+    "standardizer": "numeric_bucket",
+    "source_column": "experience_years",
+    "output_column": "experience_level",
+    "buckets": [
+      {
+        "min": 0,
+        "max": 1,
+        "label": "Junior"
+      },
+      {
+        "min": 2,
+        "max": 4,
+        "label": "Mid"
+      },
+      {
+        "min": 5,
+        "label": "Senior"
+      }
+    ]
+  },
+  "SALARY": {
+    "standardizer": "categorical",
+    "source_column": "salary",
+    "output_column": "salary_type",
+    "categories": {
+      "Thoả thuận": "negotiable",
+      "Thỏa thuận": "negotiable",
+      "Negotiable": "negotiable"
+    }
+  }
+}
