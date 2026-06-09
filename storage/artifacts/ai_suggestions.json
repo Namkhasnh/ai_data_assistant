@@ -1,0 +1,11 @@
+{
+  "suggestions": [],
+  "warnings": [
+    "AI provider unavailable: ollama"
+  ],
+  "provider": "ollama",
+  "model": "qwen3:8b",
+  "minimum_confidence": 0.0,
+  "duplicate_suggestions_removed": 0,
+  "rejected_suggestions_count": 0
+}
