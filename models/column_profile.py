@@ -25,3 +25,4 @@ class ColumnProfile(BaseModel):
     null_percentage: float = Field(ge=0.0, le=100.0)
     unique_value_count: int = Field(ge=0)
     top_values: list[TopValue] = Field(default_factory=list)
+    sample_values: list[Any] = Field(default_factory=list)

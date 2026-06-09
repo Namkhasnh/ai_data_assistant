@@ -32,6 +32,13 @@
           "value": 1821537,
           "count": 1
         }
+      ],
+      "sample_values": [
+        1835128,
+        1943956,
+        1865273,
+        1946264,
+        1945684
       ]
     },
     {
@@ -61,6 +68,13 @@
           "value": "Business Data Analyst",
           "count": 2
         }
+      ],
+      "sample_values": [
+        "Chuyên Viên Quản Lý Hiệu Suất Kinh Doanh",
+        "Data Engineer",
+        "Thực Tập Sinh Phân Tích Đầu Tư",
+        "Nhân Viên Sale - Chăm Sóc Khách Hàng ( Không Yêu Cầu Kinh Nghiệm ) Thu Nhập Upto 20tr Tại Bắc Ninh",
+        "Kế Toán Trưởng - Đi Làm Ngay - Thu Nhập Từ 30 - 40 Triệu / Tháng"
       ]
     },
     {
@@ -90,6 +104,13 @@
           "value": "12 - 15 triệu",
           "count": 4
         }
+      ],
+      "sample_values": [
+        "Thoả thuận",
+        "30 - 45 triệu",
+        "2 - 3 triệu",
+        "12 - 20 triệu",
+        "30 - 40 triệu"
       ]
     },
     {
@@ -119,6 +140,13 @@
           "value": "Hà Nội, Phường Yên Hòa",
           "count": 8
         }
+      ],
+      "sample_values": [
+        "Hà Nội, Phường Cầu Giấy",
+        "Hồ Chí Minh, Quận 1",
+        "Hà Nội & 3 nơi khác",
+        "Bắc Ninh, Xã Văn Môn",
+        "Hà Nội, Phường Đống Đa"
       ]
     },
     {
@@ -148,6 +176,13 @@
           "value": "Không yêu cầu",
           "count": 16
         }
+      ],
+      "sample_values": [
+        "3 năm",
+        "2 năm",
+        "Không yêu cầu",
+        "Không yêu cầu",
+        "3 năm"
       ]
     },
     {
@@ -177,6 +212,13 @@
           "value": "Phát triển luồng ETL dữ liệu cho các hệ thống DWH, Data lake dựa trên các yêu cầu nghiệp vụ và thiết kế chi tiết.; Xây dựng Data Mart, báo cáo, dashboard theo yêu cầu phòng ban nghiệp vụ trên các nền tảng Data warehouse, Data Lake.; Phát triển dữ liệu cho các ứng dụng phân tích nghiệp vụ ngân hàng.; Nghiên cứu và triển khai các ứng dụng công nghệ, xu hướng công nghệ hoặc kỹ thuật mới về Cloud, AI/ML, Big Data và phân tích.",
           "count": 1
         }
+      ],
+      "sample_values": [
+        "Xây dựng và quản lý hệ thống cơ chế kinh doanh toàn diện cho hoạt động KD bán lẻ.; Phân tích sâu về hiệu suất kinh doanh, hành vi khách hàng và xu hướng thị trường.; Xây dựng các mô hình dự báo và phân tích dự đoán.; Cung cấp insights chiến lược cho Ban lãnh đạo để hỗ trợ ra quyết định.; Phân tích benchmark và đánh giá vị thế cạnh tranh của công ty.; Đề xuất các cơ hội kinh doanh mới dựa trên phân tích dữ liệu.",
+        "1. Tham gia xây dựng và thiết kế kiến trúc Data Lake/Data Warehouse/ Datamart/ Lakehouse (10%)- Tham gia thiết kế kiến trúc Data Lake/Data Warehouse/ Datamart/ Lakehouse- Tư vấn các giải pháp đáp ứng yêu cầu2. Tham gia xây dựng các luồng dữ liệu theo batch và near-realtime cho (Data Lake/Data Warehouse/ Datamart/ Lakehouse) phục vụ cho quản lý dữ liệu, chất lượng dữ liệu, dữ liệu báo cáo, dữ liệu phân tích, dữ liệu cho xây dựng mô hình AI/ML (45%)- Xây dựng/chỉnh sửa các job dữ liệu theo batch- Xây dựng/chỉnh sửa các job dữ liệu xử lý near-realtime- Xây dựng/chỉnh sửa các luồng xử lý dữ liệu gồm nhiều job3. Tham gia xây dựng các API phục vụ cho các hệ thống và ứng dụng (10%)- Xây dựng/chỉnh sửa các API cho các ứng dụng4. Tham gia xây dựng báo cáo, dashboard theo yêu cầu (30%)- Xây dựng/chỉnh sửa các báo cáo- Xây dựng/chỉnh sửa các dashboard5. Tìm hiểu, nghiên cứu các xu hướng, công cụ mới để đưa ra các tư vấn, giải pháp phù hợp cho các hệ thống và công việc vận hành (5%)6. Tham gia triển khai, phát triển các dự án liên quan hoặc thực hiện các nhiệm vụ khác theo phân công của cấp quản lý.",
+        "Làm báo cáo, nghiên cứu, phân tích dữ liệu ngành đầu tư, cổ phiếu doanh nghiệp;; Thực hiện TA (phân tích kỹ thuật) đưa ra kết quả đánh giá, dự báo xu hướng thị trường, cổ phiếu;; Nghiên cứu FA (phân tích cơ bản), đánh giá hiệu quả hoạt động kinh doanh, báo cáo tài chính, nghiên cứu tiềm tăng của các doanh nghiệp niêm yết;; Tổng hợp báo cáo, nghiên cứu, kết quả, đưa ra kết luận đánh giá, phân tích, đưa ra tham vấn gửi tới Phòng Phân tích (FINTOP Research);; Tham gia đào tạo, nghiên cứu, học hỏi theo lộ trình của Phòng Phân tích - FinTop DATA.",
+        "Tiếp nhận và trả lời tin nhắn khách hàng qua Instagram, WhatsApp, Facebook, TikTokTư vấn sản phẩm tóc (tóc thật, tóc nối, tóc nguyên đầu...) phù hợp nhu cầu kháchTheo dõi và cập nhật tiến độ đơn hàng, chăm sóc khách sau bánHỗ trợ đội ngũ bán hàng và marketing trong việc giữ mối quan hệ với khách cũBáo cáo công việc hàng ngày cho quản lý",
+        "- Tiếp nhận tờ khai từ phòng xuất nhập khẩu chỉ đạo nhân viên kế toán nhập liệu vào hệ thống, MISA tồn kho- Kiểm tra các lệnh giao dịch thanh toán, kiểm tra tính hợp lệ của chứng từ thanh toán- Tham gia chuyển đổi tái cấu trúc phòng kế toán- Theo dõi, quản lý công nợ phải thu, phải trả liên quan đến XNK.- Đối chiếu, xác nhận số liệu với các đối tác, ngân hàng, hải quan.- Lập và nộp báo cáo tài chính công ty định kỳ- Tham gia vào kế toán quản trị duyệt các yêu cầu trong hệ thống và theo dõi lại các chỉ số điều hành- Tham gia vào việc kiểm kê hàng hóa, tài sản của công ty.- Phối hợp với các phòng ban khác để đảm bảo tính chính xác và đầy đủ của thông tin kế toán.- Lưu trữ, bảo quản hồ sơ, chứng từ kế toán theo quy định."
       ]
     },
     {
@@ -206,6 +248,13 @@
           "value": "Tốt nghiệp đại học chuyên ngành Công nghệ thông tin, Khoa học máy tính hoặc các ngành liên quan.\nTối thiểu 6 tháng kinh nghiệm trong vai trò Data Engineer.\nĐã có kinh nghiệm thiết kế và vận hành hệ thống Data Warehouse hoặc Data Mart.\nThành thạo Python và có khả năng tối ưu các truy vấn SQL phức tạp.\nKinh nghiệm thực tế với các công cụ Data Pipeline như: Airflow, Airbyte, dbt,...\nCó kiến thức về hệ quản trị dữ liệu SQL (PostgreSQL, MySQL...), NoSQL (MongoDB...) và data warehouse.\nCó tư duy data-driven, chú trọng chi tiết và logic trong xử lý dữ liệu.\nTinh thần trách nhiệm cao, chủ động học hỏi và thích nghi nhanh với sự thay đổiĐiểm cộng:\nĐã làm việc với các nền tảng Cloud (ưu tiên Google Cloud Platform).\nKinh nghiệm tích hợp và phân tích dữ liệu từ các ads network (Google Ads, Facebook Ads, TikTok Ads...) và Mediation Platforms (AdMob, AppLovin MAX...).\nHiểu và từng làm việc với các công cụ phân tích như Firebase, Google Analytics, BigQuery, Appsflyer...",
           "count": 1
         }
+      ],
+      "sample_values": [
+        "1. Trình độ học vấn/Chứng chỉTốt nghiệp đại học trở lên chuyên ngành Phân tích dữ liệu, Thống kê, Kinh tế hoặc các ngành liên quan.Tiếng Anh thành thạo là lợi thế.2. Kinh nghiệm làm việcTừ 3 năm kinh nghiệm trong lĩnh vực phân tích dữ liệu. Trong đó tối thiểu 3 năm về phân tích kinh doanh, xây dựng cơ chế kinh doanh trong ngành tài chính/chứng khoán/bảo hiểm/ tập đoàn đa ngành bán lẻ.3. Kiến thức/Kỹ năng/Năng lực chuyên môn3.1. Kỹ năng chuyên mônKhả năng tư duy chiến lược và phân tích kinh doanh xuất sắc.Khả năng nhận diện & đánh giá cơ hội/rủi ro kinh doanh.Kỹ năng phân tích thống kê và mô hình hóa dữ liệu xuất sắc.Kỹ năng giao tiếp, phản biện, thuyết phục xuất sắc.Tư duy hệ thống cao.Kinh nghiệm trong nghiên cứu thị trường và phân tích cạnh tranh.3.2. Kỹ năng theo ngànhHiểu biết sâu sắc về thị trường chứng khoán, bảo hiểm và các sản phẩm tài chính.Thành thạo các công cụ phân tích dữ liệu (SQL, Python/R, Power BI/Tableau).3.3. Kỹ năng sốThành thạo các hệ thống quản trị kinh doanh CRM.Kỹ năng sử dụng AI.4. Năng lực lãnh đạoLãnh đạo đội nhóm thực hiện mục tiêu dài hạn. Phát triển năng lực cá nhân trong đội. Đánh giá và cải thiện hiệu suất làm việc của đội nhóm.Thực hiện phân tích sâu các xu hướng thị trường, rủi ro, và cơ hội. Hỗ trợ lãnh đạo cấp cao trong việc ra quyết định chiến lược.Xử lý các tình huống đa chiều, đưa ra quyết định dựa trên phân tích dữ liệu và nhận định từ nhiều góc độ. Đảm bảo quyết định tối ưu hóa lợi ích và giảm thiểu rủi ro cho tổ chức.5. Năng lực cốt lõiCó tố chất và tư duy phù hợp với hệ giá trị cốt lõi của công ty (IPAM & 4C)",
+        "Trình độ Cử nhân trở lên chuyên ngành Khoa học máy tính, Công nghệ thông tin hoặc Toán TinCó từ 2 năm kinh nghiệm ở vị trí tương đươngKinh nghiệm làm việc với các ngôn ngữ phát triển: Oracle Form/Report, C#, Java, PL/SQL, Python, PySpark, …Kinh nghiệm làm việc với cơ sở dữ liệu Oracle, hoặc Microsoft SQL Server, MySQL, PostgreSQL, MongoDB, Redshift, …Kinh nghiệm và kiến thức về ETL (IBM Datastage, DBT, Apache Spark, AWS Lambda, AWS Glue, AWS EMR, AWS Kinesis, AWS Data Firehose, …), Report & BI (Oracle, Cognos, Power BI, Tableau, Jasper, ...), …Kinh nghiệm về AWS: AWS EC2, AWS S3Điều phối và Giám sát: Airflow, AWS Step Functions, AWS Cloudwatch, AWS EventbridgeKỹ năng phân tích và giải quyết vấn đềKỹ năng làm việc nhóm.",
+        "Sinh viên năm 3, 4 hoặc đã tốt nghiệp các ngành/khối trường Kinh tế, Tài chính, Kinh doanh  có đam mê trong lĩnh vực đầu tư, phân tích tài chính, phân tích đầu tư, Data Analysis,...Có năng lực, kỹ năng, kinh nghiệm, khả năng học hỏi trong nghiên cứu, phân tích tài chính, phân tích đầu tư, phân tích dữ liệu Kinh tế, làm báo cáo đánh giá hoạt động kinh doanh (BCTC) của doanh nghiệp. Năng động, sáng tạo, tư duy logic, khả năng trình bày, giao tiếp tốt; có kỹ năng trình bày, thuyết trình, đàm phán, thuyết phục, làm silde/báo cáo phân tích/video cơ bản;Nhiệt huyết, chủ động, chuyên nghiệp trong công việc; chăm chỉ, kiên trì, cầu tiến; có kỹnăng làm việc nhóm, tư duy nhạy trong kinh tế, kinh doanh, đầu tư.",
+        "Giới tính: Nữ (ưu tiên), tuổi từ 20–30Giao tiếp tốt, giao tiếp tiếng Anh cơ bản, có khả năng thuyết phục và tư duy dịch vụBiết sử dụng Instagram, WhatsApp, FacebookCó kỹ năng tin học văn phòng cơ bảnƯu tiên ứng viên có kinh nghiệm bán hàng, CSKH hoặc ngành làm đẹp",
+        "- Tốt nghiệp Đại học chuyên ngành Kế toán, Tài chính hoặc các chuyên ngành liên quan.- Có ít nhất 5 năm kinh nghiệm làm kế toán tổng hợp, trong đó có kinh nghiệm làm kế toán hoặc xuất nhập khẩu là lợi thế- Am hiểu các quy định của pháp luật về kế toán, thuế, hải quan liên quan đến hoạt động XNK.- Có kiến thức về các nghiệp vụ XNK, Incoterms, các phương thức thanh toán quốc tế.- Sử dụng thành thạo các phần mềm kế toán (Misa, Fast,...).- Có khả năng sử dụng tốt các phần mềm văn phòng (Word, Excel,...).- Có kỹ năng làm báo cáo Excel nâng cao (querry, pivot table)- Có khả năng làm việc độc lập, làm việc nhóm tốt.- Cẩn thận, tỉ mỉ, trung thực, có trách nhiệm cao trong công việc.- Kỹ năng phân tích, tổng hợp, báo cáo tốt.- Có khả năng giao tiếp, đàm phán tốt.- Ưu tiên ứng viên có chứng chỉ kế toán, kiểm toán (ACCA, CPA,...)."
       ]
     },
     {
@@ -235,6 +284,13 @@
           "value": "Gói thu nhập hấp dẫn theo năng lực (Thưởng lương tháng 13, tiền du lịch nghỉ mát, tiền mừng tuổi...).Đầy đủ các chế độ theo luật lao động hiện hành.Chính sách phúc lợi theo quy định của Công ty đa dạng: Chăm sóc sức khỏe định kì hàng năm; Gói bảo hiểm sức khỏe chuyên biệt (FPT Care – Khám chữa bệnh miễn phí tại tất cả các bệnh viện); Các hoạt động tri ân, chăm lo đời sống tinh thần CBNV và Thân nhân...Môi trường làm việc thân thiện, cởi mở.Cơ sở vật chất và công cụ làm việc hiện đại, tiện nghi.​Nhiều cơ hội phát triển và thăng tiến.Văn hóa Doanh nghiệp đặc sắc, sinh động bậc nhất với nhiều các hoạt động hấp dẫn: tân binh, 72 giờ trải nghiệm, teambuilding, thi trạng, hội làng, hội diễn Sao Chổi, sinh nhật FPT, ngày 08/03, ngày 11/11,...Hưởng các gói ưu đãi cước khi sử dụng dịch vụ của FPT Telecom.Hỗ trợ chi phí thi các chứng chỉ quốc tế.Hoạt động xếp hạng và quy hoạch Cán bộ công nghệ cấp Tập đoàn FPT.Tưởng thưởng cho 50 cá nhân xuất sắc nhất, tôn vinh và trao giải tại nước ngoài.",
           "count": 2
         }
+      ],
+      "sample_values": [
+        "1. Cộng đồng những người làm nghề chính trực và dấn thân phụng sự  Môi trường làm nghề tài chính chuyên nghiệp.Làm việc với tinh thần làm chủ, sáng tạo và thách thức.2. Tổng thu nhập theo năng lực  Thu nhập xứng đáng theo năng lực và giá trị đóng góp.Xem xét thay đổi thu nhập hàng năm.3. Chế độ đãi ngộ  Tham gia BHXH, BHYT, BHTN theo đúng quy định luật lao động.Được tham gia đóng bảo hiểm sức khỏe và bảo hiểm tai nạn 24/24.4. Tổ chức học tập và văn hóa sôi nổi Không gian làm việc mở với trang thiết bị hiện đại.Các hoạt động văn hóa, gắn kết đội ngũ, thiện nguyện phong phú, ý nghĩa.",
+        "Range lương: 30 - 45M grossLương tháng 13.Hưởng các chế độ, phúc lợi như: Thưởng lễ tết, thưởng dự án, thưởng thâm niên; 12 ngày phép năm; Phúc lợi và phụ cấp khácDu lịch hàng năm, teambuilding hàng thángBảo hiểm xã hội, bảo hiểm y tế, bảo hiểm thất nghiệp theo luật bảo hiểm. Môi trường làm việc trẻ và năng động, tôn trọng phát triển cá nhân, công bằng và luôn khuyến khích sáng tạo để tạo nên những giá trị \"awesome\" cho công ty & cho thế giớiTrang thiết bị hiện đại, sẵn sàng phục vụ nhân viên mọi lúc mọi nơi",
+        "Tham gia khoá học miễn phí, đào tạo phân tích đầu tư chuyên nghiệp từ 3 đến 6 tháng;Cơ hội hợp tác/làm việc với các công ty chứng khoán hàng đầu Việt Nam (VPS, TCBS,...); thăng tiến, phát triển nghề nghiệp với các vị trí Cố vấn, Chuyên gia tại FinTop.Thu nhập hấp dẫn với vị trí Chuyên viên Phân tích/Cố vấn với khởi điểm từ 15-20tr/tháng;Được đào tạo, định hướng phát triển lên các vị trí CBQL/Team Leader cho các bạn trẻ có tố chất, năng lực;Giao lưu, học hỏi phát triển, tiếp xúc làm việc với những Chuyên gia (Master) đầu ngành trong lĩnh vực Tài chính, Kinh doanh, Đầu tư, Data Analysis, Branding & Marketing,...Cấp dấu thực tập, tham gia các hoạt động Teambuilding, du lịch cùng công ty.",
+        "Được đào tạo kỹ năng CSKH theo công việcCơ hội thăng tiến lên vị trí Trưởng nhóm CSKH hoặc Quản lý kênhLàm việc trong môi trường trẻ trung, năng động, sản phẩm chất lượng cao xuất khẩu quốc tếNghỉ lễ, thưởng Tết theo quy định...",
+        "- Thu nhập từ 30-40 triệu / tháng- Môi trường làm việc trẻ, năng động.- Là vị trí kết nối làm việc trực tiếp với Giám đốc, có thể triển khai nhanh các ý tưởng và đề xuất tham mưu- Sẵn sàng trả lương tháng 13, và thưởng tết tương đương công ty cũ nếu đáp ứng đủ kết quả công việc- Được hưởng đầy đủ các chế độ theo quy định của Luật lao động (BHYT, BHXH, BHTN).- Chế độ nghỉ phép, nghỉ lễ theo quy định.- Thưởng các dịp lễ, tết và các ngày đặc biệt khác.- Cơ hội tham gia các hoạt động teambuilding, du lịch của công ty.- Xem xét tăng lương định kỳ theo năng lực và hiệu quả công việc."
       ]
     },
     {
@@ -264,6 +320,13 @@
           "value": "- Hồ Chí Minh: 123 Cộng Hòa, phường Bảy Hiền, Tân Bình",
           "count": 2
         }
+      ],
+      "sample_values": [
+        "- Hà Nội: Phường Cầu Giấy",
+        "- Hồ Chí Minh: VIB_Tầng 10 Tòa nhà Sailing Tower, 111A Pasteur, P. Sài Gòn, Quận 1",
+        "- Hà Nội: Số 8 Phạm Ngọc Thạch (Toà MB Bank0, Phường Kim Liên\n- Hồ Chí Minh: Leman Luxury - 117 Nguyễn Đình Chiểu, Phường Xuân Hòa",
+        "- Bắc Ninh: Bình An, Xã Văn Môn",
+        "- Hà Nội: Tầng 4, số 33 ngõ 41 Thái Hà,, Phường Đống Đa"
       ]
     },
     {
@@ -293,6 +356,13 @@
           "value": "Thứ 2 - Thứ 6 (từ 08:00 đến 17:30); Thứ 7 (từ 08:00 đến 12:00)",
           "count": 7
         }
+      ],
+      "sample_values": [
+        "Thứ 2 - Thứ 6 (từ 08:00 đến 17:30)",
+        "Thứ 2 - Thứ 6 (từ 08:30 đến 11:30); Thứ 2 - Thứ 6 (từ 13:00 đến 17:00)",
+        "Thứ 2 - Thứ 7 (từ 08:00 đến 17:00); Buổi sáng : 8h-12h\nBuổi chiều 13h-17h",
+        "Thứ 2 - Thứ 6 (từ 08:30 đến 18:00); Thứ 7 làm việc xen kẽ",
+        "Thứ 2 - Thứ 6 (từ 09:00 đến 18:00)"
       ]
     },
     {
@@ -322,6 +392,13 @@
           "value": "Ngân Hàng TMCP Việt Nam Thịnh Vượng (VPBank)",
           "count": 4
         }
+      ],
+      "sample_values": [
+        "VNDIRECT",
+        "CÔNG TY CỔ PHẦN CÔNG NGHỆ ALPHAWAY",
+        "CÔNG TY TNHH ĐẦU TƯ VÀ PHÁT TRIỂN FINTOP",
+        "Hộ kinh doanh nguyễn văn quân 824",
+        "Công ty CP XNK Tiên Phong VN"
       ]
     },
     {
@@ -351,6 +428,13 @@
           "value": "5000+ nhân viên",
           "count": 18
         }
+      ],
+      "sample_values": [
+        "1000+ nhân viên",
+        "500-1000 nhân viên",
+        "25-99 nhân viên",
+        "1-9 nhân viên",
+        "10-24 nhân viên"
       ]
     },
     {
@@ -380,6 +464,13 @@
           "value": "Tầng 4, tòa 21T1 Hapulico, số 83 Vũ Trọng Phụng, Thanh Xuân, Hà Nội",
           "count": 4
         }
+      ],
+      "sample_values": [
+        "Số 1 Nguyễn Thượng Hiền",
+        "Tầng 4, tòa 21T1 Hapulico, số 83 Vũ Trọng Phụng, Thanh Xuân, Hà Nội",
+        "Số 65 Ô Chợ Dừa, Phường Ô Chợ Dừa, Quận Đống Đa, Thành phố Hà Nội",
+        "Bình An, Đông Thọ, yên Phong, Bắc Ninh",
+        "Tầng 4, số 33 ngõ 41 Thái Hà, Đống Đa, Hà Nội"
       ]
     }
   ]

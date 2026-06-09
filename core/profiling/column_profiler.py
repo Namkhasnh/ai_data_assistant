@@ -62,6 +62,7 @@ class ColumnProfiler:
             null_percentage=self._null_percentage(null_count=null_count, row_count=row_count),
             unique_value_count=int(series.nunique(dropna=True)),
             top_values=top_values,
+            sample_values=self._pandas_sample_values(series),
         )
 
     def _profile_polars_series(
@@ -80,6 +81,7 @@ class ColumnProfiler:
             null_percentage=self._null_percentage(null_count=null_count, row_count=row_count),
             unique_value_count=int(non_null_series.n_unique()),
             top_values=self._polars_top_values(non_null_series),
+            sample_values=self._polars_sample_values(non_null_series),
         )
 
     def _pandas_top_values(self, series: pd.Series) -> list[TopValue]:
@@ -87,6 +89,12 @@ class ColumnProfiler:
         return [
             TopValue(value=self._json_safe_value(value), count=int(count))
             for value, count in value_counts.items()
+        ]
+
+    def _pandas_sample_values(self, series: pd.Series) -> list[object]:
+        return [
+            self._json_safe_value(value)
+            for value in series.dropna().head(self.top_n).tolist()
         ]
 
     def _polars_top_values(self, series: object) -> list[TopValue]:
@@ -104,6 +112,12 @@ class ColumnProfiler:
                 count=int(row[count_key]),
             )
             for row in rows
+        ]
+
+    def _polars_sample_values(self, series: object) -> list[object]:
+        return [
+            self._json_safe_value(value)
+            for value in series.head(self.top_n).to_list()  # type: ignore[attr-defined]
         ]
 
     @staticmethod

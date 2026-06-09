@@ -267,16 +267,16 @@ Example:
 | `salary_range` | `SALARY`               |
 | `tech_stack`   | `SKILL_LIST`           |
 
-The first version should use rule-based detectors. Later versions can use local LLM support.
+The first version should use generic, knowledge-driven rule-based detectors. Later versions can add local LLM or embedding detectors behind the same detector interface.
 
 Related files:
 
 ```text
 core/semantic/base_detector.py
-core/semantic/job_detector.py
-core/semantic/location_detector.py
-core/semantic/salary_detector.py
+core/semantic/keyword_detector.py
+core/semantic/regex_detector.py
 core/semantic/detector_registry.py
+knowledge/semantic_rules.json
 models/semantic_tag.py
 services/semantic_service.py
 viz/semantic_charts.py
@@ -632,9 +632,8 @@ ai_data_assistant/
 │   ├── semantic/
 │   │   ├── base_detector.py
 │   │   ├── detector_registry.py
-│   │   ├── job_detector.py
-│   │   ├── location_detector.py
-│   │   └── salary_detector.py
+│   │   ├── keyword_detector.py
+│   │   └── regex_detector.py
 │   └── standardization/
 │       ├── base_standardizer.py
 │       ├── experience_standardizer.py
@@ -650,6 +649,7 @@ ai_data_assistant/
 │   ├── domains.json
 │   ├── job_titles.json
 │   ├── salary_patterns.json
+│   ├── semantic_rules.json
 │   └── skills.json
 ├── models/
 │   ├── audit_entry.py

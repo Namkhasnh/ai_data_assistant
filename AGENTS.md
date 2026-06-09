@@ -242,19 +242,20 @@ Files:
 
 ```text
 core/semantic/base_detector.py
-core/semantic/job_detector.py
-core/semantic/location_detector.py
-core/semantic/salary_detector.py
+core/semantic/keyword_detector.py
+core/semantic/regex_detector.py
 core/semantic/detector_registry.py
 ```
 
-Semantic detection should initially be rule-based using:
+Semantic detection should be generic and knowledge-driven. Do not create domain-specific detector files such as `job_detector.py`, `salary_detector.py`, `location_detector.py`, or `experience_detector.py`.
+
+Semantic detection should initially use:
 
 - column names
 - top values
 - sample values
-- regex patterns
-- knowledge base hints
+- keyword rules from knowledge-base files
+- regex patterns from knowledge-base files
 
 Expected semantic types:
 
@@ -269,7 +270,14 @@ EXPERIENCE
 UNKNOWN
 ```
 
-Do not hard-code everything inside one function. Use detector classes and a registry.
+Do not hard-code business concepts in Python detector classes. Put semantic rules in knowledge-base files, then use detector classes and a registry to apply them.
+
+Future detector files may include:
+
+```text
+core/semantic/llm_detector.py
+core/semantic/embedding_detector.py
+```
 
 ---
 

@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "semantic_type": "JOB_TITLE",
+      "keywords": [
+        "title",
+        "job title",
+        "position",
+        "role"
+      ],
+      "patterns": [],
+      "confidence": 0.86,
+      "description": "Column names or values that describe a role or job title."
+    },
+    {
+      "semantic_type": "SALARY",
+      "keywords": [
+        "salary",
+        "compensation",
+        "pay",
+        "wage",
+        "lương"
+      ],
+      "patterns": [
+        "\\b\\d+\\s*-\\s*\\d+\\s*(m|tr|triệu|million)\\b",
+        "\\b(thoả thuận|thỏa thuận|negotiable)\\b"
+      ],
+      "confidence": 0.88,
+      "description": "Column names or values that describe salary or compensation."
+    },
+    {
+      "semantic_type": "LOCATION",
+      "keywords": [
+        "location",
+        "address",
+        "city",
+        "province",
+        "địa điểm",
+        "địa chỉ"
+      ],
+      "patterns": [
+        "\\b(hà nội|ha noi|hanoi|hồ chí minh|ho chi minh|hcm|đà nẵng|da nang)\\b"
+      ],
+      "confidence": 0.84,
+      "description": "Column names or values that describe places or addresses."
+    },
+    {
+      "semantic_type": "EXPERIENCE",
+      "keywords": [
+        "experience",
+        "years",
+        "seniority",
+        "kinh nghiệm"
+      ],
+      "patterns": [
+        "\\b\\d+\\s*(year|years|năm)\\b"
+      ],
+      "confidence": 0.82,
+      "description": "Column names or values that describe required experience."
+    },
+    {
+      "semantic_type": "COMPANY",
+      "keywords": [
+        "company",
+        "employer",
+        "organization",
+        "company_name",
+        "công ty"
+      ],
+      "patterns": [],
+      "confidence": 0.82,
+      "description": "Column names or values that describe the organization."
+    },
+    {
+      "semantic_type": "DESCRIPTION",
+      "keywords": [
+        "description",
+        "requirements",
+        "benefits",
+        "job_description",
+        "job_requirements"
+      ],
+      "patterns": [],
+      "confidence": 0.78,
+      "description": "Column names or values that contain long-form descriptions."
+    },
+    {
+      "semantic_type": "SKILL_LIST",
+      "keywords": [
+        "skills",
+        "tech stack",
+        "technologies",
+        "tools"
+      ],
+      "patterns": [
+        "\\b(sql|python|java|power bi|tableau|pytorch|spark)\\b"
+      ],
+      "confidence": 0.8,
+      "description": "Column names or values that list skills or technologies."
+    }
+  ]
+}
