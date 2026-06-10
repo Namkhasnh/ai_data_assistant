@@ -1,0 +1,28 @@
+{
+  "enrichments": [
+    {
+      "enricher_id": "jobs_title_family_001",
+      "enricher": "knowledge",
+      "source_column": "title",
+      "knowledge_file": "knowledge/job_families.json",
+      "output_columns": [
+        "job_family",
+        "job_domain"
+      ],
+      "enabled": true,
+      "priority": 10
+    },
+    {
+      "enricher_id": "jobs_location_region_001",
+      "enricher": "knowledge",
+      "source_column": "location",
+      "knowledge_file": "knowledge/regions.json",
+      "output_columns": [
+        "region",
+        "country"
+      ],
+      "enabled": true,
+      "priority": 20
+    }
+  ]
+}

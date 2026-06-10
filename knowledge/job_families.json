@@ -1,0 +1,92 @@
+{
+  "Data Engineer": {
+    "match_type": "contains",
+    "aliases": [
+      "Senior Data Engineer",
+      "Data Engineer Snowflake",
+      "Kỹ sư dữ liệu",
+      "Kĩ sư dữ liệu"
+    ],
+    "outputs": {
+      "job_family": "Engineering",
+      "job_domain": "Data"
+    },
+    "priority": 10
+  },
+  "Data Analyst": {
+    "match_type": "contains",
+    "aliases": [
+      "Business Data Analyst",
+      "Senior Data Analyst",
+      "Chuyên viên phân tích dữ liệu",
+      "Nhân viên phân tích dữ liệu"
+    ],
+    "outputs": {
+      "job_family": "Analytics",
+      "job_domain": "Data"
+    },
+    "priority": 20
+  },
+  "Business Intelligence": {
+    "match_type": "contains",
+    "aliases": [
+      "BI Analyst",
+      "Business Intelligence Analyst",
+      "Chuyên Viên BI"
+    ],
+    "outputs": {
+      "job_family": "Analytics",
+      "job_domain": "Data"
+    },
+    "priority": 30
+  },
+  "Data Scientist": {
+    "match_type": "contains",
+    "aliases": [
+      "Senior Data Scientist",
+      "Khoa học dữ liệu",
+      "Kỹ sư khoa học dữ liệu",
+      "Kĩ sư khoa học dữ liệu"
+    ],
+    "outputs": {
+      "job_family": "Data Science",
+      "job_domain": "Data"
+    },
+    "priority": 40
+  },
+  "AI Engineer": {
+    "match_type": "alias",
+    "aliases": [
+      "Machine Learning Engineer",
+      "ML Engineer"
+    ],
+    "outputs": {
+      "job_family": "AI",
+      "job_domain": "Data"
+    },
+    "priority": 50
+  },
+  "AI Leadership": {
+    "match_type": "regex",
+    "patterns": [
+      "\\bAI\\b.*\\b(Lead|Leader|Manager|Trưởng Phòng|Team Leader)\\b",
+      "\\b(Lead|Leader|Manager|Trưởng Phòng|Team Leader)\\b.*\\bAI\\b"
+    ],
+    "outputs": {
+      "job_family": "AI",
+      "job_domain": "Data"
+    },
+    "priority": 60
+  },
+  "Business Analyst": {
+    "match_type": "contains",
+    "aliases": [
+      "BA"
+    ],
+    "outputs": {
+      "job_family": "Business Analysis",
+      "job_domain": "Business"
+    },
+    "priority": 70
+  }
+}

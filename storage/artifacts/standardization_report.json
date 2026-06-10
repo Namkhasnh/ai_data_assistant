@@ -1,20 +1,13 @@
 {
-  "total_standardized_columns": 2,
+  "total_standardized_columns": 4,
   "standardized_by_standardizer": {
-    "mapping": 0,
+    "mapping": 2,
     "numeric_bucket": 1,
     "categorical": 1
   },
-  "warnings": [
-    "Knowledge file is empty: knowledge/job_titles.json",
-    "No mapping knowledge available for JOB_TITLE",
-    "Knowledge file is empty: knowledge/cities.json",
-    "No mapping knowledge available for LOCATION"
-  ],
+  "warnings": [],
   "skipped_columns": [
     "job_id",
-    "title",
-    "location",
     "experience",
     "job_description",
     "job_requirements",
@@ -25,12 +18,5 @@
     "company_size",
     "company_address"
   ],
-  "standardizer_warnings": {
-    "mapping": [
-      "Knowledge file is empty: knowledge/job_titles.json",
-      "No mapping knowledge available for JOB_TITLE",
-      "Knowledge file is empty: knowledge/cities.json",
-      "No mapping knowledge available for LOCATION"
-    ]
-  }
+  "standardizer_warnings": {}
 }

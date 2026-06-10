@@ -1,0 +1,380 @@
+{
+  "An Giang": {
+    "match_type": "contains",
+    "aliases": [],
+    "outputs": {"region": "South", "country": "Vietnam"},
+    "priority": 100
+  },
+  "Bà Rịa - Vũng Tàu": {
+    "match_type": "contains",
+    "aliases": ["Bà Rịa Vũng Tàu", "Ba Ria Vung Tau", "Vũng Tàu"],
+    "outputs": {"region": "South", "country": "Vietnam"},
+    "priority": 100
+  },
+  "Bắc Giang": {
+    "match_type": "contains",
+    "aliases": ["Bac Giang"],
+    "outputs": {"region": "North", "country": "Vietnam"},
+    "priority": 100
+  },
+  "Bắc Kạn": {
+    "match_type": "contains",
+    "aliases": ["Bac Kan"],
+    "outputs": {"region": "North", "country": "Vietnam"},
+    "priority": 100
+  },
+  "Bạc Liêu": {
+    "match_type": "contains",
+    "aliases": ["Bac Lieu"],
+    "outputs": {"region": "South", "country": "Vietnam"},
+    "priority": 100
+  },
+  "Bắc Ninh": {
+    "match_type": "contains",
+    "aliases": ["Bac Ninh"],
+    "outputs": {"region": "North", "country": "Vietnam"},
+    "priority": 100
+  },
+  "Bến Tre": {
+    "match_type": "contains",
+    "aliases": ["Ben Tre"],
+    "outputs": {"region": "South", "country": "Vietnam"},
+    "priority": 100
+  },
+  "Bình Định": {
+    "match_type": "contains",
+    "aliases": ["Binh Dinh"],
+    "outputs": {"region": "Central", "country": "Vietnam"},
+    "priority": 100
+  },
+  "Bình Dương": {
+    "match_type": "contains",
+    "aliases": ["Binh Duong"],
+    "outputs": {"region": "South", "country": "Vietnam"},
+    "priority": 100
+  },
+  "Bình Phước": {
+    "match_type": "contains",
+    "aliases": ["Binh Phuoc"],
+    "outputs": {"region": "South", "country": "Vietnam"},
+    "priority": 100
+  },
+  "Bình Thuận": {
+    "match_type": "contains",
+    "aliases": ["Binh Thuan"],
+    "outputs": {"region": "Central", "country": "Vietnam"},
+    "priority": 100
+  },
+  "Cà Mau": {
+    "match_type": "contains",
+    "aliases": ["Ca Mau"],
+    "outputs": {"region": "South", "country": "Vietnam"},
+    "priority": 100
+  },
+  "Cần Thơ": {
+    "match_type": "contains",
+    "aliases": ["Can Tho"],
+    "outputs": {"region": "South", "country": "Vietnam"},
+    "priority": 100
+  },
+  "Cao Bằng": {
+    "match_type": "contains",
+    "aliases": ["Cao Bang"],
+    "outputs": {"region": "North", "country": "Vietnam"},
+    "priority": 100
+  },
+  "Đà Nẵng": {
+    "match_type": "contains",
+    "aliases": ["Da Nang", "Danang"],
+    "outputs": {"region": "Central", "country": "Vietnam"},
+    "priority": 100
+  },
+  "Đắk Lắk": {
+    "match_type": "contains",
+    "aliases": ["Dak Lak", "Đăk Lăk"],
+    "outputs": {"region": "Central", "country": "Vietnam"},
+    "priority": 100
+  },
+  "Đắk Nông": {
+    "match_type": "contains",
+    "aliases": ["Dak Nong"],
+    "outputs": {"region": "Central", "country": "Vietnam"},
+    "priority": 100
+  },
+  "Điện Biên": {
+    "match_type": "contains",
+    "aliases": ["Dien Bien"],
+    "outputs": {"region": "North", "country": "Vietnam"},
+    "priority": 100
+  },
+  "Đồng Nai": {
+    "match_type": "contains",
+    "aliases": ["Dong Nai"],
+    "outputs": {"region": "South", "country": "Vietnam"},
+    "priority": 100
+  },
+  "Đồng Tháp": {
+    "match_type": "contains",
+    "aliases": ["Dong Thap"],
+    "outputs": {"region": "South", "country": "Vietnam"},
+    "priority": 100
+  },
+  "Gia Lai": {
+    "match_type": "contains",
+    "aliases": [],
+    "outputs": {"region": "Central", "country": "Vietnam"},
+    "priority": 100
+  },
+  "Hà Giang": {
+    "match_type": "contains",
+    "aliases": ["Ha Giang"],
+    "outputs": {"region": "North", "country": "Vietnam"},
+    "priority": 100
+  },
+  "Hà Nam": {
+    "match_type": "contains",
+    "aliases": ["Ha Nam"],
+    "outputs": {"region": "North", "country": "Vietnam"},
+    "priority": 100
+  },
+  "Hà Nội": {
+    "match_type": "contains",
+    "aliases": ["Ha Noi", "Hanoi"],
+    "outputs": {"region": "North", "country": "Vietnam"},
+    "priority": 100
+  },
+  "Hà Tĩnh": {
+    "match_type": "contains",
+    "aliases": ["Ha Tinh"],
+    "outputs": {"region": "Central", "country": "Vietnam"},
+    "priority": 100
+  },
+  "Hải Dương": {
+    "match_type": "contains",
+    "aliases": ["Hai Duong"],
+    "outputs": {"region": "North", "country": "Vietnam"},
+    "priority": 100
+  },
+  "Hải Phòng": {
+    "match_type": "contains",
+    "aliases": ["Hai Phong"],
+    "outputs": {"region": "North", "country": "Vietnam"},
+    "priority": 100
+  },
+  "Hậu Giang": {
+    "match_type": "contains",
+    "aliases": ["Hau Giang"],
+    "outputs": {"region": "South", "country": "Vietnam"},
+    "priority": 100
+  },
+  "Hòa Bình": {
+    "match_type": "contains",
+    "aliases": ["Hoa Binh"],
+    "outputs": {"region": "North", "country": "Vietnam"},
+    "priority": 100
+  },
+  "Hưng Yên": {
+    "match_type": "contains",
+    "aliases": ["Hung Yen"],
+    "outputs": {"region": "North", "country": "Vietnam"},
+    "priority": 100
+  },
+  "Khánh Hòa": {
+    "match_type": "contains",
+    "aliases": ["Khanh Hoa"],
+    "outputs": {"region": "Central", "country": "Vietnam"},
+    "priority": 100
+  },
+  "Kiên Giang": {
+    "match_type": "contains",
+    "aliases": ["Kien Giang"],
+    "outputs": {"region": "South", "country": "Vietnam"},
+    "priority": 100
+  },
+  "Kon Tum": {
+    "match_type": "contains",
+    "aliases": [],
+    "outputs": {"region": "Central", "country": "Vietnam"},
+    "priority": 100
+  },
+  "Lai Châu": {
+    "match_type": "contains",
+    "aliases": ["Lai Chau"],
+    "outputs": {"region": "North", "country": "Vietnam"},
+    "priority": 100
+  },
+  "Lâm Đồng": {
+    "match_type": "contains",
+    "aliases": ["Lam Dong"],
+    "outputs": {"region": "Central", "country": "Vietnam"},
+    "priority": 100
+  },
+  "Lạng Sơn": {
+    "match_type": "contains",
+    "aliases": ["Lang Son"],
+    "outputs": {"region": "North", "country": "Vietnam"},
+    "priority": 100
+  },
+  "Lào Cai": {
+    "match_type": "contains",
+    "aliases": ["Lao Cai"],
+    "outputs": {"region": "North", "country": "Vietnam"},
+    "priority": 100
+  },
+  "Long An": {
+    "match_type": "contains",
+    "aliases": [],
+    "outputs": {"region": "South", "country": "Vietnam"},
+    "priority": 100
+  },
+  "Nam Định": {
+    "match_type": "contains",
+    "aliases": ["Nam Dinh"],
+    "outputs": {"region": "North", "country": "Vietnam"},
+    "priority": 100
+  },
+  "Nghệ An": {
+    "match_type": "contains",
+    "aliases": ["Nghe An"],
+    "outputs": {"region": "Central", "country": "Vietnam"},
+    "priority": 100
+  },
+  "Ninh Bình": {
+    "match_type": "contains",
+    "aliases": ["Ninh Binh"],
+    "outputs": {"region": "North", "country": "Vietnam"},
+    "priority": 100
+  },
+  "Ninh Thuận": {
+    "match_type": "contains",
+    "aliases": ["Ninh Thuan"],
+    "outputs": {"region": "Central", "country": "Vietnam"},
+    "priority": 100
+  },
+  "Phú Thọ": {
+    "match_type": "contains",
+    "aliases": ["Phu Tho"],
+    "outputs": {"region": "North", "country": "Vietnam"},
+    "priority": 100
+  },
+  "Phú Yên": {
+    "match_type": "contains",
+    "aliases": ["Phu Yen"],
+    "outputs": {"region": "Central", "country": "Vietnam"},
+    "priority": 100
+  },
+  "Quảng Bình": {
+    "match_type": "contains",
+    "aliases": ["Quang Binh"],
+    "outputs": {"region": "Central", "country": "Vietnam"},
+    "priority": 100
+  },
+  "Quảng Nam": {
+    "match_type": "contains",
+    "aliases": ["Quang Nam"],
+    "outputs": {"region": "Central", "country": "Vietnam"},
+    "priority": 100
+  },
+  "Quảng Ngãi": {
+    "match_type": "contains",
+    "aliases": ["Quang Ngai"],
+    "outputs": {"region": "Central", "country": "Vietnam"},
+    "priority": 100
+  },
+  "Quảng Ninh": {
+    "match_type": "contains",
+    "aliases": ["Quang Ninh"],
+    "outputs": {"region": "North", "country": "Vietnam"},
+    "priority": 100
+  },
+  "Quảng Trị": {
+    "match_type": "contains",
+    "aliases": ["Quang Tri"],
+    "outputs": {"region": "Central", "country": "Vietnam"},
+    "priority": 100
+  },
+  "Sóc Trăng": {
+    "match_type": "contains",
+    "aliases": ["Soc Trang"],
+    "outputs": {"region": "South", "country": "Vietnam"},
+    "priority": 100
+  },
+  "Sơn La": {
+    "match_type": "contains",
+    "aliases": ["Son La"],
+    "outputs": {"region": "North", "country": "Vietnam"},
+    "priority": 100
+  },
+  "Tây Ninh": {
+    "match_type": "contains",
+    "aliases": ["Tay Ninh"],
+    "outputs": {"region": "South", "country": "Vietnam"},
+    "priority": 100
+  },
+  "Thái Bình": {
+    "match_type": "contains",
+    "aliases": ["Thai Binh"],
+    "outputs": {"region": "North", "country": "Vietnam"},
+    "priority": 100
+  },
+  "Thái Nguyên": {
+    "match_type": "contains",
+    "aliases": ["Thai Nguyen"],
+    "outputs": {"region": "North", "country": "Vietnam"},
+    "priority": 100
+  },
+  "Thanh Hóa": {
+    "match_type": "contains",
+    "aliases": ["Thanh Hoa"],
+    "outputs": {"region": "Central", "country": "Vietnam"},
+    "priority": 100
+  },
+  "Thừa Thiên Huế": {
+    "match_type": "contains",
+    "aliases": ["Thua Thien Hue", "Huế", "Hue"],
+    "outputs": {"region": "Central", "country": "Vietnam"},
+    "priority": 100
+  },
+  "Tiền Giang": {
+    "match_type": "contains",
+    "aliases": ["Tien Giang"],
+    "outputs": {"region": "South", "country": "Vietnam"},
+    "priority": 100
+  },
+  "TP Hồ Chí Minh": {
+    "match_type": "contains",
+    "aliases": ["Hồ Chí Minh", "Ho Chi Minh", "TPHCM", "HCM", "Sài Gòn", "Sai Gon"],
+    "outputs": {"region": "South", "country": "Vietnam"},
+    "priority": 100
+  },
+  "Trà Vinh": {
+    "match_type": "contains",
+    "aliases": ["Tra Vinh"],
+    "outputs": {"region": "South", "country": "Vietnam"},
+    "priority": 100
+  },
+  "Tuyên Quang": {
+    "match_type": "contains",
+    "aliases": ["Tuyen Quang"],
+    "outputs": {"region": "North", "country": "Vietnam"},
+    "priority": 100
+  },
+  "Vĩnh Long": {
+    "match_type": "contains",
+    "aliases": ["Vinh Long"],
+    "outputs": {"region": "South", "country": "Vietnam"},
+    "priority": 100
+  },
+  "Vĩnh Phúc": {
+    "match_type": "contains",
+    "aliases": ["Vinh Phuc"],
+    "outputs": {"region": "North", "country": "Vietnam"},
+    "priority": 100
+  },
+  "Yên Bái": {
+    "match_type": "contains",
+    "aliases": ["Yen Bai"],
+    "outputs": {"region": "North", "country": "Vietnam"},
+    "priority": 100
+  }
+}

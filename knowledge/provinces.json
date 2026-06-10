@@ -1,0 +1,380 @@
+{
+  "An Giang": {
+    "match_type": "contains",
+    "aliases": [],
+    "canonical_value": "An Giang",
+    "priority": 100
+  },
+  "Bà Rịa - Vũng Tàu": {
+    "match_type": "contains",
+    "aliases": ["Bà Rịa Vũng Tàu", "Ba Ria Vung Tau", "Vũng Tàu"],
+    "canonical_value": "Bà Rịa - Vũng Tàu",
+    "priority": 100
+  },
+  "Bắc Giang": {
+    "match_type": "contains",
+    "aliases": ["Bac Giang"],
+    "canonical_value": "Bắc Giang",
+    "priority": 100
+  },
+  "Bắc Kạn": {
+    "match_type": "contains",
+    "aliases": ["Bac Kan"],
+    "canonical_value": "Bắc Kạn",
+    "priority": 100
+  },
+  "Bạc Liêu": {
+    "match_type": "contains",
+    "aliases": ["Bac Lieu"],
+    "canonical_value": "Bạc Liêu",
+    "priority": 100
+  },
+  "Bắc Ninh": {
+    "match_type": "contains",
+    "aliases": ["Bac Ninh"],
+    "canonical_value": "Bắc Ninh",
+    "priority": 100
+  },
+  "Bến Tre": {
+    "match_type": "contains",
+    "aliases": ["Ben Tre"],
+    "canonical_value": "Bến Tre",
+    "priority": 100
+  },
+  "Bình Định": {
+    "match_type": "contains",
+    "aliases": ["Binh Dinh"],
+    "canonical_value": "Bình Định",
+    "priority": 100
+  },
+  "Bình Dương": {
+    "match_type": "contains",
+    "aliases": ["Binh Duong"],
+    "canonical_value": "Bình Dương",
+    "priority": 100
+  },
+  "Bình Phước": {
+    "match_type": "contains",
+    "aliases": ["Binh Phuoc"],
+    "canonical_value": "Bình Phước",
+    "priority": 100
+  },
+  "Bình Thuận": {
+    "match_type": "contains",
+    "aliases": ["Binh Thuan"],
+    "canonical_value": "Bình Thuận",
+    "priority": 100
+  },
+  "Cà Mau": {
+    "match_type": "contains",
+    "aliases": ["Ca Mau"],
+    "canonical_value": "Cà Mau",
+    "priority": 100
+  },
+  "Cần Thơ": {
+    "match_type": "contains",
+    "aliases": ["Can Tho"],
+    "canonical_value": "Cần Thơ",
+    "priority": 100
+  },
+  "Cao Bằng": {
+    "match_type": "contains",
+    "aliases": ["Cao Bang"],
+    "canonical_value": "Cao Bằng",
+    "priority": 100
+  },
+  "Đà Nẵng": {
+    "match_type": "contains",
+    "aliases": ["Da Nang", "Danang"],
+    "canonical_value": "Đà Nẵng",
+    "priority": 100
+  },
+  "Đắk Lắk": {
+    "match_type": "contains",
+    "aliases": ["Dak Lak", "Đăk Lăk"],
+    "canonical_value": "Đắk Lắk",
+    "priority": 100
+  },
+  "Đắk Nông": {
+    "match_type": "contains",
+    "aliases": ["Dak Nong"],
+    "canonical_value": "Đắk Nông",
+    "priority": 100
+  },
+  "Điện Biên": {
+    "match_type": "contains",
+    "aliases": ["Dien Bien"],
+    "canonical_value": "Điện Biên",
+    "priority": 100
+  },
+  "Đồng Nai": {
+    "match_type": "contains",
+    "aliases": ["Dong Nai"],
+    "canonical_value": "Đồng Nai",
+    "priority": 100
+  },
+  "Đồng Tháp": {
+    "match_type": "contains",
+    "aliases": ["Dong Thap"],
+    "canonical_value": "Đồng Tháp",
+    "priority": 100
+  },
+  "Gia Lai": {
+    "match_type": "contains",
+    "aliases": [],
+    "canonical_value": "Gia Lai",
+    "priority": 100
+  },
+  "Hà Giang": {
+    "match_type": "contains",
+    "aliases": ["Ha Giang"],
+    "canonical_value": "Hà Giang",
+    "priority": 100
+  },
+  "Hà Nam": {
+    "match_type": "contains",
+    "aliases": ["Ha Nam"],
+    "canonical_value": "Hà Nam",
+    "priority": 100
+  },
+  "Hà Nội": {
+    "match_type": "contains",
+    "aliases": ["Ha Noi", "Hanoi"],
+    "canonical_value": "Hà Nội",
+    "priority": 100
+  },
+  "Hà Tĩnh": {
+    "match_type": "contains",
+    "aliases": ["Ha Tinh"],
+    "canonical_value": "Hà Tĩnh",
+    "priority": 100
+  },
+  "Hải Dương": {
+    "match_type": "contains",
+    "aliases": ["Hai Duong"],
+    "canonical_value": "Hải Dương",
+    "priority": 100
+  },
+  "Hải Phòng": {
+    "match_type": "contains",
+    "aliases": ["Hai Phong"],
+    "canonical_value": "Hải Phòng",
+    "priority": 100
+  },
+  "Hậu Giang": {
+    "match_type": "contains",
+    "aliases": ["Hau Giang"],
+    "canonical_value": "Hậu Giang",
+    "priority": 100
+  },
+  "Hòa Bình": {
+    "match_type": "contains",
+    "aliases": ["Hoa Binh"],
+    "canonical_value": "Hòa Bình",
+    "priority": 100
+  },
+  "Hưng Yên": {
+    "match_type": "contains",
+    "aliases": ["Hung Yen"],
+    "canonical_value": "Hưng Yên",
+    "priority": 100
+  },
+  "Khánh Hòa": {
+    "match_type": "contains",
+    "aliases": ["Khanh Hoa"],
+    "canonical_value": "Khánh Hòa",
+    "priority": 100
+  },
+  "Kiên Giang": {
+    "match_type": "contains",
+    "aliases": ["Kien Giang"],
+    "canonical_value": "Kiên Giang",
+    "priority": 100
+  },
+  "Kon Tum": {
+    "match_type": "contains",
+    "aliases": [],
+    "canonical_value": "Kon Tum",
+    "priority": 100
+  },
+  "Lai Châu": {
+    "match_type": "contains",
+    "aliases": ["Lai Chau"],
+    "canonical_value": "Lai Châu",
+    "priority": 100
+  },
+  "Lâm Đồng": {
+    "match_type": "contains",
+    "aliases": ["Lam Dong"],
+    "canonical_value": "Lâm Đồng",
+    "priority": 100
+  },
+  "Lạng Sơn": {
+    "match_type": "contains",
+    "aliases": ["Lang Son"],
+    "canonical_value": "Lạng Sơn",
+    "priority": 100
+  },
+  "Lào Cai": {
+    "match_type": "contains",
+    "aliases": ["Lao Cai"],
+    "canonical_value": "Lào Cai",
+    "priority": 100
+  },
+  "Long An": {
+    "match_type": "contains",
+    "aliases": [],
+    "canonical_value": "Long An",
+    "priority": 100
+  },
+  "Nam Định": {
+    "match_type": "contains",
+    "aliases": ["Nam Dinh"],
+    "canonical_value": "Nam Định",
+    "priority": 100
+  },
+  "Nghệ An": {
+    "match_type": "contains",
+    "aliases": ["Nghe An"],
+    "canonical_value": "Nghệ An",
+    "priority": 100
+  },
+  "Ninh Bình": {
+    "match_type": "contains",
+    "aliases": ["Ninh Binh"],
+    "canonical_value": "Ninh Bình",
+    "priority": 100
+  },
+  "Ninh Thuận": {
+    "match_type": "contains",
+    "aliases": ["Ninh Thuan"],
+    "canonical_value": "Ninh Thuận",
+    "priority": 100
+  },
+  "Phú Thọ": {
+    "match_type": "contains",
+    "aliases": ["Phu Tho"],
+    "canonical_value": "Phú Thọ",
+    "priority": 100
+  },
+  "Phú Yên": {
+    "match_type": "contains",
+    "aliases": ["Phu Yen"],
+    "canonical_value": "Phú Yên",
+    "priority": 100
+  },
+  "Quảng Bình": {
+    "match_type": "contains",
+    "aliases": ["Quang Binh"],
+    "canonical_value": "Quảng Bình",
+    "priority": 100
+  },
+  "Quảng Nam": {
+    "match_type": "contains",
+    "aliases": ["Quang Nam"],
+    "canonical_value": "Quảng Nam",
+    "priority": 100
+  },
+  "Quảng Ngãi": {
+    "match_type": "contains",
+    "aliases": ["Quang Ngai"],
+    "canonical_value": "Quảng Ngãi",
+    "priority": 100
+  },
+  "Quảng Ninh": {
+    "match_type": "contains",
+    "aliases": ["Quang Ninh"],
+    "canonical_value": "Quảng Ninh",
+    "priority": 100
+  },
+  "Quảng Trị": {
+    "match_type": "contains",
+    "aliases": ["Quang Tri"],
+    "canonical_value": "Quảng Trị",
+    "priority": 100
+  },
+  "Sóc Trăng": {
+    "match_type": "contains",
+    "aliases": ["Soc Trang"],
+    "canonical_value": "Sóc Trăng",
+    "priority": 100
+  },
+  "Sơn La": {
+    "match_type": "contains",
+    "aliases": ["Son La"],
+    "canonical_value": "Sơn La",
+    "priority": 100
+  },
+  "Tây Ninh": {
+    "match_type": "contains",
+    "aliases": ["Tay Ninh"],
+    "canonical_value": "Tây Ninh",
+    "priority": 100
+  },
+  "Thái Bình": {
+    "match_type": "contains",
+    "aliases": ["Thai Binh"],
+    "canonical_value": "Thái Bình",
+    "priority": 100
+  },
+  "Thái Nguyên": {
+    "match_type": "contains",
+    "aliases": ["Thai Nguyen"],
+    "canonical_value": "Thái Nguyên",
+    "priority": 100
+  },
+  "Thanh Hóa": {
+    "match_type": "contains",
+    "aliases": ["Thanh Hoa"],
+    "canonical_value": "Thanh Hóa",
+    "priority": 100
+  },
+  "Thừa Thiên Huế": {
+    "match_type": "contains",
+    "aliases": ["Thua Thien Hue", "Huế", "Hue"],
+    "canonical_value": "Thừa Thiên Huế",
+    "priority": 100
+  },
+  "Tiền Giang": {
+    "match_type": "contains",
+    "aliases": ["Tien Giang"],
+    "canonical_value": "Tiền Giang",
+    "priority": 100
+  },
+  "TP Hồ Chí Minh": {
+    "match_type": "contains",
+    "aliases": ["Hồ Chí Minh", "Ho Chi Minh", "TPHCM", "HCM", "Sài Gòn", "Sai Gon"],
+    "canonical_value": "TP Hồ Chí Minh",
+    "priority": 100
+  },
+  "Trà Vinh": {
+    "match_type": "contains",
+    "aliases": ["Tra Vinh"],
+    "canonical_value": "Trà Vinh",
+    "priority": 100
+  },
+  "Tuyên Quang": {
+    "match_type": "contains",
+    "aliases": ["Tuyen Quang"],
+    "canonical_value": "Tuyên Quang",
+    "priority": 100
+  },
+  "Vĩnh Long": {
+    "match_type": "contains",
+    "aliases": ["Vinh Long"],
+    "canonical_value": "Vĩnh Long",
+    "priority": 100
+  },
+  "Vĩnh Phúc": {
+    "match_type": "contains",
+    "aliases": ["Vinh Phuc"],
+    "canonical_value": "Vĩnh Phúc",
+    "priority": 100
+  },
+  "Yên Bái": {
+    "match_type": "contains",
+    "aliases": ["Yen Bai"],
+    "canonical_value": "Yên Bái",
+    "priority": 100
+  }
+}

@@ -1,11 +1,15 @@
 {
   "JOB_TITLE": {
     "standardizer": "mapping",
+    "source_column": "title",
+    "output_column": "standardized_title",
     "knowledge_file": "knowledge/job_titles.json"
   },
   "LOCATION": {
     "standardizer": "mapping",
-    "knowledge_file": "knowledge/cities.json"
+    "source_column": "location",
+    "output_column": "standardized_location",
+    "knowledge_file": "knowledge/provinces.json"
   },
   "EXPERIENCE": {
     "standardizer": "numeric_bucket",
