@@ -1,0 +1,455 @@
+{
+  "generated_at": "2026-06-10T07:43:51.603889Z",
+  "warnings": [],
+  "artifacts": [
+    {
+      "artifact": "ai_suggestions.json",
+      "path": "storage/artifacts/ai_suggestions.json",
+      "module": "ai_suggestions",
+      "exists": true,
+      "content_hash": "78ef4b9db3eec837b9e396e68702ebc90f9d8f5a2d60b9a1afe294c3745e356f",
+      "size_bytes": 232,
+      "modified_at": "2026-06-09T21:06:11.535834Z"
+    },
+    {
+      "artifact": "enriched_dataset.csv",
+      "path": "storage/artifacts/enriched_dataset.csv",
+      "module": "enrichment",
+      "exists": true,
+      "content_hash": "d891b057e427ee47a33a9c320f5e5349e40f9bb7245449cbca48b454dd98e3f6",
+      "size_bytes": 660457,
+      "modified_at": "2026-06-10T06:55:12.451256Z"
+    },
+    {
+      "artifact": "enrichment_report.json",
+      "path": "storage/artifacts/enrichment_report.json",
+      "module": "enrichment",
+      "exists": true,
+      "content_hash": "259e709f07d89fc40a177d2c658d12d104d964dd57f377cfde8847e49c444eef",
+      "size_bytes": 378,
+      "modified_at": "2026-06-10T06:55:12.451572Z"
+    },
+    {
+      "artifact": "metadata.json",
+      "path": "storage/artifacts/metadata.json",
+      "module": "profiling",
+      "exists": true,
+      "content_hash": "7d2211fdbe947d3706d433b90cc26784839c9395ea1de93d39420d45557e63ef",
+      "size_bytes": 38313,
+      "modified_at": "2026-06-10T07:43:35.602077Z"
+    },
+    {
+      "artifact": "rule_execution_report.json",
+      "path": "storage/artifacts/rule_execution_report.json",
+      "module": "rule_execution",
+      "exists": true,
+      "content_hash": "ce1324b7377863037ab2a4c44b313c4202f6929a63f1b4880163ac1312642810",
+      "size_bytes": 836,
+      "modified_at": "2026-06-09T19:24:02.893183Z"
+    },
+    {
+      "artifact": "rules.json",
+      "path": "data/rules/rules.json",
+      "module": "rule_generation",
+      "exists": true,
+      "content_hash": "33aa789fee8c258d7a9c064fe9d54898777aaad6350398857e4815726e953dd7",
+      "size_bytes": 10605,
+      "modified_at": "2026-06-09T20:00:14.957583Z"
+    },
+    {
+      "artifact": "semantic_columns.json",
+      "path": "storage/artifacts/semantic_columns.json",
+      "module": "semantic",
+      "exists": true,
+      "content_hash": "60393e7668f9cb48dfc61fe73e351cb348ec7b8d5ff24063598d22d7d7a6736c",
+      "size_bytes": 3167,
+      "modified_at": "2026-06-09T18:38:54.856047Z"
+    },
+    {
+      "artifact": "standardization_report.json",
+      "path": "storage/artifacts/standardization_report.json",
+      "module": "standardization",
+      "exists": true,
+      "content_hash": "e4bd1d4541ac5ce03722337ec9815d1da69a3a8066acfd62cbebe8519e30a52b",
+      "size_bytes": 425,
+      "modified_at": "2026-06-10T07:07:32.631081Z"
+    },
+    {
+      "artifact": "standardized_dataset.csv",
+      "path": "storage/artifacts/standardized_dataset.csv",
+      "module": "standardization",
+      "exists": true,
+      "content_hash": "ce2ee31e265544eeb968ed718efd560dd581c4c767648369f52f7838951215fc",
+      "size_bytes": 659030,
+      "modified_at": "2026-06-10T07:07:32.630811Z"
+    }
+  ],
+  "change_log": {
+    "records": [
+      {
+        "timestamp": "2026-06-10T07:34:54.425656Z",
+        "module": "ai_suggestions",
+        "artifact": "ai_suggestions.json",
+        "status": "success",
+        "message": "Artifact present"
+      },
+      {
+        "timestamp": "2026-06-10T07:34:54.425656Z",
+        "module": "enrichment",
+        "artifact": "enriched_dataset.csv",
+        "status": "success",
+        "message": "Artifact present"
+      },
+      {
+        "timestamp": "2026-06-10T07:34:54.425656Z",
+        "module": "enrichment",
+        "artifact": "enrichment_report.json",
+        "status": "success",
+        "message": "Artifact present"
+      },
+      {
+        "timestamp": "2026-06-10T07:34:54.425656Z",
+        "module": "profiling",
+        "artifact": "metadata.json",
+        "status": "success",
+        "message": "Artifact present"
+      },
+      {
+        "timestamp": "2026-06-10T07:34:54.425656Z",
+        "module": "rule_execution",
+        "artifact": "rule_execution_report.json",
+        "status": "success",
+        "message": "Artifact present"
+      },
+      {
+        "timestamp": "2026-06-10T07:34:54.425656Z",
+        "module": "rule_generation",
+        "artifact": "rules.json",
+        "status": "success",
+        "message": "Artifact present"
+      },
+      {
+        "timestamp": "2026-06-10T07:34:54.425656Z",
+        "module": "semantic",
+        "artifact": "semantic_columns.json",
+        "status": "success",
+        "message": "Artifact present"
+      },
+      {
+        "timestamp": "2026-06-10T07:34:54.425656Z",
+        "module": "standardization",
+        "artifact": "standardization_report.json",
+        "status": "success",
+        "message": "Artifact present"
+      },
+      {
+        "timestamp": "2026-06-10T07:34:54.425656Z",
+        "module": "standardization",
+        "artifact": "standardized_dataset.csv",
+        "status": "success",
+        "message": "Artifact present"
+      }
+    ]
+  },
+  "rule_history": {
+    "records": [
+      {
+        "rule_id": "extract_salary_range",
+        "rule_type": "regex",
+        "created_by": "unknown",
+        "enabled": false,
+        "execution_count": 1,
+        "first_seen": "2026-06-10T07:34:54.428193Z",
+        "last_seen": "2026-06-10T07:34:54.428193Z"
+      },
+      {
+        "rule_id": "normalize_location",
+        "rule_type": "mapping",
+        "created_by": "unknown",
+        "enabled": false,
+        "execution_count": 1,
+        "first_seen": "2026-06-10T07:34:54.428193Z",
+        "last_seen": "2026-06-10T07:34:54.428193Z"
+      },
+      {
+        "rule_id": "rule_regex_experience_001",
+        "rule_type": "regex",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 0,
+        "first_seen": "2026-06-10T07:34:54.428193Z",
+        "last_seen": "2026-06-10T07:34:54.428193Z"
+      },
+      {
+        "rule_id": "rule_regex_salary_001",
+        "rule_type": "regex",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 0,
+        "first_seen": "2026-06-10T07:34:54.428193Z",
+        "last_seen": "2026-06-10T07:34:54.428193Z"
+      },
+      {
+        "rule_id": "rule_transform_benefits_remove_extra_spaces_001",
+        "rule_type": "transformation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 0,
+        "first_seen": "2026-06-10T07:34:54.428193Z",
+        "last_seen": "2026-06-10T07:34:54.428193Z"
+      },
+      {
+        "rule_id": "rule_transform_benefits_trim_001",
+        "rule_type": "transformation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 0,
+        "first_seen": "2026-06-10T07:34:54.428193Z",
+        "last_seen": "2026-06-10T07:34:54.428193Z"
+      },
+      {
+        "rule_id": "rule_transform_company_address_remove_extra_spaces_001",
+        "rule_type": "transformation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 0,
+        "first_seen": "2026-06-10T07:34:54.428193Z",
+        "last_seen": "2026-06-10T07:34:54.428193Z"
+      },
+      {
+        "rule_id": "rule_transform_company_address_trim_001",
+        "rule_type": "transformation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 0,
+        "first_seen": "2026-06-10T07:34:54.428193Z",
+        "last_seen": "2026-06-10T07:34:54.428193Z"
+      },
+      {
+        "rule_id": "rule_transform_company_name_remove_extra_spaces_001",
+        "rule_type": "transformation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 0,
+        "first_seen": "2026-06-10T07:34:54.428193Z",
+        "last_seen": "2026-06-10T07:34:54.428193Z"
+      },
+      {
+        "rule_id": "rule_transform_company_name_trim_001",
+        "rule_type": "transformation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 0,
+        "first_seen": "2026-06-10T07:34:54.428193Z",
+        "last_seen": "2026-06-10T07:34:54.428193Z"
+      },
+      {
+        "rule_id": "rule_transform_company_size_remove_extra_spaces_001",
+        "rule_type": "transformation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 0,
+        "first_seen": "2026-06-10T07:34:54.428193Z",
+        "last_seen": "2026-06-10T07:34:54.428193Z"
+      },
+      {
+        "rule_id": "rule_transform_company_size_trim_001",
+        "rule_type": "transformation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 0,
+        "first_seen": "2026-06-10T07:34:54.428193Z",
+        "last_seen": "2026-06-10T07:34:54.428193Z"
+      },
+      {
+        "rule_id": "rule_transform_experience_remove_extra_spaces_001",
+        "rule_type": "transformation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 0,
+        "first_seen": "2026-06-10T07:34:54.428193Z",
+        "last_seen": "2026-06-10T07:34:54.428193Z"
+      },
+      {
+        "rule_id": "rule_transform_experience_trim_001",
+        "rule_type": "transformation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 0,
+        "first_seen": "2026-06-10T07:34:54.428193Z",
+        "last_seen": "2026-06-10T07:34:54.428193Z"
+      },
+      {
+        "rule_id": "rule_transform_job_description_remove_extra_spaces_001",
+        "rule_type": "transformation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 0,
+        "first_seen": "2026-06-10T07:34:54.428193Z",
+        "last_seen": "2026-06-10T07:34:54.428193Z"
+      },
+      {
+        "rule_id": "rule_transform_job_description_trim_001",
+        "rule_type": "transformation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 0,
+        "first_seen": "2026-06-10T07:34:54.428193Z",
+        "last_seen": "2026-06-10T07:34:54.428193Z"
+      },
+      {
+        "rule_id": "rule_transform_job_requirements_remove_extra_spaces_001",
+        "rule_type": "transformation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 0,
+        "first_seen": "2026-06-10T07:34:54.428193Z",
+        "last_seen": "2026-06-10T07:34:54.428193Z"
+      },
+      {
+        "rule_id": "rule_transform_job_requirements_trim_001",
+        "rule_type": "transformation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 0,
+        "first_seen": "2026-06-10T07:34:54.428193Z",
+        "last_seen": "2026-06-10T07:34:54.428193Z"
+      },
+      {
+        "rule_id": "rule_transform_location_remove_extra_spaces_001",
+        "rule_type": "transformation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 0,
+        "first_seen": "2026-06-10T07:34:54.428193Z",
+        "last_seen": "2026-06-10T07:34:54.428193Z"
+      },
+      {
+        "rule_id": "rule_transform_location_trim_001",
+        "rule_type": "transformation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 0,
+        "first_seen": "2026-06-10T07:34:54.428193Z",
+        "last_seen": "2026-06-10T07:34:54.428193Z"
+      },
+      {
+        "rule_id": "rule_transform_salary_remove_extra_spaces_001",
+        "rule_type": "transformation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 0,
+        "first_seen": "2026-06-10T07:34:54.428193Z",
+        "last_seen": "2026-06-10T07:34:54.428193Z"
+      },
+      {
+        "rule_id": "rule_transform_salary_trim_001",
+        "rule_type": "transformation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 0,
+        "first_seen": "2026-06-10T07:34:54.428193Z",
+        "last_seen": "2026-06-10T07:34:54.428193Z"
+      },
+      {
+        "rule_id": "rule_transform_title_remove_extra_spaces_001",
+        "rule_type": "transformation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 0,
+        "first_seen": "2026-06-10T07:34:54.428193Z",
+        "last_seen": "2026-06-10T07:34:54.428193Z"
+      },
+      {
+        "rule_id": "rule_transform_title_trim_001",
+        "rule_type": "transformation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 0,
+        "first_seen": "2026-06-10T07:34:54.428193Z",
+        "last_seen": "2026-06-10T07:34:54.428193Z"
+      },
+      {
+        "rule_id": "rule_transform_work_location_detail_remove_extra_spaces_001",
+        "rule_type": "transformation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 0,
+        "first_seen": "2026-06-10T07:34:54.428193Z",
+        "last_seen": "2026-06-10T07:34:54.428193Z"
+      },
+      {
+        "rule_id": "rule_transform_work_location_detail_trim_001",
+        "rule_type": "transformation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 0,
+        "first_seen": "2026-06-10T07:34:54.428193Z",
+        "last_seen": "2026-06-10T07:34:54.428193Z"
+      },
+      {
+        "rule_id": "rule_transform_working_time_remove_extra_spaces_001",
+        "rule_type": "transformation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 0,
+        "first_seen": "2026-06-10T07:34:54.428193Z",
+        "last_seen": "2026-06-10T07:34:54.428193Z"
+      },
+      {
+        "rule_id": "rule_transform_working_time_trim_001",
+        "rule_type": "transformation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 0,
+        "first_seen": "2026-06-10T07:34:54.428193Z",
+        "last_seen": "2026-06-10T07:34:54.428193Z"
+      },
+      {
+        "rule_id": "rule_validation_experience_years_001",
+        "rule_type": "validation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 0,
+        "first_seen": "2026-06-10T07:34:54.428193Z",
+        "last_seen": "2026-06-10T07:34:54.428193Z"
+      },
+      {
+        "rule_id": "rule_validation_salary_max_001",
+        "rule_type": "validation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 0,
+        "first_seen": "2026-06-10T07:34:54.428193Z",
+        "last_seen": "2026-06-10T07:34:54.428193Z"
+      },
+      {
+        "rule_id": "rule_validation_salary_min_001",
+        "rule_type": "validation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 0,
+        "first_seen": "2026-06-10T07:34:54.428193Z",
+        "last_seen": "2026-06-10T07:34:54.428193Z"
+      },
+      {
+        "rule_id": "salary_min_positive",
+        "rule_type": "validation",
+        "created_by": "unknown",
+        "enabled": false,
+        "execution_count": 1,
+        "first_seen": "2026-06-10T07:34:54.428193Z",
+        "last_seen": "2026-06-10T07:34:54.428193Z"
+      },
+      {
+        "rule_id": "trim_title",
+        "rule_type": "transformation",
+        "created_by": "unknown",
+        "enabled": false,
+        "execution_count": 1,
+        "first_seen": "2026-06-10T07:34:54.428193Z",
+        "last_seen": "2026-06-10T07:34:54.428193Z"
+      }
+    ]
+  }
+}

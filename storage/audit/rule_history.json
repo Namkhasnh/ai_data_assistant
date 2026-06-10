@@ -1,0 +1,301 @@
+{
+  "records": [
+    {
+      "rule_id": "extract_salary_range",
+      "rule_type": "regex",
+      "created_by": "unknown",
+      "enabled": false,
+      "execution_count": 1,
+      "first_seen": "2026-06-10T07:34:54.428193Z",
+      "last_seen": "2026-06-10T07:34:54.428193Z"
+    },
+    {
+      "rule_id": "normalize_location",
+      "rule_type": "mapping",
+      "created_by": "unknown",
+      "enabled": false,
+      "execution_count": 1,
+      "first_seen": "2026-06-10T07:34:54.428193Z",
+      "last_seen": "2026-06-10T07:34:54.428193Z"
+    },
+    {
+      "rule_id": "rule_regex_experience_001",
+      "rule_type": "regex",
+      "created_by": "semantic",
+      "enabled": true,
+      "execution_count": 0,
+      "first_seen": "2026-06-10T07:34:54.428193Z",
+      "last_seen": "2026-06-10T07:34:54.428193Z"
+    },
+    {
+      "rule_id": "rule_regex_salary_001",
+      "rule_type": "regex",
+      "created_by": "semantic",
+      "enabled": true,
+      "execution_count": 0,
+      "first_seen": "2026-06-10T07:34:54.428193Z",
+      "last_seen": "2026-06-10T07:34:54.428193Z"
+    },
+    {
+      "rule_id": "rule_transform_benefits_remove_extra_spaces_001",
+      "rule_type": "transformation",
+      "created_by": "semantic",
+      "enabled": true,
+      "execution_count": 0,
+      "first_seen": "2026-06-10T07:34:54.428193Z",
+      "last_seen": "2026-06-10T07:34:54.428193Z"
+    },
+    {
+      "rule_id": "rule_transform_benefits_trim_001",
+      "rule_type": "transformation",
+      "created_by": "semantic",
+      "enabled": true,
+      "execution_count": 0,
+      "first_seen": "2026-06-10T07:34:54.428193Z",
+      "last_seen": "2026-06-10T07:34:54.428193Z"
+    },
+    {
+      "rule_id": "rule_transform_company_address_remove_extra_spaces_001",
+      "rule_type": "transformation",
+      "created_by": "semantic",
+      "enabled": true,
+      "execution_count": 0,
+      "first_seen": "2026-06-10T07:34:54.428193Z",
+      "last_seen": "2026-06-10T07:34:54.428193Z"
+    },
+    {
+      "rule_id": "rule_transform_company_address_trim_001",
+      "rule_type": "transformation",
+      "created_by": "semantic",
+      "enabled": true,
+      "execution_count": 0,
+      "first_seen": "2026-06-10T07:34:54.428193Z",
+      "last_seen": "2026-06-10T07:34:54.428193Z"
+    },
+    {
+      "rule_id": "rule_transform_company_name_remove_extra_spaces_001",
+      "rule_type": "transformation",
+      "created_by": "semantic",
+      "enabled": true,
+      "execution_count": 0,
+      "first_seen": "2026-06-10T07:34:54.428193Z",
+      "last_seen": "2026-06-10T07:34:54.428193Z"
+    },
+    {
+      "rule_id": "rule_transform_company_name_trim_001",
+      "rule_type": "transformation",
+      "created_by": "semantic",
+      "enabled": true,
+      "execution_count": 0,
+      "first_seen": "2026-06-10T07:34:54.428193Z",
+      "last_seen": "2026-06-10T07:34:54.428193Z"
+    },
+    {
+      "rule_id": "rule_transform_company_size_remove_extra_spaces_001",
+      "rule_type": "transformation",
+      "created_by": "semantic",
+      "enabled": true,
+      "execution_count": 0,
+      "first_seen": "2026-06-10T07:34:54.428193Z",
+      "last_seen": "2026-06-10T07:34:54.428193Z"
+    },
+    {
+      "rule_id": "rule_transform_company_size_trim_001",
+      "rule_type": "transformation",
+      "created_by": "semantic",
+      "enabled": true,
+      "execution_count": 0,
+      "first_seen": "2026-06-10T07:34:54.428193Z",
+      "last_seen": "2026-06-10T07:34:54.428193Z"
+    },
+    {
+      "rule_id": "rule_transform_experience_remove_extra_spaces_001",
+      "rule_type": "transformation",
+      "created_by": "semantic",
+      "enabled": true,
+      "execution_count": 0,
+      "first_seen": "2026-06-10T07:34:54.428193Z",
+      "last_seen": "2026-06-10T07:34:54.428193Z"
+    },
+    {
+      "rule_id": "rule_transform_experience_trim_001",
+      "rule_type": "transformation",
+      "created_by": "semantic",
+      "enabled": true,
+      "execution_count": 0,
+      "first_seen": "2026-06-10T07:34:54.428193Z",
+      "last_seen": "2026-06-10T07:34:54.428193Z"
+    },
+    {
+      "rule_id": "rule_transform_job_description_remove_extra_spaces_001",
+      "rule_type": "transformation",
+      "created_by": "semantic",
+      "enabled": true,
+      "execution_count": 0,
+      "first_seen": "2026-06-10T07:34:54.428193Z",
+      "last_seen": "2026-06-10T07:34:54.428193Z"
+    },
+    {
+      "rule_id": "rule_transform_job_description_trim_001",
+      "rule_type": "transformation",
+      "created_by": "semantic",
+      "enabled": true,
+      "execution_count": 0,
+      "first_seen": "2026-06-10T07:34:54.428193Z",
+      "last_seen": "2026-06-10T07:34:54.428193Z"
+    },
+    {
+      "rule_id": "rule_transform_job_requirements_remove_extra_spaces_001",
+      "rule_type": "transformation",
+      "created_by": "semantic",
+      "enabled": true,
+      "execution_count": 0,
+      "first_seen": "2026-06-10T07:34:54.428193Z",
+      "last_seen": "2026-06-10T07:34:54.428193Z"
+    },
+    {
+      "rule_id": "rule_transform_job_requirements_trim_001",
+      "rule_type": "transformation",
+      "created_by": "semantic",
+      "enabled": true,
+      "execution_count": 0,
+      "first_seen": "2026-06-10T07:34:54.428193Z",
+      "last_seen": "2026-06-10T07:34:54.428193Z"
+    },
+    {
+      "rule_id": "rule_transform_location_remove_extra_spaces_001",
+      "rule_type": "transformation",
+      "created_by": "semantic",
+      "enabled": true,
+      "execution_count": 0,
+      "first_seen": "2026-06-10T07:34:54.428193Z",
+      "last_seen": "2026-06-10T07:34:54.428193Z"
+    },
+    {
+      "rule_id": "rule_transform_location_trim_001",
+      "rule_type": "transformation",
+      "created_by": "semantic",
+      "enabled": true,
+      "execution_count": 0,
+      "first_seen": "2026-06-10T07:34:54.428193Z",
+      "last_seen": "2026-06-10T07:34:54.428193Z"
+    },
+    {
+      "rule_id": "rule_transform_salary_remove_extra_spaces_001",
+      "rule_type": "transformation",
+      "created_by": "semantic",
+      "enabled": true,
+      "execution_count": 0,
+      "first_seen": "2026-06-10T07:34:54.428193Z",
+      "last_seen": "2026-06-10T07:34:54.428193Z"
+    },
+    {
+      "rule_id": "rule_transform_salary_trim_001",
+      "rule_type": "transformation",
+      "created_by": "semantic",
+      "enabled": true,
+      "execution_count": 0,
+      "first_seen": "2026-06-10T07:34:54.428193Z",
+      "last_seen": "2026-06-10T07:34:54.428193Z"
+    },
+    {
+      "rule_id": "rule_transform_title_remove_extra_spaces_001",
+      "rule_type": "transformation",
+      "created_by": "semantic",
+      "enabled": true,
+      "execution_count": 0,
+      "first_seen": "2026-06-10T07:34:54.428193Z",
+      "last_seen": "2026-06-10T07:34:54.428193Z"
+    },
+    {
+      "rule_id": "rule_transform_title_trim_001",
+      "rule_type": "transformation",
+      "created_by": "semantic",
+      "enabled": true,
+      "execution_count": 0,
+      "first_seen": "2026-06-10T07:34:54.428193Z",
+      "last_seen": "2026-06-10T07:34:54.428193Z"
+    },
+    {
+      "rule_id": "rule_transform_work_location_detail_remove_extra_spaces_001",
+      "rule_type": "transformation",
+      "created_by": "semantic",
+      "enabled": true,
+      "execution_count": 0,
+      "first_seen": "2026-06-10T07:34:54.428193Z",
+      "last_seen": "2026-06-10T07:34:54.428193Z"
+    },
+    {
+      "rule_id": "rule_transform_work_location_detail_trim_001",
+      "rule_type": "transformation",
+      "created_by": "semantic",
+      "enabled": true,
+      "execution_count": 0,
+      "first_seen": "2026-06-10T07:34:54.428193Z",
+      "last_seen": "2026-06-10T07:34:54.428193Z"
+    },
+    {
+      "rule_id": "rule_transform_working_time_remove_extra_spaces_001",
+      "rule_type": "transformation",
+      "created_by": "semantic",
+      "enabled": true,
+      "execution_count": 0,
+      "first_seen": "2026-06-10T07:34:54.428193Z",
+      "last_seen": "2026-06-10T07:34:54.428193Z"
+    },
+    {
+      "rule_id": "rule_transform_working_time_trim_001",
+      "rule_type": "transformation",
+      "created_by": "semantic",
+      "enabled": true,
+      "execution_count": 0,
+      "first_seen": "2026-06-10T07:34:54.428193Z",
+      "last_seen": "2026-06-10T07:34:54.428193Z"
+    },
+    {
+      "rule_id": "rule_validation_experience_years_001",
+      "rule_type": "validation",
+      "created_by": "semantic",
+      "enabled": true,
+      "execution_count": 0,
+      "first_seen": "2026-06-10T07:34:54.428193Z",
+      "last_seen": "2026-06-10T07:34:54.428193Z"
+    },
+    {
+      "rule_id": "rule_validation_salary_max_001",
+      "rule_type": "validation",
+      "created_by": "semantic",
+      "enabled": true,
+      "execution_count": 0,
+      "first_seen": "2026-06-10T07:34:54.428193Z",
+      "last_seen": "2026-06-10T07:34:54.428193Z"
+    },
+    {
+      "rule_id": "rule_validation_salary_min_001",
+      "rule_type": "validation",
+      "created_by": "semantic",
+      "enabled": true,
+      "execution_count": 0,
+      "first_seen": "2026-06-10T07:34:54.428193Z",
+      "last_seen": "2026-06-10T07:34:54.428193Z"
+    },
+    {
+      "rule_id": "salary_min_positive",
+      "rule_type": "validation",
+      "created_by": "unknown",
+      "enabled": false,
+      "execution_count": 1,
+      "first_seen": "2026-06-10T07:34:54.428193Z",
+      "last_seen": "2026-06-10T07:34:54.428193Z"
+    },
+    {
+      "rule_id": "trim_title",
+      "rule_type": "transformation",
+      "created_by": "unknown",
+      "enabled": false,
+      "execution_count": 1,
+      "first_seen": "2026-06-10T07:34:54.428193Z",
+      "last_seen": "2026-06-10T07:34:54.428193Z"
+    }
+  ]
+}
