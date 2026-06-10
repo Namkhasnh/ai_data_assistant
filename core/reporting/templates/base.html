@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ report.metadata.title }}</title>
+  <style>
+    :root {
+      --bg: #f6f7f5;
+      --panel: #ffffff;
+      --ink: #1f2933;
+      --muted: #5f6c72;
+      --line: #d9dedb;
+      --accent: #2f6f73;
+    }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+    header {
+      background: #243235;
+      color: #fff;
+      padding: 28px 32px;
+    }
+    header h1 {
+      margin: 0 0 8px;
+      font-size: 28px;
+      font-weight: 650;
+    }
+    header p {
+      margin: 0;
+      color: #d7dfdd;
+    }
+    main {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 24px 24px 56px;
+    }
+    section {
+      margin: 0 0 24px;
+      padding: 20px;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+    }
+    h2 {
+      margin: 0 0 8px;
+      font-size: 20px;
+    }
+    h3 {
+      margin: 18px 0 8px;
+      font-size: 15px;
+    }
+    .summary {
+      margin: 0 0 16px;
+      color: var(--muted);
+    }
+    .metrics {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 12px;
+    }
+    .metric {
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 12px;
+      background: #fbfcfb;
+    }
+    .metric span {
+      display: block;
+      color: var(--muted);
+      font-size: 12px;
+      text-transform: uppercase;
+    }
+    .metric strong {
+      display: block;
+      margin-top: 4px;
+      font-size: 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 8px 0;
+    }
+    th, td {
+      border-bottom: 1px solid var(--line);
+      padding: 8px;
+      text-align: left;
+      vertical-align: top;
+    }
+    th {
+      color: var(--muted);
+      font-size: 12px;
+      text-transform: uppercase;
+    }
+    .warning {
+      background: #fff8e5;
+      border: 1px solid #e2c979;
+      border-radius: 6px;
+      padding: 10px 12px;
+      margin: 8px 0;
+    }
+    .chart-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 16px;
+    }
+    iframe {
+      width: 100%;
+      min-height: 420px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: #fff;
+    }
+    code {
+      background: #edf0ee;
+      padding: 1px 4px;
+      border-radius: 4px;
+    }
+    .empty {
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>{{ report.metadata.title }}</h1>
+    <p>Generated at {{ metadata["generated_at"] }}{% if report.metadata.source_file %} for {{ report.metadata.source_file }}{% endif %}</p>
+  </header>
+  <main>
+    {% if report.warnings %}
+    <section>
+      <h2>Warnings</h2>
+      {% for warning in report.warnings %}
+      <div class="warning">{{ warning }}</div>
+      {% endfor %}
+    </section>
+    {% endif %}
+
+    {% include "dataset_summary.html" %}
+    {% include "semantic_summary.html" %}
+    {% include "rule_summary.html" %}
+    {% include "standardization_summary.html" %}
+    {% include "enrichment_summary.html" %}
+    {% include "audit_summary.html" %}
+
+    <section>
+      <h2>Charts</h2>
+      <p class="summary">External Plotly chart assets generated for this report.</p>
+      {% if charts %}
+      <div class="chart-grid">
+        {% for chart in charts %}
+        <div>
+          <h3>{{ chart.title }}</h3>
+          <iframe title="{{ chart.title }}" src="{{ chart.path }}"></iframe>
+        </div>
+        {% endfor %}
+      </div>
+      {% else %}
+      <p class="empty">No chart assets were generated.</p>
+      {% endif %}
+    </section>
+  </main>
+</body>
+</html>

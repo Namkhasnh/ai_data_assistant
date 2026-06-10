@@ -1,0 +1,4 @@
+customer_name,email,phone,customer_type,city
+An Nguyen,an@example.com,+84901234567,lead,Hanoi
+Bao Tran,bao@example.com,+84909876543,customer,Ho Chi Minh
+Chi Le,invalid-email,not available,prospect,Unknown City

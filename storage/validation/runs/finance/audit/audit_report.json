@@ -1,0 +1,210 @@
+{
+  "generated_at": "2026-06-10T09:05:35.121296Z",
+  "warnings": [],
+  "artifacts": [
+    {
+      "artifact": "cleaned_dataset.csv",
+      "path": "storage/validation/runs/finance/artifacts/cleaned_dataset.csv",
+      "module": "rule_execution",
+      "exists": true,
+      "content_hash": "b4e0713ea5746662b2ae523f63a024b3ff30c8cf315539a32d1b8c5e9d789146",
+      "size_bytes": 103,
+      "modified_at": "2026-06-10T09:05:35.118778Z"
+    },
+    {
+      "artifact": "enriched_dataset.csv",
+      "path": "storage/validation/runs/finance/artifacts/enriched_dataset.csv",
+      "module": "enrichment",
+      "exists": true,
+      "content_hash": "b4e0713ea5746662b2ae523f63a024b3ff30c8cf315539a32d1b8c5e9d789146",
+      "size_bytes": 103,
+      "modified_at": "2026-06-10T09:05:35.119735Z"
+    },
+    {
+      "artifact": "enrichment_report.json",
+      "path": "storage/validation/runs/finance/artifacts/enrichment_report.json",
+      "module": "enrichment",
+      "exists": true,
+      "content_hash": "b094e785c50113d1513b7425971a1bdac517f36a6085e0187ff2e4213110381c",
+      "size_bytes": 188,
+      "modified_at": "2026-06-10T09:05:35.119853Z"
+    },
+    {
+      "artifact": "metadata.json",
+      "path": "storage/validation/runs/finance/artifacts/metadata.json",
+      "module": "profiling",
+      "exists": true,
+      "content_hash": "1ed27b2784f3c0b0f2c56d883203f4880bacddd290631c2a6bf90d24b510ce76",
+      "size_bytes": 1602,
+      "modified_at": "2026-06-10T09:05:35.113848Z"
+    },
+    {
+      "artifact": "rule_execution_report.json",
+      "path": "storage/validation/runs/finance/artifacts/rule_execution_report.json",
+      "module": "rule_execution",
+      "exists": true,
+      "content_hash": "5e1d1efe85c63e8e0e932f177d999d0cde8c9ddfd3be49f8cac2a7c195078172",
+      "size_bytes": 954,
+      "modified_at": "2026-06-10T09:05:35.118909Z"
+    },
+    {
+      "artifact": "rule_generation_report.json",
+      "path": "storage/validation/runs/finance/artifacts/rule_generation_report.json",
+      "module": "rule_generation",
+      "exists": true,
+      "content_hash": "0527a16421bf831a54a572a72bf267f0e41bc23eabd2df7210a3b69b82abe2ec",
+      "size_bytes": 536,
+      "modified_at": "2026-06-10T09:05:35.114689Z"
+    },
+    {
+      "artifact": "rules.json",
+      "path": "storage/validation/runs/finance/rules/rules.json",
+      "module": "rule_generation",
+      "exists": true,
+      "content_hash": "acf2b038f02605e86b571914fac5bdf040158c6b3fb9cc089e60f22b7e868abf",
+      "size_bytes": 1406,
+      "modified_at": "2026-06-10T09:05:35.114591Z"
+    },
+    {
+      "artifact": "semantic_columns.json",
+      "path": "storage/validation/runs/finance/artifacts/semantic_columns.json",
+      "module": "semantic",
+      "exists": true,
+      "content_hash": "1743b1a9fdd0849639c0665ec8d81cd68a6af3081e93b115065a020572ea8c3f",
+      "size_bytes": 754,
+      "modified_at": "2026-06-10T09:05:35.114228Z"
+    },
+    {
+      "artifact": "standardization_report.json",
+      "path": "storage/validation/runs/finance/artifacts/standardization_report.json",
+      "module": "standardization",
+      "exists": true,
+      "content_hash": "389f387c9f19b7b0afffaf81bbf940bf96545f9f0bbf1c790d07e0c41c168476",
+      "size_bytes": 204,
+      "modified_at": "2026-06-10T09:05:35.119404Z"
+    },
+    {
+      "artifact": "standardized_dataset.csv",
+      "path": "storage/validation/runs/finance/artifacts/standardized_dataset.csv",
+      "module": "standardization",
+      "exists": true,
+      "content_hash": "b4e0713ea5746662b2ae523f63a024b3ff30c8cf315539a32d1b8c5e9d789146",
+      "size_bytes": 103,
+      "modified_at": "2026-06-10T09:05:35.119292Z"
+    }
+  ],
+  "change_log": {
+    "records": [
+      {
+        "timestamp": "2026-06-10T09:05:35.120323Z",
+        "module": "enrichment",
+        "artifact": "enriched_dataset.csv",
+        "status": "success",
+        "message": "Artifact present"
+      },
+      {
+        "timestamp": "2026-06-10T09:05:35.120323Z",
+        "module": "enrichment",
+        "artifact": "enrichment_report.json",
+        "status": "success",
+        "message": "Artifact present"
+      },
+      {
+        "timestamp": "2026-06-10T09:05:35.120323Z",
+        "module": "profiling",
+        "artifact": "metadata.json",
+        "status": "success",
+        "message": "Artifact present"
+      },
+      {
+        "timestamp": "2026-06-10T09:05:35.120323Z",
+        "module": "rule_execution",
+        "artifact": "cleaned_dataset.csv",
+        "status": "success",
+        "message": "Artifact present"
+      },
+      {
+        "timestamp": "2026-06-10T09:05:35.120323Z",
+        "module": "rule_execution",
+        "artifact": "rule_execution_report.json",
+        "status": "success",
+        "message": "Artifact present"
+      },
+      {
+        "timestamp": "2026-06-10T09:05:35.120323Z",
+        "module": "rule_generation",
+        "artifact": "rule_generation_report.json",
+        "status": "success",
+        "message": "Artifact present"
+      },
+      {
+        "timestamp": "2026-06-10T09:05:35.120323Z",
+        "module": "rule_generation",
+        "artifact": "rules.json",
+        "status": "success",
+        "message": "Artifact present"
+      },
+      {
+        "timestamp": "2026-06-10T09:05:35.120323Z",
+        "module": "semantic",
+        "artifact": "semantic_columns.json",
+        "status": "success",
+        "message": "Artifact present"
+      },
+      {
+        "timestamp": "2026-06-10T09:05:35.120323Z",
+        "module": "standardization",
+        "artifact": "standardization_report.json",
+        "status": "success",
+        "message": "Artifact present"
+      },
+      {
+        "timestamp": "2026-06-10T09:05:35.120323Z",
+        "module": "standardization",
+        "artifact": "standardized_dataset.csv",
+        "status": "success",
+        "message": "Artifact present"
+      }
+    ]
+  },
+  "rule_history": {
+    "records": [
+      {
+        "rule_id": "rule_transform_account_id_remove_extra_spaces_001",
+        "rule_type": "transformation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 1,
+        "first_seen": "2026-06-10T09:05:35.119902Z",
+        "last_seen": "2026-06-10T09:05:35.119902Z"
+      },
+      {
+        "rule_id": "rule_transform_account_id_trim_001",
+        "rule_type": "transformation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 1,
+        "first_seen": "2026-06-10T09:05:35.119902Z",
+        "last_seen": "2026-06-10T09:05:35.119902Z"
+      },
+      {
+        "rule_id": "rule_transform_branch_city_remove_extra_spaces_001",
+        "rule_type": "transformation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 1,
+        "first_seen": "2026-06-10T09:05:35.119902Z",
+        "last_seen": "2026-06-10T09:05:35.119902Z"
+      },
+      {
+        "rule_id": "rule_transform_branch_city_trim_001",
+        "rule_type": "transformation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 1,
+        "first_seen": "2026-06-10T09:05:35.119902Z",
+        "last_seen": "2026-06-10T09:05:35.119902Z"
+      }
+    ]
+  }
+}

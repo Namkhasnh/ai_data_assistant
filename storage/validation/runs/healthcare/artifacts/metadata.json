@@ -1,0 +1,113 @@
+{
+  "source_file": "healthcare_sample.csv",
+  "file_format": "csv",
+  "row_count": 3,
+  "column_count": 4,
+  "duplicate_count": 0,
+  "columns": [
+    {
+      "name": "patient_name",
+      "data_type": "object",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_value_count": 3,
+      "top_values": [
+        {
+          "value": "Patient A",
+          "count": 1
+        },
+        {
+          "value": "Patient B",
+          "count": 1
+        },
+        {
+          "value": "Patient C",
+          "count": 1
+        }
+      ],
+      "sample_values": [
+        "Patient A",
+        "Patient B",
+        "Patient C"
+      ]
+    },
+    {
+      "name": "disease",
+      "data_type": "object",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_value_count": 3,
+      "top_values": [
+        {
+          "value": "Flu",
+          "count": 1
+        },
+        {
+          "value": "Diabetes",
+          "count": 1
+        },
+        {
+          "value": "Unknown",
+          "count": 1
+        }
+      ],
+      "sample_values": [
+        "Flu",
+        "Diabetes",
+        "Unknown"
+      ]
+    },
+    {
+      "name": "medicine",
+      "data_type": "object",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_value_count": 3,
+      "top_values": [
+        {
+          "value": "Paracetamol",
+          "count": 1
+        },
+        {
+          "value": "Insulin",
+          "count": 1
+        },
+        {
+          "value": "Observation",
+          "count": 1
+        }
+      ],
+      "sample_values": [
+        "Paracetamol",
+        "Insulin",
+        "Observation"
+      ]
+    },
+    {
+      "name": "hospital_city",
+      "data_type": "object",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_value_count": 3,
+      "top_values": [
+        {
+          "value": "Hanoi",
+          "count": 1
+        },
+        {
+          "value": "Da Nang",
+          "count": 1
+        },
+        {
+          "value": "Unknown City",
+          "count": 1
+        }
+      ],
+      "sample_values": [
+        "Hanoi",
+        "Da Nang",
+        "Unknown City"
+      ]
+    }
+  ]
+}

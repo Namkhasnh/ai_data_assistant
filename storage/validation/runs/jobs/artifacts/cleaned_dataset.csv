@@ -1,0 +1,4 @@
+title,salary,location,experience,experience_years,salary_min,salary_max,experience_years__is_valid,experience_years__validation_error,salary_max__is_valid,salary_max__validation_error,salary_min__is_valid,salary_min__validation_error
+Data Analyst,Negotiable,"Hà Nội, Cầu Giấy",2 years,2,,,True,,True,,True,
+Data Engineer,20 - 30 triệu,"Hồ Chí Minh, Quận 1",5 years,5,20,30,True,,True,,True,
+Unknown Role,Thoả thuận,Unknown City,No experience required,,,,True,,True,,True,

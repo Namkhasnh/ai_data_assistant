@@ -1,0 +1,50 @@
+{% set section = sections_by_id.get("rule_summary") %}
+{% if section %}
+<section id="rule-summary">
+  <h2>{{ section.title }}</h2>
+  {% if section.summary %}<p class="summary">{{ section.summary }}</p>{% endif %}
+  <div class="metrics">
+    <div class="metric"><span>Total Rules</span><strong>{{ section.data["total_rules"] }}</strong></div>
+    <div class="metric"><span>Affected Rows</span><strong>{{ section.data["total_affected_rows"] }}</strong></div>
+  </div>
+  <h3>Counts By Type</h3>
+  {% if section.data["counts_by_type"] %}
+  <table>
+    <tbody>
+      {% for rule_type, count in section.data["counts_by_type"].items() %}
+      <tr><td>{{ rule_type }}</td><td>{{ count }}</td></tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  {% else %}
+  <p class="empty">No rule counts are available.</p>
+  {% endif %}
+  <h3>Rule Inventory</h3>
+  {% if section.data["rules"] %}
+  <table>
+    <thead>
+      <tr>
+        <th>Rule ID</th>
+        <th>Type</th>
+        <th>Column</th>
+        <th>Enabled</th>
+        <th>Priority</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for rule in section.data["rules"] %}
+      <tr>
+        <td><code>{{ rule["id"] }}</code></td>
+        <td>{{ rule["type"] }}</td>
+        <td><code>{{ rule["column"] }}</code></td>
+        <td>{{ rule["enabled"] }}</td>
+        <td>{{ rule["priority"] }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  {% else %}
+  <p class="empty">Rule inventory is unavailable.</p>
+  {% endif %}
+</section>
+{% endif %}

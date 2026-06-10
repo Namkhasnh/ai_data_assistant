@@ -1,0 +1,4 @@
+factory_name,product_type,quantity,plant_location
+Factory Alpha,Widget,1000,Hanoi
+Factory Beta,Gadget,250,Da Nang
+Factory Gamma,Component,0,Unknown Zone

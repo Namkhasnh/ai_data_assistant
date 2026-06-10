@@ -15,7 +15,13 @@ def test_enrichment_service_loads_inputs_and_writes_artifacts(tmp_path: Path) ->
     semantic_path = tmp_path / "semantic_columns.json"
     config_path = tmp_path / "enrichment_rules.json"
     knowledge_path = tmp_path / "job_families.json"
-    dataframe = pd.DataFrame({"title": ["Data Engineer", "Unknown Title"]})
+    dataframe = pd.DataFrame(
+        {
+            "title": ["Data Engineer", "Unknown Title"],
+            "standardized_title": ["Data Engineer", None],
+            "standardized_location": ["Hà Nội", None],
+        }
+    )
     dataframe.to_csv(input_csv, index=False)
     semantic_report = SemanticDetectionReport(
         source_file="sample.csv",
@@ -68,6 +74,17 @@ def test_enrichment_service_loads_inputs_and_writes_artifacts(tmp_path: Path) ->
 
     assert enriched.loc[0, "job_family"] == "Engineering"
     assert pd.isna(enriched.loc[1, "job_family"])
+    assert "standardized_title" in enriched.columns
+    assert "standardized_location" in enriched.columns
+    assert enriched.loc[0, "standardized_title"] == "Data Engineer"
+    assert enriched.loc[0, "standardized_location"] == "Hà Nội"
+    assert list(enriched.columns) == [
+        "title",
+        "standardized_title",
+        "standardized_location",
+        "job_family",
+        "job_domain",
+    ]
     assert report.total_enriched_columns == 2
     assert (tmp_path / "artifacts" / "enriched_dataset.csv").exists()
     assert (tmp_path / "artifacts" / "enrichment_report.json").exists()

@@ -1,0 +1,116 @@
+{
+  "results": [
+    {
+      "rule_id": "rule_transform_experience_trim_001",
+      "rule_type": "transformation",
+      "status": "applied",
+      "affected_rows": 0,
+      "execution_time_ms": 1.3317,
+      "message": "Rule applied"
+    },
+    {
+      "rule_id": "rule_transform_location_trim_001",
+      "rule_type": "transformation",
+      "status": "applied",
+      "affected_rows": 0,
+      "execution_time_ms": 0.9108,
+      "message": "Rule applied"
+    },
+    {
+      "rule_id": "rule_transform_salary_trim_001",
+      "rule_type": "transformation",
+      "status": "applied",
+      "affected_rows": 0,
+      "execution_time_ms": 0.8184,
+      "message": "Rule applied"
+    },
+    {
+      "rule_id": "rule_transform_title_trim_001",
+      "rule_type": "transformation",
+      "status": "applied",
+      "affected_rows": 0,
+      "execution_time_ms": 0.6576,
+      "message": "Rule applied"
+    },
+    {
+      "rule_id": "rule_transform_experience_remove_extra_spaces_001",
+      "rule_type": "transformation",
+      "status": "applied",
+      "affected_rows": 0,
+      "execution_time_ms": 0.69,
+      "message": "Rule applied"
+    },
+    {
+      "rule_id": "rule_transform_location_remove_extra_spaces_001",
+      "rule_type": "transformation",
+      "status": "applied",
+      "affected_rows": 0,
+      "execution_time_ms": 0.6412,
+      "message": "Rule applied"
+    },
+    {
+      "rule_id": "rule_transform_salary_remove_extra_spaces_001",
+      "rule_type": "transformation",
+      "status": "applied",
+      "affected_rows": 0,
+      "execution_time_ms": 0.6539,
+      "message": "Rule applied"
+    },
+    {
+      "rule_id": "rule_transform_title_remove_extra_spaces_001",
+      "rule_type": "transformation",
+      "status": "applied",
+      "affected_rows": 0,
+      "execution_time_ms": 0.6484,
+      "message": "Rule applied"
+    },
+    {
+      "rule_id": "rule_mapping_title_001",
+      "rule_type": "mapping",
+      "status": "applied",
+      "affected_rows": 2,
+      "execution_time_ms": 0.5866,
+      "message": "Rule applied"
+    },
+    {
+      "rule_id": "rule_regex_experience_001",
+      "rule_type": "regex",
+      "status": "applied",
+      "affected_rows": 2,
+      "execution_time_ms": 1.3531,
+      "message": "Rule applied"
+    },
+    {
+      "rule_id": "rule_regex_salary_001",
+      "rule_type": "regex",
+      "status": "applied",
+      "affected_rows": 1,
+      "execution_time_ms": 1.6545,
+      "message": "Rule applied"
+    },
+    {
+      "rule_id": "rule_validation_experience_years_001",
+      "rule_type": "validation",
+      "status": "applied",
+      "affected_rows": 3,
+      "execution_time_ms": 1.551,
+      "message": "Rule applied"
+    },
+    {
+      "rule_id": "rule_validation_salary_max_001",
+      "rule_type": "validation",
+      "status": "applied",
+      "affected_rows": 3,
+      "execution_time_ms": 1.3861,
+      "message": "Rule applied"
+    },
+    {
+      "rule_id": "rule_validation_salary_min_001",
+      "rule_type": "validation",
+      "status": "applied",
+      "affected_rows": 3,
+      "execution_time_ms": 1.4413,
+      "message": "Rule applied"
+    }
+  ]
+}

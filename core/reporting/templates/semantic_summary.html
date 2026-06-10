@@ -1,0 +1,31 @@
+{% set section = sections_by_id.get("semantic_summary") %}
+{% if section %}
+<section id="semantic-summary">
+  <h2>{{ section.title }}</h2>
+  {% if section.summary %}<p class="summary">{{ section.summary }}</p>{% endif %}
+  {% if section.data["columns"] %}
+  <table>
+    <thead>
+      <tr>
+        <th>Column</th>
+        <th>Semantic Type</th>
+        <th>Confidence</th>
+        <th>Detector</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for column in section.data["columns"] %}
+      <tr>
+        <td><code>{{ column["column_name"] }}</code></td>
+        <td>{{ column["semantic_type"] }}</td>
+        <td>{{ column["confidence"] }}</td>
+        <td>{{ column["detector_name"] }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  {% else %}
+  <p class="empty">Semantic summary is unavailable.</p>
+  {% endif %}
+</section>
+{% endif %}

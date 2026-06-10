@@ -1,0 +1,84 @@
+{
+  "results": [
+    {
+      "rule_id": "rule_transform_city_trim_001",
+      "rule_type": "transformation",
+      "status": "applied",
+      "affected_rows": 0,
+      "execution_time_ms": 0.9468,
+      "message": "Rule applied"
+    },
+    {
+      "rule_id": "rule_transform_customer_name_trim_001",
+      "rule_type": "transformation",
+      "status": "applied",
+      "affected_rows": 0,
+      "execution_time_ms": 0.817,
+      "message": "Rule applied"
+    },
+    {
+      "rule_id": "rule_transform_customer_type_trim_001",
+      "rule_type": "transformation",
+      "status": "applied",
+      "affected_rows": 0,
+      "execution_time_ms": 0.7527,
+      "message": "Rule applied"
+    },
+    {
+      "rule_id": "rule_transform_email_trim_001",
+      "rule_type": "transformation",
+      "status": "applied",
+      "affected_rows": 0,
+      "execution_time_ms": 0.8456,
+      "message": "Rule applied"
+    },
+    {
+      "rule_id": "rule_transform_phone_trim_001",
+      "rule_type": "transformation",
+      "status": "applied",
+      "affected_rows": 0,
+      "execution_time_ms": 0.677,
+      "message": "Rule applied"
+    },
+    {
+      "rule_id": "rule_transform_city_remove_extra_spaces_001",
+      "rule_type": "transformation",
+      "status": "applied",
+      "affected_rows": 0,
+      "execution_time_ms": 0.6943,
+      "message": "Rule applied"
+    },
+    {
+      "rule_id": "rule_transform_customer_name_remove_extra_spaces_001",
+      "rule_type": "transformation",
+      "status": "applied",
+      "affected_rows": 0,
+      "execution_time_ms": 0.7131,
+      "message": "Rule applied"
+    },
+    {
+      "rule_id": "rule_transform_customer_type_remove_extra_spaces_001",
+      "rule_type": "transformation",
+      "status": "applied",
+      "affected_rows": 0,
+      "execution_time_ms": 0.7015,
+      "message": "Rule applied"
+    },
+    {
+      "rule_id": "rule_transform_email_remove_extra_spaces_001",
+      "rule_type": "transformation",
+      "status": "applied",
+      "affected_rows": 0,
+      "execution_time_ms": 0.6867,
+      "message": "Rule applied"
+    },
+    {
+      "rule_id": "rule_transform_phone_remove_extra_spaces_001",
+      "rule_type": "transformation",
+      "status": "applied",
+      "affected_rows": 0,
+      "execution_time_ms": 0.6928,
+      "message": "Rule applied"
+    }
+  ]
+}

@@ -1,0 +1,585 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pipeline Report</title>
+  <style>
+    :root {
+      --bg: #f6f7f5;
+      --panel: #ffffff;
+      --ink: #1f2933;
+      --muted: #5f6c72;
+      --line: #d9dedb;
+      --accent: #2f6f73;
+    }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+    header {
+      background: #243235;
+      color: #fff;
+      padding: 28px 32px;
+    }
+    header h1 {
+      margin: 0 0 8px;
+      font-size: 28px;
+      font-weight: 650;
+    }
+    header p {
+      margin: 0;
+      color: #d7dfdd;
+    }
+    main {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 24px 24px 56px;
+    }
+    section {
+      margin: 0 0 24px;
+      padding: 20px;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+    }
+    h2 {
+      margin: 0 0 8px;
+      font-size: 20px;
+    }
+    h3 {
+      margin: 18px 0 8px;
+      font-size: 15px;
+    }
+    .summary {
+      margin: 0 0 16px;
+      color: var(--muted);
+    }
+    .metrics {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 12px;
+    }
+    .metric {
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 12px;
+      background: #fbfcfb;
+    }
+    .metric span {
+      display: block;
+      color: var(--muted);
+      font-size: 12px;
+      text-transform: uppercase;
+    }
+    .metric strong {
+      display: block;
+      margin-top: 4px;
+      font-size: 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 8px 0;
+    }
+    th, td {
+      border-bottom: 1px solid var(--line);
+      padding: 8px;
+      text-align: left;
+      vertical-align: top;
+    }
+    th {
+      color: var(--muted);
+      font-size: 12px;
+      text-transform: uppercase;
+    }
+    .warning {
+      background: #fff8e5;
+      border: 1px solid #e2c979;
+      border-radius: 6px;
+      padding: 10px 12px;
+      margin: 8px 0;
+    }
+    .chart-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 16px;
+    }
+    iframe {
+      width: 100%;
+      min-height: 420px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: #fff;
+    }
+    code {
+      background: #edf0ee;
+      padding: 1px 4px;
+      border-radius: 4px;
+    }
+    .empty {
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Pipeline Report</h1>
+    <p>Generated at 2026-06-10T09:05:34.854833Z for crm_sample.csv</p>
+  </header>
+  <main>
+    <section>
+      <h2>Warnings</h2>
+      <div class="warning">Missing artifact: storage/validation/runs/crm/artifacts/ai_suggestions.json</div>
+      <div class="warning">No numeric columns available for histogram charts.</div>
+    </section>
+
+<section id="dataset-summary">
+  <h2>Dataset Summary</h2>
+<p class="summary">Profiled dataset shape and missingness.</p>  <div class="metrics">
+    <div class="metric"><span>Rows</span><strong>3</strong></div>
+    <div class="metric"><span>Columns</span><strong>5</strong></div>
+    <div class="metric"><span>Duplicates</span><strong>0</strong></div>
+    <div class="metric"><span>Missing Values</span><strong>0</strong></div>
+  </div>
+  <h3>Column Analysis</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Column</th>
+        <th>Type</th>
+        <th>Nulls</th>
+        <th>Unique</th>
+        <th>Top Values</th>
+        <th>Semantic Type</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code>city</code></td>
+        <td>object</td>
+        <td>0 (0.0%)</td>
+        <td>3</td>
+        <td>Hanoi (1), Ho Chi Minh (1), Unknown City (1)</td>
+        <td>LOCATION (0.8999999999999999)</td>
+      </tr>
+      <tr>
+        <td><code>customer_name</code></td>
+        <td>object</td>
+        <td>0 (0.0%)</td>
+        <td>3</td>
+        <td>An Nguyen (1), Bao Tran (1), Chi Le (1)</td>
+        <td>UNKNOWN (0.0)</td>
+      </tr>
+      <tr>
+        <td><code>customer_type</code></td>
+        <td>object</td>
+        <td>0 (0.0%)</td>
+        <td>3</td>
+        <td>lead (1), customer (1), prospect (1)</td>
+        <td>UNKNOWN (0.0)</td>
+      </tr>
+      <tr>
+        <td><code>email</code></td>
+        <td>object</td>
+        <td>0 (0.0%)</td>
+        <td>3</td>
+        <td>an@example.com (1), bao@example.com (1), invalid-email (1)</td>
+        <td>UNKNOWN (0.0)</td>
+      </tr>
+      <tr>
+        <td><code>phone</code></td>
+        <td>object</td>
+        <td>0 (0.0%)</td>
+        <td>3</td>
+        <td>+84901234567 (1), +84909876543 (1), not available (1)</td>
+        <td>UNKNOWN (0.0)</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+<section id="semantic-summary">
+  <h2>Semantic Summary</h2>
+<p class="summary">Semantic detections generated by deterministic detectors.</p>  <table>
+    <thead>
+      <tr>
+        <th>Column</th>
+        <th>Semantic Type</th>
+        <th>Confidence</th>
+        <th>Detector</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code>city</code></td>
+        <td>LOCATION</td>
+        <td>0.8999999999999999</td>
+        <td>keyword_detector</td>
+      </tr>
+      <tr>
+        <td><code>customer_name</code></td>
+        <td>UNKNOWN</td>
+        <td>0.0</td>
+        <td>detector_registry</td>
+      </tr>
+      <tr>
+        <td><code>customer_type</code></td>
+        <td>UNKNOWN</td>
+        <td>0.0</td>
+        <td>detector_registry</td>
+      </tr>
+      <tr>
+        <td><code>email</code></td>
+        <td>UNKNOWN</td>
+        <td>0.0</td>
+        <td>detector_registry</td>
+      </tr>
+      <tr>
+        <td><code>phone</code></td>
+        <td>UNKNOWN</td>
+        <td>0.0</td>
+        <td>detector_registry</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+<section id="rule-summary">
+  <h2>Rule Summary</h2>
+<p class="summary">Rule inventory and execution outcomes.</p>  <div class="metrics">
+    <div class="metric"><span>Total Rules</span><strong>10</strong></div>
+    <div class="metric"><span>Affected Rows</span><strong>0</strong></div>
+  </div>
+  <h3>Counts By Type</h3>
+  <table>
+    <tbody>
+      <tr><td>transformation</td><td>10</td></tr>
+    </tbody>
+  </table>
+  <h3>Rule Inventory</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Rule ID</th>
+        <th>Type</th>
+        <th>Column</th>
+        <th>Enabled</th>
+        <th>Priority</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code>rule_transform_city_remove_extra_spaces_001</code></td>
+        <td>transformation</td>
+        <td><code>city</code></td>
+        <td>True</td>
+        <td>11</td>
+      </tr>
+      <tr>
+        <td><code>rule_transform_city_trim_001</code></td>
+        <td>transformation</td>
+        <td><code>city</code></td>
+        <td>True</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td><code>rule_transform_customer_name_remove_extra_spaces_001</code></td>
+        <td>transformation</td>
+        <td><code>customer_name</code></td>
+        <td>True</td>
+        <td>11</td>
+      </tr>
+      <tr>
+        <td><code>rule_transform_customer_name_trim_001</code></td>
+        <td>transformation</td>
+        <td><code>customer_name</code></td>
+        <td>True</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td><code>rule_transform_customer_type_remove_extra_spaces_001</code></td>
+        <td>transformation</td>
+        <td><code>customer_type</code></td>
+        <td>True</td>
+        <td>11</td>
+      </tr>
+      <tr>
+        <td><code>rule_transform_customer_type_trim_001</code></td>
+        <td>transformation</td>
+        <td><code>customer_type</code></td>
+        <td>True</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td><code>rule_transform_email_remove_extra_spaces_001</code></td>
+        <td>transformation</td>
+        <td><code>email</code></td>
+        <td>True</td>
+        <td>11</td>
+      </tr>
+      <tr>
+        <td><code>rule_transform_email_trim_001</code></td>
+        <td>transformation</td>
+        <td><code>email</code></td>
+        <td>True</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td><code>rule_transform_phone_remove_extra_spaces_001</code></td>
+        <td>transformation</td>
+        <td><code>phone</code></td>
+        <td>True</td>
+        <td>11</td>
+      </tr>
+      <tr>
+        <td><code>rule_transform_phone_trim_001</code></td>
+        <td>transformation</td>
+        <td><code>phone</code></td>
+        <td>True</td>
+        <td>10</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+<section id="standardization-summary">
+  <h2>Standardization Summary</h2>
+<p class="summary">Deterministic standardization output metadata.</p>  <div class="metrics">
+    <div class="metric"><span>Standardized Columns</span><strong>0</strong></div>
+  </div>
+  <h3>By Standardizer</h3>
+  <p class="empty">No standardization counts are available.</p>
+  <h3>Examples</h3>
+  <p class="empty">No standardization examples are available.</p>
+
+</section>
+<section id="enrichment-summary">
+  <h2>Enrichment Summary</h2>
+<p class="summary">Deterministic enrichment output metadata.</p>  <div class="metrics">
+    <div class="metric"><span>Enriched Columns</span><strong>0</strong></div>
+  </div>
+  <h3>By Enricher</h3>
+  <p class="empty">No enrichment counts are available.</p>
+  <h3>Examples</h3>
+  <p class="empty">No enrichment examples are available.</p>
+</section>
+<section id="audit-summary">
+  <h2>Audit Summary</h2>
+<p class="summary">Passive audit metadata assembled from existing artifacts.</p>  <h3>Artifacts</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Artifact</th>
+        <th>Module</th>
+        <th>Exists</th>
+        <th>Size</th>
+        <th>Hash</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code>cleaned_dataset.csv</code></td>
+        <td>rule_execution</td>
+        <td>True</td>
+        <td>210</td>
+        <td><code>f76ea2603976f4d2550b796cf4ed98ede54ba475ce51c7056f5881dd6c44f985</code></td>
+      </tr>
+      <tr>
+        <td><code>enriched_dataset.csv</code></td>
+        <td>enrichment</td>
+        <td>True</td>
+        <td>210</td>
+        <td><code>f76ea2603976f4d2550b796cf4ed98ede54ba475ce51c7056f5881dd6c44f985</code></td>
+      </tr>
+      <tr>
+        <td><code>enrichment_report.json</code></td>
+        <td>enrichment</td>
+        <td>True</td>
+        <td>216</td>
+        <td><code>50eba825d3bb60a403b5d890ab1b96d0e9dcbafbeae71892115e4a6fe0b82777</code></td>
+      </tr>
+      <tr>
+        <td><code>metadata.json</code></td>
+        <td>profiling</td>
+        <td>True</td>
+        <td>2669</td>
+        <td><code>5c6863256822f25e9df1920c485bbeff61a89574b6a9da542cbadf5264379400</code></td>
+      </tr>
+      <tr>
+        <td><code>rule_execution_report.json</code></td>
+        <td>rule_execution</td>
+        <td>True</td>
+        <td>2325</td>
+        <td><code>671fc0b5da1e06bd5080dccfd44f5ddc1fe3742f6bd8c8e6f09c438c11fe88a8</code></td>
+      </tr>
+      <tr>
+        <td><code>rule_generation_report.json</code></td>
+        <td>rule_generation</td>
+        <td>True</td>
+        <td>521</td>
+        <td><code>731846c6b652b102a249b5de1ef1ada79458a52b7b0509ebcdb2f96b3c1f8ff1</code></td>
+      </tr>
+      <tr>
+        <td><code>rules.json</code></td>
+        <td>rule_generation</td>
+        <td>True</td>
+        <td>3410</td>
+        <td><code>8959484bd29cfead36d4c35a516f108968d583c427d18855fc7ac4a7f0eaf932</code></td>
+      </tr>
+      <tr>
+        <td><code>semantic_columns.json</code></td>
+        <td>semantic</td>
+        <td>True</td>
+        <td>1086</td>
+        <td><code>a83baeccad1b34f405d5812481b6790f44b2c4f6ed0ed20a11b766bfaf75a261</code></td>
+      </tr>
+      <tr>
+        <td><code>standardization_report.json</code></td>
+        <td>standardization</td>
+        <td>True</td>
+        <td>232</td>
+        <td><code>be0c8c7d07eaeb482159232db0e37932d76a1b9dc6b103ea41d8518c26505c02</code></td>
+      </tr>
+      <tr>
+        <td><code>standardized_dataset.csv</code></td>
+        <td>standardization</td>
+        <td>True</td>
+        <td>210</td>
+        <td><code>f76ea2603976f4d2550b796cf4ed98ede54ba475ce51c7056f5881dd6c44f985</code></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3>Rule History</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Rule ID</th>
+        <th>Type</th>
+        <th>Created By</th>
+        <th>Enabled</th>
+        <th>Execution Count</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code>rule_transform_city_remove_extra_spaces_001</code></td>
+        <td>transformation</td>
+        <td>semantic</td>
+        <td>True</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td><code>rule_transform_city_trim_001</code></td>
+        <td>transformation</td>
+        <td>semantic</td>
+        <td>True</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td><code>rule_transform_customer_name_remove_extra_spaces_001</code></td>
+        <td>transformation</td>
+        <td>semantic</td>
+        <td>True</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td><code>rule_transform_customer_name_trim_001</code></td>
+        <td>transformation</td>
+        <td>semantic</td>
+        <td>True</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td><code>rule_transform_customer_type_remove_extra_spaces_001</code></td>
+        <td>transformation</td>
+        <td>semantic</td>
+        <td>True</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td><code>rule_transform_customer_type_trim_001</code></td>
+        <td>transformation</td>
+        <td>semantic</td>
+        <td>True</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td><code>rule_transform_email_remove_extra_spaces_001</code></td>
+        <td>transformation</td>
+        <td>semantic</td>
+        <td>True</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td><code>rule_transform_email_trim_001</code></td>
+        <td>transformation</td>
+        <td>semantic</td>
+        <td>True</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td><code>rule_transform_phone_remove_extra_spaces_001</code></td>
+        <td>transformation</td>
+        <td>semantic</td>
+        <td>True</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td><code>rule_transform_phone_trim_001</code></td>
+        <td>transformation</td>
+        <td>semantic</td>
+        <td>True</td>
+        <td>1</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>AI Suggestions</h3>
+  <div class="metrics">
+    <div class="metric"><span>Suggestions</span><strong>0</strong></div>
+  </div>
+</section>
+
+    <section>
+      <h2>Charts</h2>
+      <p class="summary">External Plotly chart assets generated for this report.</p>
+      <div class="chart-grid">
+        <div>
+          <h3>Audit Artifact Sizes</h3>
+          <iframe title="Audit Artifact Sizes" src="assets/artifact_sizes.html"></iframe>
+        </div>
+        <div>
+          <h3>city Top Values</h3>
+          <iframe title="city Top Values" src="assets/categorical-city.html"></iframe>
+        </div>
+        <div>
+          <h3>customer_name Top Values</h3>
+          <iframe title="customer_name Top Values" src="assets/categorical-customer-name.html"></iframe>
+        </div>
+        <div>
+          <h3>customer_type Top Values</h3>
+          <iframe title="customer_type Top Values" src="assets/categorical-customer-type.html"></iframe>
+        </div>
+        <div>
+          <h3>email Top Values</h3>
+          <iframe title="email Top Values" src="assets/categorical-email.html"></iframe>
+        </div>
+        <div>
+          <h3>phone Top Values</h3>
+          <iframe title="phone Top Values" src="assets/categorical-phone.html"></iframe>
+        </div>
+        <div>
+          <h3>Rule Type Distribution</h3>
+          <iframe title="Rule Type Distribution" src="assets/rule_distribution.html"></iframe>
+        </div>
+        <div>
+          <h3>Semantic Type Distribution</h3>
+          <iframe title="Semantic Type Distribution" src="assets/semantic_distribution.html"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

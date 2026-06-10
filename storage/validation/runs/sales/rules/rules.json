@@ -1,0 +1,100 @@
+{
+  "rules": [
+    {
+      "id": "rule_transform_category_trim_001",
+      "type": "transformation",
+      "column": "category",
+      "parameters": {
+        "operation": "trim"
+      },
+      "enabled": true,
+      "priority": 10,
+      "description": "Trim leading and trailing whitespace in category.",
+      "created_by": "semantic"
+    },
+    {
+      "id": "rule_transform_customer_city_trim_001",
+      "type": "transformation",
+      "column": "customer_city",
+      "parameters": {
+        "operation": "trim"
+      },
+      "enabled": true,
+      "priority": 10,
+      "description": "Trim leading and trailing whitespace in customer_city.",
+      "created_by": "semantic"
+    },
+    {
+      "id": "rule_transform_order_id_trim_001",
+      "type": "transformation",
+      "column": "order_id",
+      "parameters": {
+        "operation": "trim"
+      },
+      "enabled": true,
+      "priority": 10,
+      "description": "Trim leading and trailing whitespace in order_id.",
+      "created_by": "semantic"
+    },
+    {
+      "id": "rule_transform_product_name_trim_001",
+      "type": "transformation",
+      "column": "product_name",
+      "parameters": {
+        "operation": "trim"
+      },
+      "enabled": true,
+      "priority": 10,
+      "description": "Trim leading and trailing whitespace in product_name.",
+      "created_by": "semantic"
+    },
+    {
+      "id": "rule_transform_category_remove_extra_spaces_001",
+      "type": "transformation",
+      "column": "category",
+      "parameters": {
+        "operation": "remove_extra_spaces"
+      },
+      "enabled": true,
+      "priority": 11,
+      "description": "Collapse repeated spaces in category.",
+      "created_by": "semantic"
+    },
+    {
+      "id": "rule_transform_customer_city_remove_extra_spaces_001",
+      "type": "transformation",
+      "column": "customer_city",
+      "parameters": {
+        "operation": "remove_extra_spaces"
+      },
+      "enabled": true,
+      "priority": 11,
+      "description": "Collapse repeated spaces in customer_city.",
+      "created_by": "semantic"
+    },
+    {
+      "id": "rule_transform_order_id_remove_extra_spaces_001",
+      "type": "transformation",
+      "column": "order_id",
+      "parameters": {
+        "operation": "remove_extra_spaces"
+      },
+      "enabled": true,
+      "priority": 11,
+      "description": "Collapse repeated spaces in order_id.",
+      "created_by": "semantic"
+    },
+    {
+      "id": "rule_transform_product_name_remove_extra_spaces_001",
+      "type": "transformation",
+      "column": "product_name",
+      "parameters": {
+        "operation": "remove_extra_spaces"
+      },
+      "enabled": true,
+      "priority": 11,
+      "description": "Collapse repeated spaces in product_name.",
+      "created_by": "semantic"
+    }
+  ]
+}

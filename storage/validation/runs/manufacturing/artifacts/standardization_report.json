@@ -1,0 +1,12 @@
+{
+  "total_standardized_columns": 0,
+  "standardized_by_standardizer": {},
+  "warnings": [],
+  "skipped_columns": [
+    "factory_name",
+    "product_type",
+    "quantity",
+    "plant_location"
+  ],
+  "standardizer_warnings": {}
+}

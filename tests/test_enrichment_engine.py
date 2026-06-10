@@ -5,7 +5,9 @@ from pathlib import Path
 
 import pandas as pd
 
+from core.enrichment.base_enricher import BaseEnricher
 from core.enrichment.enrichment_engine import EnrichmentEngine
+from core.enrichment.enricher_registry import EnricherRegistry
 from models.enrichment import EnrichmentConfig, EnrichmentConfigItem
 from models.semantic_tag import SemanticDetectionReport, SemanticTag
 
@@ -104,3 +106,75 @@ def test_enrichment_engine_is_deterministic_and_does_not_mutate_input(
     assert first_report.total_enriched_columns == 4
     assert first_report.enriched_by_enricher == {"knowledge": 4}
     assert first_report.skipped_columns == ["salary"]
+
+
+def test_enrichment_engine_preserves_existing_columns_when_enricher_drops_them() -> None:
+    dataframe = pd.DataFrame(
+        {
+            "title": ["Business Data Analyst"],
+            "standardized_title": ["Data Analyst"],
+            "standardized_location": ["Hà Nội"],
+        }
+    )
+    registry = EnricherRegistry()
+    registry.register("dropping", DroppingEnricher)
+    semantic_report = SemanticDetectionReport(
+        source_file="sample.csv",
+        column_count=3,
+        columns=[
+            SemanticTag(
+                column_name="title",
+                semantic_type="JOB_TITLE",
+                confidence=0.9,
+                detector_name="test",
+            )
+        ],
+    )
+    config = EnrichmentConfig(
+        enrichments=[
+            EnrichmentConfigItem(
+                enricher_id="test_dropping_001",
+                enricher="dropping",
+                source_column="title",
+                knowledge_file="unused.json",
+                output_columns=["job_family"],
+            )
+        ]
+    )
+
+    enriched, report = EnrichmentEngine(registry=registry).enrich(
+        dataframe=dataframe,
+        semantic_report=semantic_report,
+        enrichment_config=config,
+    )
+
+    assert list(enriched.columns) == [
+        "title",
+        "standardized_title",
+        "standardized_location",
+        "job_family",
+    ]
+    assert enriched.loc[0, "standardized_title"] == "Data Analyst"
+    assert enriched.loc[0, "standardized_location"] == "Hà Nội"
+    assert enriched.loc[0, "job_family"] == "Analytics"
+    assert report.warnings == [
+        "Enricher test_dropping_001 dropped input columns; restored: "
+        "['standardized_title', 'standardized_location']"
+    ]
+
+
+class DroppingEnricher(BaseEnricher):
+    """Test enricher that simulates a buggy plugin returning only new columns."""
+
+    def __init__(self) -> None:
+        super().__init__(name="dropping")
+
+    def enrich(
+        self,
+        dataframe: pd.DataFrame,
+        semantic_report: SemanticDetectionReport,
+        enrichment_config: EnrichmentConfigItem,
+    ) -> pd.DataFrame:
+        self.enriched_columns.add("job_family")
+        self.processed_columns.add(enrichment_config.source_column)
+        return pd.DataFrame({"title": dataframe["title"], "job_family": ["Analytics"]})

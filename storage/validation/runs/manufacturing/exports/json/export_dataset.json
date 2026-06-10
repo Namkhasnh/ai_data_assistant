@@ -1,0 +1,20 @@
+[
+  {
+    "factory_name": "Factory Alpha",
+    "product_type": "Widget",
+    "quantity": 1000,
+    "plant_location": "Hanoi"
+  },
+  {
+    "factory_name": "Factory Beta",
+    "product_type": "Gadget",
+    "quantity": 250,
+    "plant_location": "Da Nang"
+  },
+  {
+    "factory_name": "Factory Gamma",
+    "product_type": "Component",
+    "quantity": 0,
+    "plant_location": "Unknown Zone"
+  }
+]

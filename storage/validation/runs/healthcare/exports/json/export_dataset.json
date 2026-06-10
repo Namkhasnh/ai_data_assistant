@@ -1,0 +1,20 @@
+[
+  {
+    "patient_name": "Patient A",
+    "disease": "Flu",
+    "medicine": "Paracetamol",
+    "hospital_city": "Hanoi"
+  },
+  {
+    "patient_name": "Patient B",
+    "disease": "Diabetes",
+    "medicine": "Insulin",
+    "hospital_city": "Da Nang"
+  },
+  {
+    "patient_name": "Patient C",
+    "disease": "Unknown",
+    "medicine": "Observation",
+    "hospital_city": "Unknown City"
+  }
+]

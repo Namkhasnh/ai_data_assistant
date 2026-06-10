@@ -40,10 +40,17 @@ class EnrichmentEngine:
                 warnings.append(f"{config_item.enricher_id}: {exc}")
                 continue
 
-            result = enricher.enrich(
+            before_enrichment = result.copy(deep=True)
+            enriched_result = enricher.enrich(
                 dataframe=result,
                 semantic_report=semantic_report,
                 enrichment_config=config_item,
+            )
+            result = self._ensure_additive_dataframe(
+                before=before_enrichment,
+                after=enriched_result,
+                warnings=warnings,
+                enricher_id=config_item.enricher_id,
             )
             enriched_by_enricher[enricher.name] = (
                 enriched_by_enricher.get(enricher.name, 0)
@@ -76,3 +83,26 @@ class EnrichmentEngine:
             enrichment_config.enrichments,
             key=lambda item: (item.priority, item.enricher_id),
         )
+
+    @staticmethod
+    def _ensure_additive_dataframe(
+        before: pd.DataFrame,
+        after: pd.DataFrame,
+        warnings: list[str],
+        enricher_id: str,
+    ) -> pd.DataFrame:
+        """Preserve all columns that existed before an enricher ran."""
+
+        result = after.copy(deep=True)
+        missing_columns = [column for column in before.columns if column not in result.columns]
+        if missing_columns:
+            warnings.append(
+                f"Enricher {enricher_id} dropped input columns; restored: {missing_columns}"
+            )
+            for column in missing_columns:
+                result[column] = before[column]
+
+        ordered_columns = list(before.columns) + [
+            column for column in result.columns if column not in before.columns
+        ]
+        return result.loc[:, ordered_columns]

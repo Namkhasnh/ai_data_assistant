@@ -1,0 +1,13 @@
+{
+  "total_standardized_columns": 0,
+  "standardized_by_standardizer": {},
+  "warnings": [],
+  "skipped_columns": [
+    "customer_name",
+    "email",
+    "phone",
+    "customer_type",
+    "city"
+  ],
+  "standardizer_warnings": {}
+}

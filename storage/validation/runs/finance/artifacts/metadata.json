@@ -1,0 +1,87 @@
+{
+  "source_file": "finance_sample.csv",
+  "file_format": "csv",
+  "row_count": 3,
+  "column_count": 3,
+  "duplicate_count": 0,
+  "columns": [
+    {
+      "name": "account_id",
+      "data_type": "object",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_value_count": 3,
+      "top_values": [
+        {
+          "value": "ACC-001",
+          "count": 1
+        },
+        {
+          "value": "ACC-002",
+          "count": 1
+        },
+        {
+          "value": "ACC-003",
+          "count": 1
+        }
+      ],
+      "sample_values": [
+        "ACC-001",
+        "ACC-002",
+        "ACC-003"
+      ]
+    },
+    {
+      "name": "balance",
+      "data_type": "float64",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_value_count": 3,
+      "top_values": [
+        {
+          "value": 1000.5,
+          "count": 1
+        },
+        {
+          "value": -20.0,
+          "count": 1
+        },
+        {
+          "value": 0.0,
+          "count": 1
+        }
+      ],
+      "sample_values": [
+        1000.5,
+        -20.0,
+        0.0
+      ]
+    },
+    {
+      "name": "branch_city",
+      "data_type": "object",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_value_count": 3,
+      "top_values": [
+        {
+          "value": "Hanoi",
+          "count": 1
+        },
+        {
+          "value": "Ho Chi Minh",
+          "count": 1
+        },
+        {
+          "value": "Unknown City",
+          "count": 1
+        }
+      ],
+      "sample_values": [
+        "Hanoi",
+        "Ho Chi Minh",
+        "Unknown City"
+      ]
+    }
+  ]
+}

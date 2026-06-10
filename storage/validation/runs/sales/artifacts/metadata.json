@@ -1,0 +1,139 @@
+{
+  "source_file": "sales_sample.csv",
+  "file_format": "csv",
+  "row_count": 3,
+  "column_count": 5,
+  "duplicate_count": 0,
+  "columns": [
+    {
+      "name": "order_id",
+      "data_type": "object",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_value_count": 3,
+      "top_values": [
+        {
+          "value": "SO-001",
+          "count": 1
+        },
+        {
+          "value": "SO-002",
+          "count": 1
+        },
+        {
+          "value": "SO-003",
+          "count": 1
+        }
+      ],
+      "sample_values": [
+        "SO-001",
+        "SO-002",
+        "SO-003"
+      ]
+    },
+    {
+      "name": "product_name",
+      "data_type": "object",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_value_count": 3,
+      "top_values": [
+        {
+          "value": "Wireless Mouse",
+          "count": 1
+        },
+        {
+          "value": "Office Chair",
+          "count": 1
+        },
+        {
+          "value": "Notebook",
+          "count": 1
+        }
+      ],
+      "sample_values": [
+        "Wireless Mouse",
+        "Office Chair",
+        "Notebook"
+      ]
+    },
+    {
+      "name": "category",
+      "data_type": "object",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_value_count": 3,
+      "top_values": [
+        {
+          "value": "Electronics",
+          "count": 1
+        },
+        {
+          "value": "Furniture",
+          "count": 1
+        },
+        {
+          "value": "Stationery",
+          "count": 1
+        }
+      ],
+      "sample_values": [
+        "Electronics",
+        "Furniture",
+        "Stationery"
+      ]
+    },
+    {
+      "name": "price",
+      "data_type": "float64",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_value_count": 3,
+      "top_values": [
+        {
+          "value": 25.5,
+          "count": 1
+        },
+        {
+          "value": 120.0,
+          "count": 1
+        },
+        {
+          "value": 3.25,
+          "count": 1
+        }
+      ],
+      "sample_values": [
+        25.5,
+        120.0,
+        3.25
+      ]
+    },
+    {
+      "name": "customer_city",
+      "data_type": "object",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_value_count": 3,
+      "top_values": [
+        {
+          "value": "Hanoi",
+          "count": 1
+        },
+        {
+          "value": "Da Nang",
+          "count": 1
+        },
+        {
+          "value": "Unknown City",
+          "count": 1
+        }
+      ],
+      "sample_values": [
+        "Hanoi",
+        "Da Nang",
+        "Unknown City"
+      ]
+    }
+  ]
+}

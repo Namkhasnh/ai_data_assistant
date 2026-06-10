@@ -1,0 +1,12 @@
+{
+  "total_enriched_columns": 0,
+  "enriched_by_enricher": {},
+  "warnings": [],
+  "skipped_columns": [
+    "factory_name",
+    "product_type",
+    "quantity",
+    "plant_location"
+  ],
+  "enricher_warnings": {}
+}

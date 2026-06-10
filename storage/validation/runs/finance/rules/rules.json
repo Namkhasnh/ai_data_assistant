@@ -1,0 +1,52 @@
+{
+  "rules": [
+    {
+      "id": "rule_transform_account_id_trim_001",
+      "type": "transformation",
+      "column": "account_id",
+      "parameters": {
+        "operation": "trim"
+      },
+      "enabled": true,
+      "priority": 10,
+      "description": "Trim leading and trailing whitespace in account_id.",
+      "created_by": "semantic"
+    },
+    {
+      "id": "rule_transform_branch_city_trim_001",
+      "type": "transformation",
+      "column": "branch_city",
+      "parameters": {
+        "operation": "trim"
+      },
+      "enabled": true,
+      "priority": 10,
+      "description": "Trim leading and trailing whitespace in branch_city.",
+      "created_by": "semantic"
+    },
+    {
+      "id": "rule_transform_account_id_remove_extra_spaces_001",
+      "type": "transformation",
+      "column": "account_id",
+      "parameters": {
+        "operation": "remove_extra_spaces"
+      },
+      "enabled": true,
+      "priority": 11,
+      "description": "Collapse repeated spaces in account_id.",
+      "created_by": "semantic"
+    },
+    {
+      "id": "rule_transform_branch_city_remove_extra_spaces_001",
+      "type": "transformation",
+      "column": "branch_city",
+      "parameters": {
+        "operation": "remove_extra_spaces"
+      },
+      "enabled": true,
+      "priority": 11,
+      "description": "Collapse repeated spaces in branch_city.",
+      "created_by": "semantic"
+    }
+  ]
+}

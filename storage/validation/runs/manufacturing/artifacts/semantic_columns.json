@@ -1,0 +1,36 @@
+{
+  "source_file": "manufacturing_sample.csv",
+  "column_count": 4,
+  "columns": [
+    {
+      "column_name": "factory_name",
+      "semantic_type": "UNKNOWN",
+      "confidence": 0.0,
+      "detector_name": "detector_registry",
+      "evidence": []
+    },
+    {
+      "column_name": "product_type",
+      "semantic_type": "UNKNOWN",
+      "confidence": 0.0,
+      "detector_name": "detector_registry",
+      "evidence": []
+    },
+    {
+      "column_name": "quantity",
+      "semantic_type": "UNKNOWN",
+      "confidence": 0.0,
+      "detector_name": "detector_registry",
+      "evidence": []
+    },
+    {
+      "column_name": "plant_location",
+      "semantic_type": "LOCATION",
+      "confidence": 0.84,
+      "detector_name": "keyword_detector",
+      "evidence": [
+        "column_name matched keyword 'location'"
+      ]
+    }
+  ]
+}

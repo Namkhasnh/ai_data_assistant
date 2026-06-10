@@ -1,0 +1,76 @@
+{
+  "rules": [
+    {
+      "id": "rule_transform_factory_name_trim_001",
+      "type": "transformation",
+      "column": "factory_name",
+      "parameters": {
+        "operation": "trim"
+      },
+      "enabled": true,
+      "priority": 10,
+      "description": "Trim leading and trailing whitespace in factory_name.",
+      "created_by": "semantic"
+    },
+    {
+      "id": "rule_transform_plant_location_trim_001",
+      "type": "transformation",
+      "column": "plant_location",
+      "parameters": {
+        "operation": "trim"
+      },
+      "enabled": true,
+      "priority": 10,
+      "description": "Trim leading and trailing whitespace in plant_location.",
+      "created_by": "semantic"
+    },
+    {
+      "id": "rule_transform_product_type_trim_001",
+      "type": "transformation",
+      "column": "product_type",
+      "parameters": {
+        "operation": "trim"
+      },
+      "enabled": true,
+      "priority": 10,
+      "description": "Trim leading and trailing whitespace in product_type.",
+      "created_by": "semantic"
+    },
+    {
+      "id": "rule_transform_factory_name_remove_extra_spaces_001",
+      "type": "transformation",
+      "column": "factory_name",
+      "parameters": {
+        "operation": "remove_extra_spaces"
+      },
+      "enabled": true,
+      "priority": 11,
+      "description": "Collapse repeated spaces in factory_name.",
+      "created_by": "semantic"
+    },
+    {
+      "id": "rule_transform_plant_location_remove_extra_spaces_001",
+      "type": "transformation",
+      "column": "plant_location",
+      "parameters": {
+        "operation": "remove_extra_spaces"
+      },
+      "enabled": true,
+      "priority": 11,
+      "description": "Collapse repeated spaces in plant_location.",
+      "created_by": "semantic"
+    },
+    {
+      "id": "rule_transform_product_type_remove_extra_spaces_001",
+      "type": "transformation",
+      "column": "product_type",
+      "parameters": {
+        "operation": "remove_extra_spaces"
+      },
+      "enabled": true,
+      "priority": 11,
+      "description": "Collapse repeated spaces in product_type.",
+      "created_by": "semantic"
+    }
+  ]
+}

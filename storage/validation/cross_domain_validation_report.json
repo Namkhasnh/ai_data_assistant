@@ -1,0 +1,215 @@
+{
+  "generated_at": "2026-06-10T09:05:35.366181Z",
+  "records": [
+    {
+      "domain": "jobs",
+      "status": "PASS_WITH_WARNINGS",
+      "warnings": [
+        "PDF export unavailable"
+      ],
+      "missing_knowledge": [],
+      "generated_artifacts": [
+        "storage/validation/runs/jobs/artifacts/cleaned_dataset.csv",
+        "storage/validation/runs/jobs/artifacts/enriched_dataset.csv",
+        "storage/validation/runs/jobs/artifacts/enrichment_report.json",
+        "storage/validation/runs/jobs/artifacts/metadata.json",
+        "storage/validation/runs/jobs/artifacts/rule_execution_report.json",
+        "storage/validation/runs/jobs/artifacts/rule_generation_report.json",
+        "storage/validation/runs/jobs/artifacts/semantic_columns.json",
+        "storage/validation/runs/jobs/artifacts/standardization_report.json",
+        "storage/validation/runs/jobs/artifacts/standardized_dataset.csv",
+        "storage/validation/runs/jobs/audit/audit_report.json",
+        "storage/validation/runs/jobs/audit/change_log.json",
+        "storage/validation/runs/jobs/audit/rule_history.json",
+        "storage/validation/runs/jobs/exports/csv/export_dataset.csv",
+        "storage/validation/runs/jobs/exports/export_report.json",
+        "storage/validation/runs/jobs/exports/json/export_dataset.json",
+        "storage/validation/runs/jobs/exports/xlsx/export_dataset.xlsx",
+        "storage/validation/runs/jobs/reports/report.html",
+        "storage/validation/runs/jobs/rules/rules.json"
+      ],
+      "column_leakage_detected": false,
+      "unexpected_column_loss": false
+    },
+    {
+      "domain": "sales",
+      "status": "PASS_WITH_WARNINGS",
+      "warnings": [
+        "No enrichment rules configured: knowledge/domains/sales/enrichment_rules.json",
+        "No standardization rules configured: knowledge/domains/sales/standardization_rules.json",
+        "PDF export unavailable",
+        "UNKNOWN semantic columns: ['order_id', 'product_name', 'category', 'price']"
+      ],
+      "missing_knowledge": [
+        "knowledge/domains/sales/enrichment_rules.json",
+        "knowledge/domains/sales/standardization_rules.json"
+      ],
+      "generated_artifacts": [
+        "storage/validation/runs/sales/artifacts/cleaned_dataset.csv",
+        "storage/validation/runs/sales/artifacts/enriched_dataset.csv",
+        "storage/validation/runs/sales/artifacts/enrichment_report.json",
+        "storage/validation/runs/sales/artifacts/metadata.json",
+        "storage/validation/runs/sales/artifacts/rule_execution_report.json",
+        "storage/validation/runs/sales/artifacts/rule_generation_report.json",
+        "storage/validation/runs/sales/artifacts/semantic_columns.json",
+        "storage/validation/runs/sales/artifacts/standardization_report.json",
+        "storage/validation/runs/sales/artifacts/standardized_dataset.csv",
+        "storage/validation/runs/sales/audit/audit_report.json",
+        "storage/validation/runs/sales/audit/change_log.json",
+        "storage/validation/runs/sales/audit/rule_history.json",
+        "storage/validation/runs/sales/exports/csv/export_dataset.csv",
+        "storage/validation/runs/sales/exports/export_report.json",
+        "storage/validation/runs/sales/exports/json/export_dataset.json",
+        "storage/validation/runs/sales/exports/xlsx/export_dataset.xlsx",
+        "storage/validation/runs/sales/reports/report.html",
+        "storage/validation/runs/sales/rules/rules.json"
+      ],
+      "column_leakage_detected": false,
+      "unexpected_column_loss": false
+    },
+    {
+      "domain": "crm",
+      "status": "PASS_WITH_WARNINGS",
+      "warnings": [
+        "No enrichment rules configured: knowledge/domains/crm/enrichment_rules.json",
+        "No standardization rules configured: knowledge/domains/crm/standardization_rules.json",
+        "PDF export unavailable",
+        "UNKNOWN semantic columns: ['customer_name', 'email', 'phone', 'customer_type']"
+      ],
+      "missing_knowledge": [
+        "knowledge/domains/crm/enrichment_rules.json",
+        "knowledge/domains/crm/standardization_rules.json"
+      ],
+      "generated_artifacts": [
+        "storage/validation/runs/crm/artifacts/cleaned_dataset.csv",
+        "storage/validation/runs/crm/artifacts/enriched_dataset.csv",
+        "storage/validation/runs/crm/artifacts/enrichment_report.json",
+        "storage/validation/runs/crm/artifacts/metadata.json",
+        "storage/validation/runs/crm/artifacts/rule_execution_report.json",
+        "storage/validation/runs/crm/artifacts/rule_generation_report.json",
+        "storage/validation/runs/crm/artifacts/semantic_columns.json",
+        "storage/validation/runs/crm/artifacts/standardization_report.json",
+        "storage/validation/runs/crm/artifacts/standardized_dataset.csv",
+        "storage/validation/runs/crm/audit/audit_report.json",
+        "storage/validation/runs/crm/audit/change_log.json",
+        "storage/validation/runs/crm/audit/rule_history.json",
+        "storage/validation/runs/crm/exports/csv/export_dataset.csv",
+        "storage/validation/runs/crm/exports/export_report.json",
+        "storage/validation/runs/crm/exports/json/export_dataset.json",
+        "storage/validation/runs/crm/exports/xlsx/export_dataset.xlsx",
+        "storage/validation/runs/crm/reports/report.html",
+        "storage/validation/runs/crm/rules/rules.json"
+      ],
+      "column_leakage_detected": false,
+      "unexpected_column_loss": false
+    },
+    {
+      "domain": "healthcare",
+      "status": "PASS_WITH_WARNINGS",
+      "warnings": [
+        "No enrichment rules configured: knowledge/domains/healthcare/enrichment_rules.json",
+        "No standardization rules configured: knowledge/domains/healthcare/standardization_rules.json",
+        "PDF export unavailable",
+        "UNKNOWN semantic columns: ['patient_name', 'disease', 'medicine']"
+      ],
+      "missing_knowledge": [
+        "knowledge/domains/healthcare/enrichment_rules.json",
+        "knowledge/domains/healthcare/standardization_rules.json"
+      ],
+      "generated_artifacts": [
+        "storage/validation/runs/healthcare/artifacts/cleaned_dataset.csv",
+        "storage/validation/runs/healthcare/artifacts/enriched_dataset.csv",
+        "storage/validation/runs/healthcare/artifacts/enrichment_report.json",
+        "storage/validation/runs/healthcare/artifacts/metadata.json",
+        "storage/validation/runs/healthcare/artifacts/rule_execution_report.json",
+        "storage/validation/runs/healthcare/artifacts/rule_generation_report.json",
+        "storage/validation/runs/healthcare/artifacts/semantic_columns.json",
+        "storage/validation/runs/healthcare/artifacts/standardization_report.json",
+        "storage/validation/runs/healthcare/artifacts/standardized_dataset.csv",
+        "storage/validation/runs/healthcare/audit/audit_report.json",
+        "storage/validation/runs/healthcare/audit/change_log.json",
+        "storage/validation/runs/healthcare/audit/rule_history.json",
+        "storage/validation/runs/healthcare/exports/csv/export_dataset.csv",
+        "storage/validation/runs/healthcare/exports/export_report.json",
+        "storage/validation/runs/healthcare/exports/json/export_dataset.json",
+        "storage/validation/runs/healthcare/exports/xlsx/export_dataset.xlsx",
+        "storage/validation/runs/healthcare/reports/report.html",
+        "storage/validation/runs/healthcare/rules/rules.json"
+      ],
+      "column_leakage_detected": false,
+      "unexpected_column_loss": false
+    },
+    {
+      "domain": "finance",
+      "status": "PASS_WITH_WARNINGS",
+      "warnings": [
+        "No enrichment rules configured: knowledge/domains/finance/enrichment_rules.json",
+        "No standardization rules configured: knowledge/domains/finance/standardization_rules.json",
+        "PDF export unavailable",
+        "UNKNOWN semantic columns: ['account_id', 'balance']"
+      ],
+      "missing_knowledge": [
+        "knowledge/domains/finance/enrichment_rules.json",
+        "knowledge/domains/finance/standardization_rules.json"
+      ],
+      "generated_artifacts": [
+        "storage/validation/runs/finance/artifacts/cleaned_dataset.csv",
+        "storage/validation/runs/finance/artifacts/enriched_dataset.csv",
+        "storage/validation/runs/finance/artifacts/enrichment_report.json",
+        "storage/validation/runs/finance/artifacts/metadata.json",
+        "storage/validation/runs/finance/artifacts/rule_execution_report.json",
+        "storage/validation/runs/finance/artifacts/rule_generation_report.json",
+        "storage/validation/runs/finance/artifacts/semantic_columns.json",
+        "storage/validation/runs/finance/artifacts/standardization_report.json",
+        "storage/validation/runs/finance/artifacts/standardized_dataset.csv",
+        "storage/validation/runs/finance/audit/audit_report.json",
+        "storage/validation/runs/finance/audit/change_log.json",
+        "storage/validation/runs/finance/audit/rule_history.json",
+        "storage/validation/runs/finance/exports/csv/export_dataset.csv",
+        "storage/validation/runs/finance/exports/export_report.json",
+        "storage/validation/runs/finance/exports/json/export_dataset.json",
+        "storage/validation/runs/finance/exports/xlsx/export_dataset.xlsx",
+        "storage/validation/runs/finance/reports/report.html",
+        "storage/validation/runs/finance/rules/rules.json"
+      ],
+      "column_leakage_detected": false,
+      "unexpected_column_loss": false
+    },
+    {
+      "domain": "manufacturing",
+      "status": "PASS_WITH_WARNINGS",
+      "warnings": [
+        "No enrichment rules configured: knowledge/domains/manufacturing/enrichment_rules.json",
+        "No standardization rules configured: knowledge/domains/manufacturing/standardization_rules.json",
+        "PDF export unavailable",
+        "UNKNOWN semantic columns: ['factory_name', 'product_type', 'quantity']"
+      ],
+      "missing_knowledge": [
+        "knowledge/domains/manufacturing/enrichment_rules.json",
+        "knowledge/domains/manufacturing/standardization_rules.json"
+      ],
+      "generated_artifacts": [
+        "storage/validation/runs/manufacturing/artifacts/cleaned_dataset.csv",
+        "storage/validation/runs/manufacturing/artifacts/enriched_dataset.csv",
+        "storage/validation/runs/manufacturing/artifacts/enrichment_report.json",
+        "storage/validation/runs/manufacturing/artifacts/metadata.json",
+        "storage/validation/runs/manufacturing/artifacts/rule_execution_report.json",
+        "storage/validation/runs/manufacturing/artifacts/rule_generation_report.json",
+        "storage/validation/runs/manufacturing/artifacts/semantic_columns.json",
+        "storage/validation/runs/manufacturing/artifacts/standardization_report.json",
+        "storage/validation/runs/manufacturing/artifacts/standardized_dataset.csv",
+        "storage/validation/runs/manufacturing/audit/audit_report.json",
+        "storage/validation/runs/manufacturing/audit/change_log.json",
+        "storage/validation/runs/manufacturing/audit/rule_history.json",
+        "storage/validation/runs/manufacturing/exports/csv/export_dataset.csv",
+        "storage/validation/runs/manufacturing/exports/export_report.json",
+        "storage/validation/runs/manufacturing/exports/json/export_dataset.json",
+        "storage/validation/runs/manufacturing/exports/xlsx/export_dataset.xlsx",
+        "storage/validation/runs/manufacturing/reports/report.html",
+        "storage/validation/runs/manufacturing/rules/rules.json"
+      ],
+      "column_leakage_detected": false,
+      "unexpected_column_loss": false
+    }
+  ]
+}

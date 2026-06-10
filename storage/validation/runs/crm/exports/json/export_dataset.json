@@ -1,0 +1,23 @@
+[
+  {
+    "customer_name": "An Nguyen",
+    "email": "an@example.com",
+    "phone": "+84901234567",
+    "customer_type": "lead",
+    "city": "Hanoi"
+  },
+  {
+    "customer_name": "Bao Tran",
+    "email": "bao@example.com",
+    "phone": "+84909876543",
+    "customer_type": "customer",
+    "city": "Ho Chi Minh"
+  },
+  {
+    "customer_name": "Chi Le",
+    "email": "invalid-email",
+    "phone": "not available",
+    "customer_type": "prospect",
+    "city": "Unknown City"
+  }
+]

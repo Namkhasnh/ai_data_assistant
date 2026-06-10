@@ -1,0 +1,43 @@
+{
+  "generated_at": "2026-06-10T09:05:35.111165Z",
+  "warnings": [
+    "PDF export unavailable"
+  ],
+  "artifacts": [
+    {
+      "artifact": "export_dataset.csv",
+      "format": "csv",
+      "path": "storage/validation/runs/healthcare/exports/csv/export_dataset.csv",
+      "exists": true,
+      "size_bytes": 154,
+      "warning": null
+    },
+    {
+      "artifact": "export_dataset.xlsx",
+      "format": "xlsx",
+      "path": "storage/validation/runs/healthcare/exports/xlsx/export_dataset.xlsx",
+      "exists": true,
+      "size_bytes": 6384,
+      "warning": null
+    },
+    {
+      "artifact": "export_dataset.json",
+      "format": "json",
+      "path": "storage/validation/runs/healthcare/exports/json/export_dataset.json",
+      "exists": true,
+      "size_bytes": 389,
+      "warning": null
+    },
+    {
+      "artifact": "export_report.pdf",
+      "format": "pdf",
+      "path": "storage/validation/runs/healthcare/exports/pdf/export_report.pdf",
+      "exists": false,
+      "size_bytes": null,
+      "warning": "PDF export unavailable"
+    }
+  ],
+  "total_exports": 4,
+  "successful_exports": 3,
+  "failed_exports": 1
+}

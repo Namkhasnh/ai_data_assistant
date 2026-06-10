@@ -1,0 +1,46 @@
+{% set section = sections_by_id.get("enrichment_summary") %}
+{% if section %}
+<section id="enrichment-summary">
+  <h2>{{ section.title }}</h2>
+  {% if section.summary %}<p class="summary">{{ section.summary }}</p>{% endif %}
+  <div class="metrics">
+    <div class="metric"><span>Enriched Columns</span><strong>{{ section.data["total_enriched_columns"] }}</strong></div>
+  </div>
+  {% for warning in section.data["warnings"] %}
+  <div class="warning">{{ warning }}</div>
+  {% endfor %}
+  <h3>By Enricher</h3>
+  {% if section.data["enriched_by_enricher"] %}
+  <table>
+    <tbody>
+      {% for enricher, count in section.data["enriched_by_enricher"].items() %}
+      <tr><td>{{ enricher }}</td><td>{{ count }}</td></tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  {% else %}
+  <p class="empty">No enrichment counts are available.</p>
+  {% endif %}
+  <h3>Examples</h3>
+  {% if section.data["examples"] %}
+  <table>
+    <thead>
+      <tr>
+        <th>Column</th>
+        <th>Value</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for example in section.data["examples"] %}
+      <tr>
+        <td><code>{{ example["column"] }}</code></td>
+        <td>{{ example["value"] }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  {% else %}
+  <p class="empty">No enrichment examples are available.</p>
+  {% endif %}
+</section>
+{% endif %}

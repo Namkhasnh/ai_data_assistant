@@ -1,0 +1,12 @@
+{
+  "total_enriched_columns": 4,
+  "enriched_by_enricher": {
+    "knowledge": 4
+  },
+  "warnings": [],
+  "skipped_columns": [
+    "salary",
+    "experience"
+  ],
+  "enricher_warnings": {}
+}

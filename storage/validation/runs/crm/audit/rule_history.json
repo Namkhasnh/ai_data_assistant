@@ -1,0 +1,94 @@
+{
+  "records": [
+    {
+      "rule_id": "rule_transform_city_remove_extra_spaces_001",
+      "rule_type": "transformation",
+      "created_by": "semantic",
+      "enabled": true,
+      "execution_count": 1,
+      "first_seen": "2026-06-10T09:05:34.852543Z",
+      "last_seen": "2026-06-10T09:05:34.852543Z"
+    },
+    {
+      "rule_id": "rule_transform_city_trim_001",
+      "rule_type": "transformation",
+      "created_by": "semantic",
+      "enabled": true,
+      "execution_count": 1,
+      "first_seen": "2026-06-10T09:05:34.852543Z",
+      "last_seen": "2026-06-10T09:05:34.852543Z"
+    },
+    {
+      "rule_id": "rule_transform_customer_name_remove_extra_spaces_001",
+      "rule_type": "transformation",
+      "created_by": "semantic",
+      "enabled": true,
+      "execution_count": 1,
+      "first_seen": "2026-06-10T09:05:34.852543Z",
+      "last_seen": "2026-06-10T09:05:34.852543Z"
+    },
+    {
+      "rule_id": "rule_transform_customer_name_trim_001",
+      "rule_type": "transformation",
+      "created_by": "semantic",
+      "enabled": true,
+      "execution_count": 1,
+      "first_seen": "2026-06-10T09:05:34.852543Z",
+      "last_seen": "2026-06-10T09:05:34.852543Z"
+    },
+    {
+      "rule_id": "rule_transform_customer_type_remove_extra_spaces_001",
+      "rule_type": "transformation",
+      "created_by": "semantic",
+      "enabled": true,
+      "execution_count": 1,
+      "first_seen": "2026-06-10T09:05:34.852543Z",
+      "last_seen": "2026-06-10T09:05:34.852543Z"
+    },
+    {
+      "rule_id": "rule_transform_customer_type_trim_001",
+      "rule_type": "transformation",
+      "created_by": "semantic",
+      "enabled": true,
+      "execution_count": 1,
+      "first_seen": "2026-06-10T09:05:34.852543Z",
+      "last_seen": "2026-06-10T09:05:34.852543Z"
+    },
+    {
+      "rule_id": "rule_transform_email_remove_extra_spaces_001",
+      "rule_type": "transformation",
+      "created_by": "semantic",
+      "enabled": true,
+      "execution_count": 1,
+      "first_seen": "2026-06-10T09:05:34.852543Z",
+      "last_seen": "2026-06-10T09:05:34.852543Z"
+    },
+    {
+      "rule_id": "rule_transform_email_trim_001",
+      "rule_type": "transformation",
+      "created_by": "semantic",
+      "enabled": true,
+      "execution_count": 1,
+      "first_seen": "2026-06-10T09:05:34.852543Z",
+      "last_seen": "2026-06-10T09:05:34.852543Z"
+    },
+    {
+      "rule_id": "rule_transform_phone_remove_extra_spaces_001",
+      "rule_type": "transformation",
+      "created_by": "semantic",
+      "enabled": true,
+      "execution_count": 1,
+      "first_seen": "2026-06-10T09:05:34.852543Z",
+      "last_seen": "2026-06-10T09:05:34.852543Z"
+    },
+    {
+      "rule_id": "rule_transform_phone_trim_001",
+      "rule_type": "transformation",
+      "created_by": "semantic",
+      "enabled": true,
+      "execution_count": 1,
+      "first_seen": "2026-06-10T09:05:34.852543Z",
+      "last_seen": "2026-06-10T09:05:34.852543Z"
+    }
+  ]
+}

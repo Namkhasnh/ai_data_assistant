@@ -1,0 +1,130 @@
+{
+  "records": [
+    {
+      "rule_id": "rule_mapping_title_001",
+      "rule_type": "mapping",
+      "created_by": "semantic",
+      "enabled": true,
+      "execution_count": 1,
+      "first_seen": "2026-06-10T09:05:34.363011Z",
+      "last_seen": "2026-06-10T09:05:34.363011Z"
+    },
+    {
+      "rule_id": "rule_regex_experience_001",
+      "rule_type": "regex",
+      "created_by": "semantic",
+      "enabled": true,
+      "execution_count": 1,
+      "first_seen": "2026-06-10T09:05:34.363011Z",
+      "last_seen": "2026-06-10T09:05:34.363011Z"
+    },
+    {
+      "rule_id": "rule_regex_salary_001",
+      "rule_type": "regex",
+      "created_by": "semantic",
+      "enabled": true,
+      "execution_count": 1,
+      "first_seen": "2026-06-10T09:05:34.363011Z",
+      "last_seen": "2026-06-10T09:05:34.363011Z"
+    },
+    {
+      "rule_id": "rule_transform_experience_remove_extra_spaces_001",
+      "rule_type": "transformation",
+      "created_by": "semantic",
+      "enabled": true,
+      "execution_count": 1,
+      "first_seen": "2026-06-10T09:05:34.363011Z",
+      "last_seen": "2026-06-10T09:05:34.363011Z"
+    },
+    {
+      "rule_id": "rule_transform_experience_trim_001",
+      "rule_type": "transformation",
+      "created_by": "semantic",
+      "enabled": true,
+      "execution_count": 1,
+      "first_seen": "2026-06-10T09:05:34.363011Z",
+      "last_seen": "2026-06-10T09:05:34.363011Z"
+    },
+    {
+      "rule_id": "rule_transform_location_remove_extra_spaces_001",
+      "rule_type": "transformation",
+      "created_by": "semantic",
+      "enabled": true,
+      "execution_count": 1,
+      "first_seen": "2026-06-10T09:05:34.363011Z",
+      "last_seen": "2026-06-10T09:05:34.363011Z"
+    },
+    {
+      "rule_id": "rule_transform_location_trim_001",
+      "rule_type": "transformation",
+      "created_by": "semantic",
+      "enabled": true,
+      "execution_count": 1,
+      "first_seen": "2026-06-10T09:05:34.363011Z",
+      "last_seen": "2026-06-10T09:05:34.363011Z"
+    },
+    {
+      "rule_id": "rule_transform_salary_remove_extra_spaces_001",
+      "rule_type": "transformation",
+      "created_by": "semantic",
+      "enabled": true,
+      "execution_count": 1,
+      "first_seen": "2026-06-10T09:05:34.363011Z",
+      "last_seen": "2026-06-10T09:05:34.363011Z"
+    },
+    {
+      "rule_id": "rule_transform_salary_trim_001",
+      "rule_type": "transformation",
+      "created_by": "semantic",
+      "enabled": true,
+      "execution_count": 1,
+      "first_seen": "2026-06-10T09:05:34.363011Z",
+      "last_seen": "2026-06-10T09:05:34.363011Z"
+    },
+    {
+      "rule_id": "rule_transform_title_remove_extra_spaces_001",
+      "rule_type": "transformation",
+      "created_by": "semantic",
+      "enabled": true,
+      "execution_count": 1,
+      "first_seen": "2026-06-10T09:05:34.363011Z",
+      "last_seen": "2026-06-10T09:05:34.363011Z"
+    },
+    {
+      "rule_id": "rule_transform_title_trim_001",
+      "rule_type": "transformation",
+      "created_by": "semantic",
+      "enabled": true,
+      "execution_count": 1,
+      "first_seen": "2026-06-10T09:05:34.363011Z",
+      "last_seen": "2026-06-10T09:05:34.363011Z"
+    },
+    {
+      "rule_id": "rule_validation_experience_years_001",
+      "rule_type": "validation",
+      "created_by": "semantic",
+      "enabled": true,
+      "execution_count": 1,
+      "first_seen": "2026-06-10T09:05:34.363011Z",
+      "last_seen": "2026-06-10T09:05:34.363011Z"
+    },
+    {
+      "rule_id": "rule_validation_salary_max_001",
+      "rule_type": "validation",
+      "created_by": "semantic",
+      "enabled": true,
+      "execution_count": 1,
+      "first_seen": "2026-06-10T09:05:34.363011Z",
+      "last_seen": "2026-06-10T09:05:34.363011Z"
+    },
+    {
+      "rule_id": "rule_validation_salary_min_001",
+      "rule_type": "validation",
+      "created_by": "semantic",
+      "enabled": true,
+      "execution_count": 1,
+      "first_seen": "2026-06-10T09:05:34.363011Z",
+      "last_seen": "2026-06-10T09:05:34.363011Z"
+    }
+  ]
+}

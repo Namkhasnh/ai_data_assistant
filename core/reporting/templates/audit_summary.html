@@ -1,0 +1,75 @@
+{% set section = sections_by_id.get("audit_summary") %}
+{% set ai_section = sections_by_id.get("ai_summary") %}
+{% if section %}
+<section id="audit-summary">
+  <h2>{{ section.title }}</h2>
+  {% if section.summary %}<p class="summary">{{ section.summary }}</p>{% endif %}
+  {% for warning in section.data["warnings"] %}
+  <div class="warning">{{ warning }}</div>
+  {% endfor %}
+  <h3>Artifacts</h3>
+  {% if section.data["artifacts"] %}
+  <table>
+    <thead>
+      <tr>
+        <th>Artifact</th>
+        <th>Module</th>
+        <th>Exists</th>
+        <th>Size</th>
+        <th>Hash</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for artifact in section.data["artifacts"] %}
+      <tr>
+        <td><code>{{ artifact["artifact"] }}</code></td>
+        <td>{{ artifact["module"] }}</td>
+        <td>{{ artifact["exists"] }}</td>
+        <td>{{ artifact["size_bytes"] }}</td>
+        <td><code>{{ artifact["content_hash"] }}</code></td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  {% else %}
+  <p class="empty">Audit artifact metadata is unavailable.</p>
+  {% endif %}
+  <h3>Rule History</h3>
+  {% if section.data["rule_history"] %}
+  <table>
+    <thead>
+      <tr>
+        <th>Rule ID</th>
+        <th>Type</th>
+        <th>Created By</th>
+        <th>Enabled</th>
+        <th>Execution Count</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for rule in section.data["rule_history"] %}
+      <tr>
+        <td><code>{{ rule["rule_id"] }}</code></td>
+        <td>{{ rule["rule_type"] }}</td>
+        <td>{{ rule["created_by"] }}</td>
+        <td>{{ rule["enabled"] }}</td>
+        <td>{{ rule["execution_count"] }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  {% else %}
+  <p class="empty">Rule history is unavailable.</p>
+  {% endif %}
+
+  {% if ai_section %}
+  <h3>AI Suggestions</h3>
+  <div class="metrics">
+    <div class="metric"><span>Suggestions</span><strong>{{ ai_section.data["suggestion_count"] }}</strong></div>
+  </div>
+  {% for warning in ai_section.data["warnings"] %}
+  <div class="warning">{{ warning }}</div>
+  {% endfor %}
+  {% endif %}
+</section>
+{% endif %}

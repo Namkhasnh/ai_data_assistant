@@ -1,0 +1,23 @@
+[
+  {
+    "order_id": "SO-001",
+    "product_name": "Wireless Mouse",
+    "category": "Electronics",
+    "price": 25.5,
+    "customer_city": "Hanoi"
+  },
+  {
+    "order_id": "SO-002",
+    "product_name": "Office Chair",
+    "category": "Furniture",
+    "price": 120.0,
+    "customer_city": "Da Nang"
+  },
+  {
+    "order_id": "SO-003",
+    "product_name": "Notebook",
+    "category": "Stationery",
+    "price": 3.25,
+    "customer_city": "Unknown City"
+  }
+]

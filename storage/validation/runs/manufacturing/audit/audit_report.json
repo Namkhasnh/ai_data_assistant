@@ -1,0 +1,228 @@
+{
+  "generated_at": "2026-06-10T09:05:35.253337Z",
+  "warnings": [],
+  "artifacts": [
+    {
+      "artifact": "cleaned_dataset.csv",
+      "path": "storage/validation/runs/manufacturing/artifacts/cleaned_dataset.csv",
+      "module": "rule_execution",
+      "exists": true,
+      "content_hash": "7d8c5a5d492bf8d0cb1dd498c091808d20ead277558583329c9da82ceaff232d",
+      "size_bytes": 153,
+      "modified_at": "2026-06-10T09:05:35.250741Z"
+    },
+    {
+      "artifact": "enriched_dataset.csv",
+      "path": "storage/validation/runs/manufacturing/artifacts/enriched_dataset.csv",
+      "module": "enrichment",
+      "exists": true,
+      "content_hash": "7d8c5a5d492bf8d0cb1dd498c091808d20ead277558583329c9da82ceaff232d",
+      "size_bytes": 153,
+      "modified_at": "2026-06-10T09:05:35.251925Z"
+    },
+    {
+      "artifact": "enrichment_report.json",
+      "path": "storage/validation/runs/manufacturing/artifacts/enrichment_report.json",
+      "module": "enrichment",
+      "exists": true,
+      "content_hash": "3bc7faba08a1f42323371c05153e498fc93d915223c663b6364035b029ea3efd",
+      "size_bytes": 214,
+      "modified_at": "2026-06-10T09:05:35.252027Z"
+    },
+    {
+      "artifact": "metadata.json",
+      "path": "storage/validation/runs/manufacturing/artifacts/metadata.json",
+      "module": "profiling",
+      "exists": true,
+      "content_hash": "917e5c5864c2da1dd4f2c0439eb2ee34399b026b258651b72c246792aaacfca1",
+      "size_bytes": 2117,
+      "modified_at": "2026-06-10T09:05:35.244270Z"
+    },
+    {
+      "artifact": "rule_execution_report.json",
+      "path": "storage/validation/runs/manufacturing/artifacts/rule_execution_report.json",
+      "module": "rule_execution",
+      "exists": true,
+      "content_hash": "8da89b593dcf1a5618924b4a516f763b5af0357b2f81b8b2d735f752438650ad",
+      "size_bytes": 1433,
+      "modified_at": "2026-06-10T09:05:35.251051Z"
+    },
+    {
+      "artifact": "rule_generation_report.json",
+      "path": "storage/validation/runs/manufacturing/artifacts/rule_generation_report.json",
+      "module": "rule_generation",
+      "exists": true,
+      "content_hash": "80e64b01cdf306fe83680dc37ca8042d6c01b71cb59aee651d3c886194d47f9e",
+      "size_bytes": 537,
+      "modified_at": "2026-06-10T09:05:35.245108Z"
+    },
+    {
+      "artifact": "rules.json",
+      "path": "storage/validation/runs/manufacturing/rules/rules.json",
+      "module": "rule_generation",
+      "exists": true,
+      "content_hash": "8385671b4112f0d67d33fcac32bb5ec21ed924ae6819a6d7fed0e6fd54a3cbb7",
+      "size_bytes": 2138,
+      "modified_at": "2026-06-10T09:05:35.245004Z"
+    },
+    {
+      "artifact": "semantic_columns.json",
+      "path": "storage/validation/runs/manufacturing/artifacts/semantic_columns.json",
+      "module": "semantic",
+      "exists": true,
+      "content_hash": "6257bf0705bbbc8d5841c27a870f392a91c4138cd3152078c079b5c72cc14a78",
+      "size_bytes": 839,
+      "modified_at": "2026-06-10T09:05:35.244633Z"
+    },
+    {
+      "artifact": "standardization_report.json",
+      "path": "storage/validation/runs/manufacturing/artifacts/standardization_report.json",
+      "module": "standardization",
+      "exists": true,
+      "content_hash": "d22bbb4a03a5de1a2ac2fdbb9a9ff0bcd9014f38e39342051c78d743ad75d1bc",
+      "size_bytes": 230,
+      "modified_at": "2026-06-10T09:05:35.251575Z"
+    },
+    {
+      "artifact": "standardized_dataset.csv",
+      "path": "storage/validation/runs/manufacturing/artifacts/standardized_dataset.csv",
+      "module": "standardization",
+      "exists": true,
+      "content_hash": "7d8c5a5d492bf8d0cb1dd498c091808d20ead277558583329c9da82ceaff232d",
+      "size_bytes": 153,
+      "modified_at": "2026-06-10T09:05:35.251462Z"
+    }
+  ],
+  "change_log": {
+    "records": [
+      {
+        "timestamp": "2026-06-10T09:05:35.252395Z",
+        "module": "enrichment",
+        "artifact": "enriched_dataset.csv",
+        "status": "success",
+        "message": "Artifact present"
+      },
+      {
+        "timestamp": "2026-06-10T09:05:35.252395Z",
+        "module": "enrichment",
+        "artifact": "enrichment_report.json",
+        "status": "success",
+        "message": "Artifact present"
+      },
+      {
+        "timestamp": "2026-06-10T09:05:35.252395Z",
+        "module": "profiling",
+        "artifact": "metadata.json",
+        "status": "success",
+        "message": "Artifact present"
+      },
+      {
+        "timestamp": "2026-06-10T09:05:35.252395Z",
+        "module": "rule_execution",
+        "artifact": "cleaned_dataset.csv",
+        "status": "success",
+        "message": "Artifact present"
+      },
+      {
+        "timestamp": "2026-06-10T09:05:35.252395Z",
+        "module": "rule_execution",
+        "artifact": "rule_execution_report.json",
+        "status": "success",
+        "message": "Artifact present"
+      },
+      {
+        "timestamp": "2026-06-10T09:05:35.252395Z",
+        "module": "rule_generation",
+        "artifact": "rule_generation_report.json",
+        "status": "success",
+        "message": "Artifact present"
+      },
+      {
+        "timestamp": "2026-06-10T09:05:35.252395Z",
+        "module": "rule_generation",
+        "artifact": "rules.json",
+        "status": "success",
+        "message": "Artifact present"
+      },
+      {
+        "timestamp": "2026-06-10T09:05:35.252395Z",
+        "module": "semantic",
+        "artifact": "semantic_columns.json",
+        "status": "success",
+        "message": "Artifact present"
+      },
+      {
+        "timestamp": "2026-06-10T09:05:35.252395Z",
+        "module": "standardization",
+        "artifact": "standardization_report.json",
+        "status": "success",
+        "message": "Artifact present"
+      },
+      {
+        "timestamp": "2026-06-10T09:05:35.252395Z",
+        "module": "standardization",
+        "artifact": "standardized_dataset.csv",
+        "status": "success",
+        "message": "Artifact present"
+      }
+    ]
+  },
+  "rule_history": {
+    "records": [
+      {
+        "rule_id": "rule_transform_factory_name_remove_extra_spaces_001",
+        "rule_type": "transformation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 1,
+        "first_seen": "2026-06-10T09:05:35.252050Z",
+        "last_seen": "2026-06-10T09:05:35.252050Z"
+      },
+      {
+        "rule_id": "rule_transform_factory_name_trim_001",
+        "rule_type": "transformation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 1,
+        "first_seen": "2026-06-10T09:05:35.252050Z",
+        "last_seen": "2026-06-10T09:05:35.252050Z"
+      },
+      {
+        "rule_id": "rule_transform_plant_location_remove_extra_spaces_001",
+        "rule_type": "transformation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 1,
+        "first_seen": "2026-06-10T09:05:35.252050Z",
+        "last_seen": "2026-06-10T09:05:35.252050Z"
+      },
+      {
+        "rule_id": "rule_transform_plant_location_trim_001",
+        "rule_type": "transformation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 1,
+        "first_seen": "2026-06-10T09:05:35.252050Z",
+        "last_seen": "2026-06-10T09:05:35.252050Z"
+      },
+      {
+        "rule_id": "rule_transform_product_type_remove_extra_spaces_001",
+        "rule_type": "transformation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 1,
+        "first_seen": "2026-06-10T09:05:35.252050Z",
+        "last_seen": "2026-06-10T09:05:35.252050Z"
+      },
+      {
+        "rule_id": "rule_transform_product_type_trim_001",
+        "rule_type": "transformation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 1,
+        "first_seen": "2026-06-10T09:05:35.252050Z",
+        "last_seen": "2026-06-10T09:05:35.252050Z"
+      }
+    ]
+  }
+}

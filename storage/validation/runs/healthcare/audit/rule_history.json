@@ -1,0 +1,76 @@
+{
+  "records": [
+    {
+      "rule_id": "rule_transform_disease_remove_extra_spaces_001",
+      "rule_type": "transformation",
+      "created_by": "semantic",
+      "enabled": true,
+      "execution_count": 1,
+      "first_seen": "2026-06-10T09:05:34.995143Z",
+      "last_seen": "2026-06-10T09:05:34.995143Z"
+    },
+    {
+      "rule_id": "rule_transform_disease_trim_001",
+      "rule_type": "transformation",
+      "created_by": "semantic",
+      "enabled": true,
+      "execution_count": 1,
+      "first_seen": "2026-06-10T09:05:34.995143Z",
+      "last_seen": "2026-06-10T09:05:34.995143Z"
+    },
+    {
+      "rule_id": "rule_transform_hospital_city_remove_extra_spaces_001",
+      "rule_type": "transformation",
+      "created_by": "semantic",
+      "enabled": true,
+      "execution_count": 1,
+      "first_seen": "2026-06-10T09:05:34.995143Z",
+      "last_seen": "2026-06-10T09:05:34.995143Z"
+    },
+    {
+      "rule_id": "rule_transform_hospital_city_trim_001",
+      "rule_type": "transformation",
+      "created_by": "semantic",
+      "enabled": true,
+      "execution_count": 1,
+      "first_seen": "2026-06-10T09:05:34.995143Z",
+      "last_seen": "2026-06-10T09:05:34.995143Z"
+    },
+    {
+      "rule_id": "rule_transform_medicine_remove_extra_spaces_001",
+      "rule_type": "transformation",
+      "created_by": "semantic",
+      "enabled": true,
+      "execution_count": 1,
+      "first_seen": "2026-06-10T09:05:34.995143Z",
+      "last_seen": "2026-06-10T09:05:34.995143Z"
+    },
+    {
+      "rule_id": "rule_transform_medicine_trim_001",
+      "rule_type": "transformation",
+      "created_by": "semantic",
+      "enabled": true,
+      "execution_count": 1,
+      "first_seen": "2026-06-10T09:05:34.995143Z",
+      "last_seen": "2026-06-10T09:05:34.995143Z"
+    },
+    {
+      "rule_id": "rule_transform_patient_name_remove_extra_spaces_001",
+      "rule_type": "transformation",
+      "created_by": "semantic",
+      "enabled": true,
+      "execution_count": 1,
+      "first_seen": "2026-06-10T09:05:34.995143Z",
+      "last_seen": "2026-06-10T09:05:34.995143Z"
+    },
+    {
+      "rule_id": "rule_transform_patient_name_trim_001",
+      "rule_type": "transformation",
+      "created_by": "semantic",
+      "enabled": true,
+      "execution_count": 1,
+      "first_seen": "2026-06-10T09:05:34.995143Z",
+      "last_seen": "2026-06-10T09:05:34.995143Z"
+    }
+  ]
+}

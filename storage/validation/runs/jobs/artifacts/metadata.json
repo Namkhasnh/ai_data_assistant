@@ -1,0 +1,113 @@
+{
+  "source_file": "jobs_sample.csv",
+  "file_format": "csv",
+  "row_count": 3,
+  "column_count": 4,
+  "duplicate_count": 0,
+  "columns": [
+    {
+      "name": "title",
+      "data_type": "object",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_value_count": 3,
+      "top_values": [
+        {
+          "value": "Business Data Analyst",
+          "count": 1
+        },
+        {
+          "value": "Senior Data Engineer",
+          "count": 1
+        },
+        {
+          "value": "Unknown Role",
+          "count": 1
+        }
+      ],
+      "sample_values": [
+        "Business Data Analyst",
+        "Senior Data Engineer",
+        "Unknown Role"
+      ]
+    },
+    {
+      "name": "salary",
+      "data_type": "object",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_value_count": 3,
+      "top_values": [
+        {
+          "value": "Negotiable",
+          "count": 1
+        },
+        {
+          "value": "20 - 30 triệu",
+          "count": 1
+        },
+        {
+          "value": "Thoả thuận",
+          "count": 1
+        }
+      ],
+      "sample_values": [
+        "Negotiable",
+        "20 - 30 triệu",
+        "Thoả thuận"
+      ]
+    },
+    {
+      "name": "location",
+      "data_type": "object",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_value_count": 3,
+      "top_values": [
+        {
+          "value": "Hà Nội, Cầu Giấy",
+          "count": 1
+        },
+        {
+          "value": "Hồ Chí Minh, Quận 1",
+          "count": 1
+        },
+        {
+          "value": "Unknown City",
+          "count": 1
+        }
+      ],
+      "sample_values": [
+        "Hà Nội, Cầu Giấy",
+        "Hồ Chí Minh, Quận 1",
+        "Unknown City"
+      ]
+    },
+    {
+      "name": "experience",
+      "data_type": "object",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_value_count": 3,
+      "top_values": [
+        {
+          "value": "2 years",
+          "count": 1
+        },
+        {
+          "value": "5 years",
+          "count": 1
+        },
+        {
+          "value": "No experience required",
+          "count": 1
+        }
+      ],
+      "sample_values": [
+        "2 years",
+        "5 years",
+        "No experience required"
+      ]
+    }
+  ]
+}

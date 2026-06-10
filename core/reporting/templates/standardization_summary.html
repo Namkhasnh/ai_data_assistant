@@ -1,0 +1,81 @@
+{% set section = sections_by_id.get("standardization_summary") %}
+{% set before_after = sections_by_id.get("before_after") %}
+{% if section %}
+<section id="standardization-summary">
+  <h2>{{ section.title }}</h2>
+  {% if section.summary %}<p class="summary">{{ section.summary }}</p>{% endif %}
+  <div class="metrics">
+    <div class="metric"><span>Standardized Columns</span><strong>{{ section.data["total_standardized_columns"] }}</strong></div>
+  </div>
+  {% for warning in section.data["warnings"] %}
+  <div class="warning">{{ warning }}</div>
+  {% endfor %}
+  <h3>By Standardizer</h3>
+  {% if section.data["standardized_by_standardizer"] %}
+  <table>
+    <tbody>
+      {% for standardizer, count in section.data["standardized_by_standardizer"].items() %}
+      <tr><td>{{ standardizer }}</td><td>{{ count }}</td></tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  {% else %}
+  <p class="empty">No standardization counts are available.</p>
+  {% endif %}
+  <h3>Examples</h3>
+  {% if section.data["examples"] %}
+  <table>
+    <thead>
+      <tr>
+        <th>Source Column</th>
+        <th>Source Value</th>
+        <th>Standardized Column</th>
+        <th>Standardized Value</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for example in section.data["examples"] %}
+      <tr>
+        <td><code>{{ example["source_column"] }}</code></td>
+        <td>{{ example["source_value"] }}</td>
+        <td><code>{{ example["standardized_column"] }}</code></td>
+        <td>{{ example["standardized_value"] }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  {% else %}
+  <p class="empty">No standardization examples are available.</p>
+  {% endif %}
+
+  {% if before_after and before_after.data["examples"] %}
+  <h3>Before And After</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Raw</th>
+        <th>Standardized</th>
+        <th>Enriched</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for example in before_after.data["examples"] %}
+      <tr>
+        <td><code>{{ example["source_column"] }}</code>: {{ example["raw_value"] }}</td>
+        <td><code>{{ example["standardized_column"] }}</code>: {{ example["standardized_value"] }}</td>
+        <td>
+          {% if example["enrichments"] %}
+          {% for key, value in example["enrichments"].items() %}
+          <div><code>{{ key }}</code>: {{ value }}</div>
+          {% endfor %}
+          {% else %}
+          <span class="empty">No enrichment values</span>
+          {% endif %}
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  {% endif %}
+</section>
+{% endif %}

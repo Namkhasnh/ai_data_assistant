@@ -1,0 +1,113 @@
+{
+  "source_file": "manufacturing_sample.csv",
+  "file_format": "csv",
+  "row_count": 3,
+  "column_count": 4,
+  "duplicate_count": 0,
+  "columns": [
+    {
+      "name": "factory_name",
+      "data_type": "object",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_value_count": 3,
+      "top_values": [
+        {
+          "value": "Factory Alpha",
+          "count": 1
+        },
+        {
+          "value": "Factory Beta",
+          "count": 1
+        },
+        {
+          "value": "Factory Gamma",
+          "count": 1
+        }
+      ],
+      "sample_values": [
+        "Factory Alpha",
+        "Factory Beta",
+        "Factory Gamma"
+      ]
+    },
+    {
+      "name": "product_type",
+      "data_type": "object",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_value_count": 3,
+      "top_values": [
+        {
+          "value": "Widget",
+          "count": 1
+        },
+        {
+          "value": "Gadget",
+          "count": 1
+        },
+        {
+          "value": "Component",
+          "count": 1
+        }
+      ],
+      "sample_values": [
+        "Widget",
+        "Gadget",
+        "Component"
+      ]
+    },
+    {
+      "name": "quantity",
+      "data_type": "int64",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_value_count": 3,
+      "top_values": [
+        {
+          "value": 1000,
+          "count": 1
+        },
+        {
+          "value": 250,
+          "count": 1
+        },
+        {
+          "value": 0,
+          "count": 1
+        }
+      ],
+      "sample_values": [
+        1000,
+        250,
+        0
+      ]
+    },
+    {
+      "name": "plant_location",
+      "data_type": "object",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_value_count": 3,
+      "top_values": [
+        {
+          "value": "Hanoi",
+          "count": 1
+        },
+        {
+          "value": "Da Nang",
+          "count": 1
+        },
+        {
+          "value": "Unknown Zone",
+          "count": 1
+        }
+      ],
+      "sample_values": [
+        "Hanoi",
+        "Da Nang",
+        "Unknown Zone"
+      ]
+    }
+  ]
+}

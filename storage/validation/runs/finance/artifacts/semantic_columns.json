@@ -1,0 +1,31 @@
+{
+  "source_file": "finance_sample.csv",
+  "column_count": 3,
+  "columns": [
+    {
+      "column_name": "account_id",
+      "semantic_type": "UNKNOWN",
+      "confidence": 0.0,
+      "detector_name": "detector_registry",
+      "evidence": []
+    },
+    {
+      "column_name": "balance",
+      "semantic_type": "UNKNOWN",
+      "confidence": 0.0,
+      "detector_name": "detector_registry",
+      "evidence": []
+    },
+    {
+      "column_name": "branch_city",
+      "semantic_type": "LOCATION",
+      "confidence": 0.8999999999999999,
+      "detector_name": "keyword_detector",
+      "evidence": [
+        "column_name matched keyword 'city'",
+        "top_value matched keyword 'city'",
+        "sample_value matched keyword 'city'"
+      ]
+    }
+  ]
+}

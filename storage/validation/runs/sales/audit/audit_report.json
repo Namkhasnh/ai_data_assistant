@@ -1,0 +1,246 @@
+{
+  "generated_at": "2026-06-10T09:05:34.718494Z",
+  "warnings": [],
+  "artifacts": [
+    {
+      "artifact": "cleaned_dataset.csv",
+      "path": "storage/validation/runs/sales/artifacts/cleaned_dataset.csv",
+      "module": "rule_execution",
+      "exists": true,
+      "content_hash": "664a4042f3e1248b8b24c6053703d7bec2ddaea1364d3e02a2c7298b8a985cf6",
+      "size_bytes": 185,
+      "modified_at": "2026-06-10T09:05:34.715671Z"
+    },
+    {
+      "artifact": "enriched_dataset.csv",
+      "path": "storage/validation/runs/sales/artifacts/enriched_dataset.csv",
+      "module": "enrichment",
+      "exists": true,
+      "content_hash": "664a4042f3e1248b8b24c6053703d7bec2ddaea1364d3e02a2c7298b8a985cf6",
+      "size_bytes": 185,
+      "modified_at": "2026-06-10T09:05:34.716989Z"
+    },
+    {
+      "artifact": "enrichment_report.json",
+      "path": "storage/validation/runs/sales/artifacts/enrichment_report.json",
+      "module": "enrichment",
+      "exists": true,
+      "content_hash": "a740c566e2394f4459790c34624fd9c0bff68653f370377a7bea7f42274e879e",
+      "size_bytes": 222,
+      "modified_at": "2026-06-10T09:05:34.717104Z"
+    },
+    {
+      "artifact": "metadata.json",
+      "path": "storage/validation/runs/sales/artifacts/metadata.json",
+      "module": "profiling",
+      "exists": true,
+      "content_hash": "a72fcbb9d19e68950b01191a9234dc26a1aeaeb1b0a5b06555ee88794ed8b222",
+      "size_bytes": 2604,
+      "modified_at": "2026-06-10T09:05:34.706549Z"
+    },
+    {
+      "artifact": "rule_execution_report.json",
+      "path": "storage/validation/runs/sales/artifacts/rule_execution_report.json",
+      "module": "rule_execution",
+      "exists": true,
+      "content_hash": "37d7a59ba02e3c050865ceb2afe57165fd6be86923e23d5b1164a7adce8d5d38",
+      "size_bytes": 1884,
+      "modified_at": "2026-06-10T09:05:34.716029Z"
+    },
+    {
+      "artifact": "rule_generation_report.json",
+      "path": "storage/validation/runs/sales/artifacts/rule_generation_report.json",
+      "module": "rule_generation",
+      "exists": true,
+      "content_hash": "4aedb3d43ded56d2646a2ca711919e40cac9ef18b0a4a3d695474972d1179ec0",
+      "size_bytes": 534,
+      "modified_at": "2026-06-10T09:05:34.707435Z"
+    },
+    {
+      "artifact": "rules.json",
+      "path": "storage/validation/runs/sales/rules/rules.json",
+      "module": "rule_generation",
+      "exists": true,
+      "content_hash": "80ca81ab5329b142284b4c427820058a46f006159bfb221d27fa5beb062f36fb",
+      "size_bytes": 2786,
+      "modified_at": "2026-06-10T09:05:34.707339Z"
+    },
+    {
+      "artifact": "semantic_columns.json",
+      "path": "storage/validation/runs/sales/artifacts/semantic_columns.json",
+      "module": "semantic",
+      "exists": true,
+      "content_hash": "673baaf72c3d437e2340650cc5aff07b9f2a5131515192c275a07c6f4ddf1f77",
+      "size_bytes": 1094,
+      "modified_at": "2026-06-10T09:05:34.706955Z"
+    },
+    {
+      "artifact": "standardization_report.json",
+      "path": "storage/validation/runs/sales/artifacts/standardization_report.json",
+      "module": "standardization",
+      "exists": true,
+      "content_hash": "a5b69fe0be7de6922b422da6e3f55869137f21fd9ca18d2b999b961cc0bafeb5",
+      "size_bytes": 238,
+      "modified_at": "2026-06-10T09:05:34.716594Z"
+    },
+    {
+      "artifact": "standardized_dataset.csv",
+      "path": "storage/validation/runs/sales/artifacts/standardized_dataset.csv",
+      "module": "standardization",
+      "exists": true,
+      "content_hash": "664a4042f3e1248b8b24c6053703d7bec2ddaea1364d3e02a2c7298b8a985cf6",
+      "size_bytes": 185,
+      "modified_at": "2026-06-10T09:05:34.716483Z"
+    }
+  ],
+  "change_log": {
+    "records": [
+      {
+        "timestamp": "2026-06-10T09:05:34.717535Z",
+        "module": "enrichment",
+        "artifact": "enriched_dataset.csv",
+        "status": "success",
+        "message": "Artifact present"
+      },
+      {
+        "timestamp": "2026-06-10T09:05:34.717535Z",
+        "module": "enrichment",
+        "artifact": "enrichment_report.json",
+        "status": "success",
+        "message": "Artifact present"
+      },
+      {
+        "timestamp": "2026-06-10T09:05:34.717535Z",
+        "module": "profiling",
+        "artifact": "metadata.json",
+        "status": "success",
+        "message": "Artifact present"
+      },
+      {
+        "timestamp": "2026-06-10T09:05:34.717535Z",
+        "module": "rule_execution",
+        "artifact": "cleaned_dataset.csv",
+        "status": "success",
+        "message": "Artifact present"
+      },
+      {
+        "timestamp": "2026-06-10T09:05:34.717535Z",
+        "module": "rule_execution",
+        "artifact": "rule_execution_report.json",
+        "status": "success",
+        "message": "Artifact present"
+      },
+      {
+        "timestamp": "2026-06-10T09:05:34.717535Z",
+        "module": "rule_generation",
+        "artifact": "rule_generation_report.json",
+        "status": "success",
+        "message": "Artifact present"
+      },
+      {
+        "timestamp": "2026-06-10T09:05:34.717535Z",
+        "module": "rule_generation",
+        "artifact": "rules.json",
+        "status": "success",
+        "message": "Artifact present"
+      },
+      {
+        "timestamp": "2026-06-10T09:05:34.717535Z",
+        "module": "semantic",
+        "artifact": "semantic_columns.json",
+        "status": "success",
+        "message": "Artifact present"
+      },
+      {
+        "timestamp": "2026-06-10T09:05:34.717535Z",
+        "module": "standardization",
+        "artifact": "standardization_report.json",
+        "status": "success",
+        "message": "Artifact present"
+      },
+      {
+        "timestamp": "2026-06-10T09:05:34.717535Z",
+        "module": "standardization",
+        "artifact": "standardized_dataset.csv",
+        "status": "success",
+        "message": "Artifact present"
+      }
+    ]
+  },
+  "rule_history": {
+    "records": [
+      {
+        "rule_id": "rule_transform_category_remove_extra_spaces_001",
+        "rule_type": "transformation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 1,
+        "first_seen": "2026-06-10T09:05:34.717133Z",
+        "last_seen": "2026-06-10T09:05:34.717133Z"
+      },
+      {
+        "rule_id": "rule_transform_category_trim_001",
+        "rule_type": "transformation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 1,
+        "first_seen": "2026-06-10T09:05:34.717133Z",
+        "last_seen": "2026-06-10T09:05:34.717133Z"
+      },
+      {
+        "rule_id": "rule_transform_customer_city_remove_extra_spaces_001",
+        "rule_type": "transformation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 1,
+        "first_seen": "2026-06-10T09:05:34.717133Z",
+        "last_seen": "2026-06-10T09:05:34.717133Z"
+      },
+      {
+        "rule_id": "rule_transform_customer_city_trim_001",
+        "rule_type": "transformation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 1,
+        "first_seen": "2026-06-10T09:05:34.717133Z",
+        "last_seen": "2026-06-10T09:05:34.717133Z"
+      },
+      {
+        "rule_id": "rule_transform_order_id_remove_extra_spaces_001",
+        "rule_type": "transformation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 1,
+        "first_seen": "2026-06-10T09:05:34.717133Z",
+        "last_seen": "2026-06-10T09:05:34.717133Z"
+      },
+      {
+        "rule_id": "rule_transform_order_id_trim_001",
+        "rule_type": "transformation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 1,
+        "first_seen": "2026-06-10T09:05:34.717133Z",
+        "last_seen": "2026-06-10T09:05:34.717133Z"
+      },
+      {
+        "rule_id": "rule_transform_product_name_remove_extra_spaces_001",
+        "rule_type": "transformation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 1,
+        "first_seen": "2026-06-10T09:05:34.717133Z",
+        "last_seen": "2026-06-10T09:05:34.717133Z"
+      },
+      {
+        "rule_id": "rule_transform_product_name_trim_001",
+        "rule_type": "transformation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 1,
+        "first_seen": "2026-06-10T09:05:34.717133Z",
+        "last_seen": "2026-06-10T09:05:34.717133Z"
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "total_enriched_columns": 0,
+  "enriched_by_enricher": {},
+  "warnings": [],
+  "skipped_columns": [
+    "order_id",
+    "product_name",
+    "category",
+    "price",
+    "customer_city"
+  ],
+  "enricher_warnings": {}
+}

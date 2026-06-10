@@ -1,0 +1,1120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pipeline Report</title>
+  <style>
+    :root {
+      --bg: #f6f7f5;
+      --panel: #ffffff;
+      --ink: #1f2933;
+      --muted: #5f6c72;
+      --line: #d9dedb;
+      --accent: #2f6f73;
+    }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+    header {
+      background: #243235;
+      color: #fff;
+      padding: 28px 32px;
+    }
+    header h1 {
+      margin: 0 0 8px;
+      font-size: 28px;
+      font-weight: 650;
+    }
+    header p {
+      margin: 0;
+      color: #d7dfdd;
+    }
+    main {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 24px 24px 56px;
+    }
+    section {
+      margin: 0 0 24px;
+      padding: 20px;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+    }
+    h2 {
+      margin: 0 0 8px;
+      font-size: 20px;
+    }
+    h3 {
+      margin: 18px 0 8px;
+      font-size: 15px;
+    }
+    .summary {
+      margin: 0 0 16px;
+      color: var(--muted);
+    }
+    .metrics {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 12px;
+    }
+    .metric {
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 12px;
+      background: #fbfcfb;
+    }
+    .metric span {
+      display: block;
+      color: var(--muted);
+      font-size: 12px;
+      text-transform: uppercase;
+    }
+    .metric strong {
+      display: block;
+      margin-top: 4px;
+      font-size: 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 8px 0;
+    }
+    th, td {
+      border-bottom: 1px solid var(--line);
+      padding: 8px;
+      text-align: left;
+      vertical-align: top;
+    }
+    th {
+      color: var(--muted);
+      font-size: 12px;
+      text-transform: uppercase;
+    }
+    .warning {
+      background: #fff8e5;
+      border: 1px solid #e2c979;
+      border-radius: 6px;
+      padding: 10px 12px;
+      margin: 8px 0;
+    }
+    .chart-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 16px;
+    }
+    iframe {
+      width: 100%;
+      min-height: 420px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: #fff;
+    }
+    code {
+      background: #edf0ee;
+      padding: 1px 4px;
+      border-radius: 4px;
+    }
+    .empty {
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Pipeline Report</h1>
+    <p>Generated at 2026-06-10T08:43:21.260022Z for topcv_jobs.csv</p>
+  </header>
+  <main>
+
+<section id="dataset-summary">
+  <h2>Dataset Summary</h2>
+<p class="summary">Profiled dataset shape and missingness.</p>  <div class="metrics">
+    <div class="metric"><span>Rows</span><strong>210</strong></div>
+    <div class="metric"><span>Columns</span><strong>13</strong></div>
+    <div class="metric"><span>Duplicates</span><strong>0</strong></div>
+    <div class="metric"><span>Missing Values</span><strong>31</strong></div>
+  </div>
+  <h3>Column Analysis</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Column</th>
+        <th>Type</th>
+        <th>Nulls</th>
+        <th>Unique</th>
+        <th>Top Values</th>
+        <th>Semantic Type</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code>benefits</code></td>
+        <td>object</td>
+        <td>0 (0.0%)</td>
+        <td>196</td>
+        <td>1. Chế độ Thưởng  hấp dẫn:- Thưởng dịp lễ tết- Thưởng thành tích gắn với hiệu suất công việc/kết quả kinh doanh2. Chế... (6), Competitive salary package (Base salary and performance bonuses).Probation period salary is 100% of the official sala... (4), 1. Chế độ Thưởng hấp dẫn:- Thưởng dịp lễ tết- Thưởng thành tích gắn với hiệu suất công việc/kết quả kinh doanh2. Chế ... (2)</td>
+        <td>DESCRIPTION (0.78)</td>
+      </tr>
+      <tr>
+        <td><code>company_address</code></td>
+        <td>object</td>
+        <td>0 (0.0%)</td>
+        <td>162</td>
+        <td>Số 18 Lê Văn Lương, Phường Trung Hoà, Quận Cầu Giấy, Thành phố Hà Nội, Việt Nam (8), Trụ sở: Tầng 2,3,5,6 - Tòa Vincem Comatce Tower, số 61 Ngụy Như Kon Tum, Thanh Xuân, Hà Nội.Chi nhánh: Tầng 5 - Tòa n... (5), Số 1 Nguyễn Thượng Hiền (4)</td>
+        <td>LOCATION (0.84)</td>
+      </tr>
+      <tr>
+        <td><code>company_name</code></td>
+        <td>object</td>
+        <td>0 (0.0%)</td>
+        <td>163</td>
+        <td>NGÂN HÀNG TMCP QUÂN ĐỘI – MBBANK (8), EDUPIA (5), VNDIRECT (4)</td>
+        <td>COMPANY (0.94)</td>
+      </tr>
+      <tr>
+        <td><code>company_size</code></td>
+        <td>object</td>
+        <td>0 (0.0%)</td>
+        <td>10</td>
+        <td>100-499 nhân viên (65), 25-99 nhân viên (53), 1000+ nhân viên (27)</td>
+        <td>COMPANY (0.82)</td>
+      </tr>
+      <tr>
+        <td><code>experience</code></td>
+        <td>object</td>
+        <td>0 (0.0%)</td>
+        <td>8</td>
+        <td>2 năm (63), 1 năm (51), 3 năm (42)</td>
+        <td>EXPERIENCE (0.82)</td>
+      </tr>
+      <tr>
+        <td><code>job_description</code></td>
+        <td>object</td>
+        <td>0 (0.0%)</td>
+        <td>207</td>
+        <td>• Build ingestion workflows for APIs, web data, and files.• Handle structured and semi-structured formats (JSON, XML,... (2), Làm sạch, xử lý và chuẩn hóa dữ liệu từ nhiều nguồn khác nhau; Thực hiện phân tích dữ liệu mô tả, khám phá và trực qu... (2), ROLE PURPOSEThe Workforce Management Manager is responsible for planning, forecasting, and optimizing contact center ... (2)</td>
+        <td>DESCRIPTION (0.78)</td>
+      </tr>
+      <tr>
+        <td><code>job_id</code></td>
+        <td>int64</td>
+        <td>0 (0.0%)</td>
+        <td>210</td>
+        <td>1835128 (1), 1792262 (1), 1948021 (1)</td>
+        <td>UNKNOWN (0.0)</td>
+      </tr>
+      <tr>
+        <td><code>job_requirements</code></td>
+        <td>object</td>
+        <td>0 (0.0%)</td>
+        <td>209</td>
+        <td>• Experience with WFM and call routing systems• Proven ability to implement new systems and processes• Advanced skill... (2), 1. Trình độ học vấn/Chứng chỉTốt nghiệp đại học trở lên chuyên ngành Phân tích dữ liệu, Thống kê, Kinh tế hoặc các ng... (1), Tốt nghiệp hệ chính quy các Trường Đại học trong nước (ĐHBK, ĐHCN, ĐH KHTN, học viện Công nghệ BCVT)... hoặc nước ngo... (1)</td>
+        <td>DESCRIPTION (0.78)</td>
+      </tr>
+      <tr>
+        <td><code>location</code></td>
+        <td>object</td>
+        <td>0 (0.0%)</td>
+        <td>87</td>
+        <td>Hà Nội, Cầu Giấy (17), Hà Nội, Thanh Xuân (11), Hà Nội, Đống Đa (10)</td>
+        <td>LOCATION (0.84)</td>
+      </tr>
+      <tr>
+        <td><code>salary</code></td>
+        <td>object</td>
+        <td>0 (0.0%)</td>
+        <td>57</td>
+        <td>Thoả thuận (116), 15 - 25 triệu (6), 20 - 30 triệu (5)</td>
+        <td>SALARY (0.88)</td>
+      </tr>
+      <tr>
+        <td><code>title</code></td>
+        <td>object</td>
+        <td>0 (0.0%)</td>
+        <td>182</td>
+        <td>Data Engineer (15), Data Analyst (8), Business Analyst (3)</td>
+        <td>JOB_TITLE (0.86)</td>
+      </tr>
+      <tr>
+        <td><code>work_location_detail</code></td>
+        <td>object</td>
+        <td>0 (0.0%)</td>
+        <td>187</td>
+        <td>- Hà Nội (7), - Hà Nội: 18 Lê Văn Lương, Phường Yên Hòa (5), - Hồ Chí Minh (3)</td>
+        <td>LOCATION (0.84)</td>
+      </tr>
+      <tr>
+        <td><code>working_time</code></td>
+        <td>object</td>
+        <td>31 (14.7619%)</td>
+        <td>88</td>
+        <td>Thứ 2 - Thứ 6 (từ 08:00 đến 17:30) (25), Thứ 2 - Thứ 6 (từ 08:00 đến 17:00) (22), Thứ 2 - Thứ 6 (từ 08:30 đến 17:30) (18)</td>
+        <td>UNKNOWN (0.0)</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+<section id="semantic-summary">
+  <h2>Semantic Summary</h2>
+<p class="summary">Semantic detections generated by deterministic detectors.</p>  <table>
+    <thead>
+      <tr>
+        <th>Column</th>
+        <th>Semantic Type</th>
+        <th>Confidence</th>
+        <th>Detector</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code>benefits</code></td>
+        <td>DESCRIPTION</td>
+        <td>0.78</td>
+        <td>keyword_detector</td>
+      </tr>
+      <tr>
+        <td><code>company_address</code></td>
+        <td>LOCATION</td>
+        <td>0.84</td>
+        <td>keyword_detector</td>
+      </tr>
+      <tr>
+        <td><code>company_name</code></td>
+        <td>COMPANY</td>
+        <td>0.94</td>
+        <td>keyword_detector</td>
+      </tr>
+      <tr>
+        <td><code>company_size</code></td>
+        <td>COMPANY</td>
+        <td>0.82</td>
+        <td>keyword_detector</td>
+      </tr>
+      <tr>
+        <td><code>experience</code></td>
+        <td>EXPERIENCE</td>
+        <td>0.82</td>
+        <td>keyword_detector</td>
+      </tr>
+      <tr>
+        <td><code>job_description</code></td>
+        <td>DESCRIPTION</td>
+        <td>0.78</td>
+        <td>keyword_detector</td>
+      </tr>
+      <tr>
+        <td><code>job_id</code></td>
+        <td>UNKNOWN</td>
+        <td>0.0</td>
+        <td>detector_registry</td>
+      </tr>
+      <tr>
+        <td><code>job_requirements</code></td>
+        <td>DESCRIPTION</td>
+        <td>0.78</td>
+        <td>keyword_detector</td>
+      </tr>
+      <tr>
+        <td><code>location</code></td>
+        <td>LOCATION</td>
+        <td>0.84</td>
+        <td>keyword_detector</td>
+      </tr>
+      <tr>
+        <td><code>salary</code></td>
+        <td>SALARY</td>
+        <td>0.88</td>
+        <td>keyword_detector</td>
+      </tr>
+      <tr>
+        <td><code>title</code></td>
+        <td>JOB_TITLE</td>
+        <td>0.86</td>
+        <td>keyword_detector</td>
+      </tr>
+      <tr>
+        <td><code>work_location_detail</code></td>
+        <td>LOCATION</td>
+        <td>0.84</td>
+        <td>keyword_detector</td>
+      </tr>
+      <tr>
+        <td><code>working_time</code></td>
+        <td>UNKNOWN</td>
+        <td>0.0</td>
+        <td>detector_registry</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+<section id="rule-summary">
+  <h2>Rule Summary</h2>
+<p class="summary">Rule inventory and execution outcomes.</p>  <div class="metrics">
+    <div class="metric"><span>Total Rules</span><strong>29</strong></div>
+    <div class="metric"><span>Affected Rows</span><strong>290</strong></div>
+  </div>
+  <h3>Counts By Type</h3>
+  <table>
+    <tbody>
+      <tr><td>regex</td><td>2</td></tr>
+      <tr><td>transformation</td><td>24</td></tr>
+      <tr><td>validation</td><td>3</td></tr>
+    </tbody>
+  </table>
+  <h3>Rule Inventory</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Rule ID</th>
+        <th>Type</th>
+        <th>Column</th>
+        <th>Enabled</th>
+        <th>Priority</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code>rule_regex_experience_001</code></td>
+        <td>regex</td>
+        <td><code>experience</code></td>
+        <td>True</td>
+        <td>30</td>
+      </tr>
+      <tr>
+        <td><code>rule_regex_salary_001</code></td>
+        <td>regex</td>
+        <td><code>salary</code></td>
+        <td>True</td>
+        <td>30</td>
+      </tr>
+      <tr>
+        <td><code>rule_transform_benefits_remove_extra_spaces_001</code></td>
+        <td>transformation</td>
+        <td><code>benefits</code></td>
+        <td>True</td>
+        <td>11</td>
+      </tr>
+      <tr>
+        <td><code>rule_transform_benefits_trim_001</code></td>
+        <td>transformation</td>
+        <td><code>benefits</code></td>
+        <td>True</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td><code>rule_transform_company_address_remove_extra_spaces_001</code></td>
+        <td>transformation</td>
+        <td><code>company_address</code></td>
+        <td>True</td>
+        <td>11</td>
+      </tr>
+      <tr>
+        <td><code>rule_transform_company_address_trim_001</code></td>
+        <td>transformation</td>
+        <td><code>company_address</code></td>
+        <td>True</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td><code>rule_transform_company_name_remove_extra_spaces_001</code></td>
+        <td>transformation</td>
+        <td><code>company_name</code></td>
+        <td>True</td>
+        <td>11</td>
+      </tr>
+      <tr>
+        <td><code>rule_transform_company_name_trim_001</code></td>
+        <td>transformation</td>
+        <td><code>company_name</code></td>
+        <td>True</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td><code>rule_transform_company_size_remove_extra_spaces_001</code></td>
+        <td>transformation</td>
+        <td><code>company_size</code></td>
+        <td>True</td>
+        <td>11</td>
+      </tr>
+      <tr>
+        <td><code>rule_transform_company_size_trim_001</code></td>
+        <td>transformation</td>
+        <td><code>company_size</code></td>
+        <td>True</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td><code>rule_transform_experience_remove_extra_spaces_001</code></td>
+        <td>transformation</td>
+        <td><code>experience</code></td>
+        <td>True</td>
+        <td>11</td>
+      </tr>
+      <tr>
+        <td><code>rule_transform_experience_trim_001</code></td>
+        <td>transformation</td>
+        <td><code>experience</code></td>
+        <td>True</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td><code>rule_transform_job_description_remove_extra_spaces_001</code></td>
+        <td>transformation</td>
+        <td><code>job_description</code></td>
+        <td>True</td>
+        <td>11</td>
+      </tr>
+      <tr>
+        <td><code>rule_transform_job_description_trim_001</code></td>
+        <td>transformation</td>
+        <td><code>job_description</code></td>
+        <td>True</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td><code>rule_transform_job_requirements_remove_extra_spaces_001</code></td>
+        <td>transformation</td>
+        <td><code>job_requirements</code></td>
+        <td>True</td>
+        <td>11</td>
+      </tr>
+      <tr>
+        <td><code>rule_transform_job_requirements_trim_001</code></td>
+        <td>transformation</td>
+        <td><code>job_requirements</code></td>
+        <td>True</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td><code>rule_transform_location_remove_extra_spaces_001</code></td>
+        <td>transformation</td>
+        <td><code>location</code></td>
+        <td>True</td>
+        <td>11</td>
+      </tr>
+      <tr>
+        <td><code>rule_transform_location_trim_001</code></td>
+        <td>transformation</td>
+        <td><code>location</code></td>
+        <td>True</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td><code>rule_transform_salary_remove_extra_spaces_001</code></td>
+        <td>transformation</td>
+        <td><code>salary</code></td>
+        <td>True</td>
+        <td>11</td>
+      </tr>
+      <tr>
+        <td><code>rule_transform_salary_trim_001</code></td>
+        <td>transformation</td>
+        <td><code>salary</code></td>
+        <td>True</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td><code>rule_transform_title_remove_extra_spaces_001</code></td>
+        <td>transformation</td>
+        <td><code>title</code></td>
+        <td>True</td>
+        <td>11</td>
+      </tr>
+      <tr>
+        <td><code>rule_transform_title_trim_001</code></td>
+        <td>transformation</td>
+        <td><code>title</code></td>
+        <td>True</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td><code>rule_transform_work_location_detail_remove_extra_spaces_001</code></td>
+        <td>transformation</td>
+        <td><code>work_location_detail</code></td>
+        <td>True</td>
+        <td>11</td>
+      </tr>
+      <tr>
+        <td><code>rule_transform_work_location_detail_trim_001</code></td>
+        <td>transformation</td>
+        <td><code>work_location_detail</code></td>
+        <td>True</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td><code>rule_transform_working_time_remove_extra_spaces_001</code></td>
+        <td>transformation</td>
+        <td><code>working_time</code></td>
+        <td>True</td>
+        <td>11</td>
+      </tr>
+      <tr>
+        <td><code>rule_transform_working_time_trim_001</code></td>
+        <td>transformation</td>
+        <td><code>working_time</code></td>
+        <td>True</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td><code>rule_validation_experience_years_001</code></td>
+        <td>validation</td>
+        <td><code>experience_years</code></td>
+        <td>True</td>
+        <td>40</td>
+      </tr>
+      <tr>
+        <td><code>rule_validation_salary_max_001</code></td>
+        <td>validation</td>
+        <td><code>salary_max</code></td>
+        <td>True</td>
+        <td>40</td>
+      </tr>
+      <tr>
+        <td><code>rule_validation_salary_min_001</code></td>
+        <td>validation</td>
+        <td><code>salary_min</code></td>
+        <td>True</td>
+        <td>40</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+<section id="standardization-summary">
+  <h2>Standardization Summary</h2>
+<p class="summary">Deterministic standardization output metadata.</p>  <div class="metrics">
+    <div class="metric"><span>Standardized Columns</span><strong>4</strong></div>
+  </div>
+  <h3>By Standardizer</h3>
+  <table>
+    <tbody>
+      <tr><td>mapping</td><td>2</td></tr>
+      <tr><td>numeric_bucket</td><td>1</td></tr>
+      <tr><td>categorical</td><td>1</td></tr>
+    </tbody>
+  </table>
+  <h3>Examples</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Source Column</th>
+        <th>Source Value</th>
+        <th>Standardized Column</th>
+        <th>Standardized Value</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code>location</code></td>
+        <td>Hà Nội, Phường Cầu Giấy</td>
+        <td><code>standardized_location</code></td>
+        <td>Hà Nội</td>
+      </tr>
+      <tr>
+        <td><code>title</code></td>
+        <td>Data Engineer</td>
+        <td><code>standardized_title</code></td>
+        <td>Data Engineer</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>Before And After</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Raw</th>
+        <th>Standardized</th>
+        <th>Enriched</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code>location</code>: Hà Nội, Phường Cầu Giấy</td>
+        <td><code>standardized_location</code>: Hà Nội</td>
+        <td>
+          <div><code>country</code>: Vietnam</div>
+          <div><code>experience_level</code>: Mid</div>
+          <div><code>experience_years</code>: 3.0</div>
+          <div><code>experience_years__is_valid</code>: True</div>
+          <div><code>region</code>: North</div>
+          <div><code>salary_max__is_valid</code>: True</div>
+          <div><code>salary_min__is_valid</code>: True</div>
+          <div><code>salary_type</code>: negotiable</div>
+        </td>
+      </tr>
+      <tr>
+        <td><code>title</code>: Data Engineer</td>
+        <td><code>standardized_title</code>: Data Engineer</td>
+        <td>
+          <div><code>country</code>: Vietnam</div>
+          <div><code>experience_level</code>: Mid</div>
+          <div><code>experience_years</code>: 2.0</div>
+          <div><code>experience_years__is_valid</code>: True</div>
+          <div><code>job_domain</code>: Data</div>
+          <div><code>job_family</code>: Engineering</div>
+          <div><code>region</code>: South</div>
+          <div><code>salary_max</code>: 45.0</div>
+          <div><code>salary_max__is_valid</code>: True</div>
+          <div><code>salary_min</code>: 30.0</div>
+          <div><code>salary_min__is_valid</code>: True</div>
+          <div><code>salary_type</code>: 30 - 45 triệu</div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+<section id="enrichment-summary">
+  <h2>Enrichment Summary</h2>
+<p class="summary">Deterministic enrichment output metadata.</p>  <div class="metrics">
+    <div class="metric"><span>Enriched Columns</span><strong>4</strong></div>
+  </div>
+  <h3>By Enricher</h3>
+  <table>
+    <tbody>
+      <tr><td>knowledge</td><td>4</td></tr>
+    </tbody>
+  </table>
+  <h3>Examples</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Column</th>
+        <th>Value</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code>country</code></td>
+        <td>Vietnam</td>
+      </tr>
+      <tr>
+        <td><code>experience_level</code></td>
+        <td>Mid</td>
+      </tr>
+      <tr>
+        <td><code>experience_years</code></td>
+        <td>3.0</td>
+      </tr>
+      <tr>
+        <td><code>experience_years__is_valid</code></td>
+        <td>True</td>
+      </tr>
+      <tr>
+        <td><code>job_domain</code></td>
+        <td>Data</td>
+      </tr>
+      <tr>
+        <td><code>job_family</code></td>
+        <td>Engineering</td>
+      </tr>
+      <tr>
+        <td><code>region</code></td>
+        <td>North</td>
+      </tr>
+      <tr>
+        <td><code>salary_max</code></td>
+        <td>45.0</td>
+      </tr>
+      <tr>
+        <td><code>salary_max__is_valid</code></td>
+        <td>True</td>
+      </tr>
+      <tr>
+        <td><code>salary_min</code></td>
+        <td>30.0</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+<section id="audit-summary">
+  <h2>Audit Summary</h2>
+<p class="summary">Passive audit metadata assembled from existing artifacts.</p>  <h3>Artifacts</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Artifact</th>
+        <th>Module</th>
+        <th>Exists</th>
+        <th>Size</th>
+        <th>Hash</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code>ai_suggestions.json</code></td>
+        <td>ai_suggestions</td>
+        <td>True</td>
+        <td>232</td>
+        <td><code>78ef4b9db3eec837b9e396e68702ebc90f9d8f5a2d60b9a1afe294c3745e356f</code></td>
+      </tr>
+      <tr>
+        <td><code>enriched_dataset.csv</code></td>
+        <td>enrichment</td>
+        <td>True</td>
+        <td>660457</td>
+        <td><code>d891b057e427ee47a33a9c320f5e5349e40f9bb7245449cbca48b454dd98e3f6</code></td>
+      </tr>
+      <tr>
+        <td><code>enrichment_report.json</code></td>
+        <td>enrichment</td>
+        <td>True</td>
+        <td>378</td>
+        <td><code>259e709f07d89fc40a177d2c658d12d104d964dd57f377cfde8847e49c444eef</code></td>
+      </tr>
+      <tr>
+        <td><code>metadata.json</code></td>
+        <td>profiling</td>
+        <td>True</td>
+        <td>38313</td>
+        <td><code>7d2211fdbe947d3706d433b90cc26784839c9395ea1de93d39420d45557e63ef</code></td>
+      </tr>
+      <tr>
+        <td><code>rule_execution_report.json</code></td>
+        <td>rule_execution</td>
+        <td>True</td>
+        <td>836</td>
+        <td><code>ce1324b7377863037ab2a4c44b313c4202f6929a63f1b4880163ac1312642810</code></td>
+      </tr>
+      <tr>
+        <td><code>rules.json</code></td>
+        <td>rule_generation</td>
+        <td>True</td>
+        <td>10605</td>
+        <td><code>33aa789fee8c258d7a9c064fe9d54898777aaad6350398857e4815726e953dd7</code></td>
+      </tr>
+      <tr>
+        <td><code>semantic_columns.json</code></td>
+        <td>semantic</td>
+        <td>True</td>
+        <td>3167</td>
+        <td><code>60393e7668f9cb48dfc61fe73e351cb348ec7b8d5ff24063598d22d7d7a6736c</code></td>
+      </tr>
+      <tr>
+        <td><code>standardization_report.json</code></td>
+        <td>standardization</td>
+        <td>True</td>
+        <td>425</td>
+        <td><code>e4bd1d4541ac5ce03722337ec9815d1da69a3a8066acfd62cbebe8519e30a52b</code></td>
+      </tr>
+      <tr>
+        <td><code>standardized_dataset.csv</code></td>
+        <td>standardization</td>
+        <td>True</td>
+        <td>659030</td>
+        <td><code>ce2ee31e265544eeb968ed718efd560dd581c4c767648369f52f7838951215fc</code></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3>Rule History</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Rule ID</th>
+        <th>Type</th>
+        <th>Created By</th>
+        <th>Enabled</th>
+        <th>Execution Count</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code>extract_salary_range</code></td>
+        <td>regex</td>
+        <td>unknown</td>
+        <td>False</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td><code>normalize_location</code></td>
+        <td>mapping</td>
+        <td>unknown</td>
+        <td>False</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td><code>rule_regex_experience_001</code></td>
+        <td>regex</td>
+        <td>semantic</td>
+        <td>True</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td><code>rule_regex_salary_001</code></td>
+        <td>regex</td>
+        <td>semantic</td>
+        <td>True</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td><code>rule_transform_benefits_remove_extra_spaces_001</code></td>
+        <td>transformation</td>
+        <td>semantic</td>
+        <td>True</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td><code>rule_transform_benefits_trim_001</code></td>
+        <td>transformation</td>
+        <td>semantic</td>
+        <td>True</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td><code>rule_transform_company_address_remove_extra_spaces_001</code></td>
+        <td>transformation</td>
+        <td>semantic</td>
+        <td>True</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td><code>rule_transform_company_address_trim_001</code></td>
+        <td>transformation</td>
+        <td>semantic</td>
+        <td>True</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td><code>rule_transform_company_name_remove_extra_spaces_001</code></td>
+        <td>transformation</td>
+        <td>semantic</td>
+        <td>True</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td><code>rule_transform_company_name_trim_001</code></td>
+        <td>transformation</td>
+        <td>semantic</td>
+        <td>True</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td><code>rule_transform_company_size_remove_extra_spaces_001</code></td>
+        <td>transformation</td>
+        <td>semantic</td>
+        <td>True</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td><code>rule_transform_company_size_trim_001</code></td>
+        <td>transformation</td>
+        <td>semantic</td>
+        <td>True</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td><code>rule_transform_experience_remove_extra_spaces_001</code></td>
+        <td>transformation</td>
+        <td>semantic</td>
+        <td>True</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td><code>rule_transform_experience_trim_001</code></td>
+        <td>transformation</td>
+        <td>semantic</td>
+        <td>True</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td><code>rule_transform_job_description_remove_extra_spaces_001</code></td>
+        <td>transformation</td>
+        <td>semantic</td>
+        <td>True</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td><code>rule_transform_job_description_trim_001</code></td>
+        <td>transformation</td>
+        <td>semantic</td>
+        <td>True</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td><code>rule_transform_job_requirements_remove_extra_spaces_001</code></td>
+        <td>transformation</td>
+        <td>semantic</td>
+        <td>True</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td><code>rule_transform_job_requirements_trim_001</code></td>
+        <td>transformation</td>
+        <td>semantic</td>
+        <td>True</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td><code>rule_transform_location_remove_extra_spaces_001</code></td>
+        <td>transformation</td>
+        <td>semantic</td>
+        <td>True</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td><code>rule_transform_location_trim_001</code></td>
+        <td>transformation</td>
+        <td>semantic</td>
+        <td>True</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td><code>rule_transform_salary_remove_extra_spaces_001</code></td>
+        <td>transformation</td>
+        <td>semantic</td>
+        <td>True</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td><code>rule_transform_salary_trim_001</code></td>
+        <td>transformation</td>
+        <td>semantic</td>
+        <td>True</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td><code>rule_transform_title_remove_extra_spaces_001</code></td>
+        <td>transformation</td>
+        <td>semantic</td>
+        <td>True</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td><code>rule_transform_title_trim_001</code></td>
+        <td>transformation</td>
+        <td>semantic</td>
+        <td>True</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td><code>rule_transform_work_location_detail_remove_extra_spaces_001</code></td>
+        <td>transformation</td>
+        <td>semantic</td>
+        <td>True</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td><code>rule_transform_work_location_detail_trim_001</code></td>
+        <td>transformation</td>
+        <td>semantic</td>
+        <td>True</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td><code>rule_transform_working_time_remove_extra_spaces_001</code></td>
+        <td>transformation</td>
+        <td>semantic</td>
+        <td>True</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td><code>rule_transform_working_time_trim_001</code></td>
+        <td>transformation</td>
+        <td>semantic</td>
+        <td>True</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td><code>rule_validation_experience_years_001</code></td>
+        <td>validation</td>
+        <td>semantic</td>
+        <td>True</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td><code>rule_validation_salary_max_001</code></td>
+        <td>validation</td>
+        <td>semantic</td>
+        <td>True</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td><code>rule_validation_salary_min_001</code></td>
+        <td>validation</td>
+        <td>semantic</td>
+        <td>True</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td><code>salary_min_positive</code></td>
+        <td>validation</td>
+        <td>unknown</td>
+        <td>False</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td><code>trim_title</code></td>
+        <td>transformation</td>
+        <td>unknown</td>
+        <td>False</td>
+        <td>1</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>AI Suggestions</h3>
+  <div class="metrics">
+    <div class="metric"><span>Suggestions</span><strong>0</strong></div>
+  </div>
+  <div class="warning">AI provider unavailable: ollama</div>
+</section>
+
+    <section>
+      <h2>Charts</h2>
+      <p class="summary">External Plotly chart assets generated for this report.</p>
+      <div class="chart-grid">
+        <div>
+          <h3>Audit Artifact Sizes</h3>
+          <iframe title="Audit Artifact Sizes" src="assets/artifact_sizes.html"></iframe>
+        </div>
+        <div>
+          <h3>benefits Top Values</h3>
+          <iframe title="benefits Top Values" src="assets/categorical-benefits.html"></iframe>
+        </div>
+        <div>
+          <h3>company_address Top Values</h3>
+          <iframe title="company_address Top Values" src="assets/categorical-company-address.html"></iframe>
+        </div>
+        <div>
+          <h3>company_name Top Values</h3>
+          <iframe title="company_name Top Values" src="assets/categorical-company-name.html"></iframe>
+        </div>
+        <div>
+          <h3>company_size Top Values</h3>
+          <iframe title="company_size Top Values" src="assets/categorical-company-size.html"></iframe>
+        </div>
+        <div>
+          <h3>country Top Values</h3>
+          <iframe title="country Top Values" src="assets/categorical-country.html"></iframe>
+        </div>
+        <div>
+          <h3>experience_years Distribution</h3>
+          <iframe title="experience_years Distribution" src="assets/numeric-experience-years.html"></iframe>
+        </div>
+        <div>
+          <h3>job_id Distribution</h3>
+          <iframe title="job_id Distribution" src="assets/numeric-job-id.html"></iframe>
+        </div>
+        <div>
+          <h3>salary_max Distribution</h3>
+          <iframe title="salary_max Distribution" src="assets/numeric-salary-max.html"></iframe>
+        </div>
+        <div>
+          <h3>Rule Type Distribution</h3>
+          <iframe title="Rule Type Distribution" src="assets/rule_distribution.html"></iframe>
+        </div>
+        <div>
+          <h3>Semantic Type Distribution</h3>
+          <iframe title="Semantic Type Distribution" src="assets/semantic_distribution.html"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

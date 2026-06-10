@@ -1,0 +1,4 @@
+title,salary,location,experience,experience_years,salary_min,salary_max,experience_years__is_valid,experience_years__validation_error,salary_max__is_valid,salary_max__validation_error,salary_min__is_valid,salary_min__validation_error,standardized_title,standardized_location,experience_level,salary_type,job_family,job_domain,region,country
+Data Analyst,Negotiable,"Hà Nội, Cầu Giấy",2 years,2,,,True,,True,,True,,Data Analyst,Hà Nội,Mid,negotiable,Analytics,Data,North,Vietnam
+Data Engineer,20 - 30 triệu,"Hồ Chí Minh, Quận 1",5 years,5,20,30,True,,True,,True,,Data Engineer,TP Hồ Chí Minh,Senior,20 - 30 triệu,Engineering,Data,South,Vietnam
+Unknown Role,Thoả thuận,Unknown City,No experience required,,,,True,,True,,True,,,,,negotiable,,,,

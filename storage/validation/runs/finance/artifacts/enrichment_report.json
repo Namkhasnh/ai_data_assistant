@@ -1,0 +1,11 @@
+{
+  "total_enriched_columns": 0,
+  "enriched_by_enricher": {},
+  "warnings": [],
+  "skipped_columns": [
+    "account_id",
+    "balance",
+    "branch_city"
+  ],
+  "enricher_warnings": {}
+}

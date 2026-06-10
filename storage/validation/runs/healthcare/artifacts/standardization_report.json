@@ -1,0 +1,12 @@
+{
+  "total_standardized_columns": 0,
+  "standardized_by_standardizer": {},
+  "warnings": [],
+  "skipped_columns": [
+    "patient_name",
+    "disease",
+    "medicine",
+    "hospital_city"
+  ],
+  "standardizer_warnings": {}
+}

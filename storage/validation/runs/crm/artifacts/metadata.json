@@ -1,0 +1,139 @@
+{
+  "source_file": "crm_sample.csv",
+  "file_format": "csv",
+  "row_count": 3,
+  "column_count": 5,
+  "duplicate_count": 0,
+  "columns": [
+    {
+      "name": "customer_name",
+      "data_type": "object",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_value_count": 3,
+      "top_values": [
+        {
+          "value": "An Nguyen",
+          "count": 1
+        },
+        {
+          "value": "Bao Tran",
+          "count": 1
+        },
+        {
+          "value": "Chi Le",
+          "count": 1
+        }
+      ],
+      "sample_values": [
+        "An Nguyen",
+        "Bao Tran",
+        "Chi Le"
+      ]
+    },
+    {
+      "name": "email",
+      "data_type": "object",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_value_count": 3,
+      "top_values": [
+        {
+          "value": "an@example.com",
+          "count": 1
+        },
+        {
+          "value": "bao@example.com",
+          "count": 1
+        },
+        {
+          "value": "invalid-email",
+          "count": 1
+        }
+      ],
+      "sample_values": [
+        "an@example.com",
+        "bao@example.com",
+        "invalid-email"
+      ]
+    },
+    {
+      "name": "phone",
+      "data_type": "object",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_value_count": 3,
+      "top_values": [
+        {
+          "value": "+84901234567",
+          "count": 1
+        },
+        {
+          "value": "+84909876543",
+          "count": 1
+        },
+        {
+          "value": "not available",
+          "count": 1
+        }
+      ],
+      "sample_values": [
+        "+84901234567",
+        "+84909876543",
+        "not available"
+      ]
+    },
+    {
+      "name": "customer_type",
+      "data_type": "object",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_value_count": 3,
+      "top_values": [
+        {
+          "value": "lead",
+          "count": 1
+        },
+        {
+          "value": "customer",
+          "count": 1
+        },
+        {
+          "value": "prospect",
+          "count": 1
+        }
+      ],
+      "sample_values": [
+        "lead",
+        "customer",
+        "prospect"
+      ]
+    },
+    {
+      "name": "city",
+      "data_type": "object",
+      "null_count": 0,
+      "null_percentage": 0.0,
+      "unique_value_count": 3,
+      "top_values": [
+        {
+          "value": "Hanoi",
+          "count": 1
+        },
+        {
+          "value": "Ho Chi Minh",
+          "count": 1
+        },
+        {
+          "value": "Unknown City",
+          "count": 1
+        }
+      ],
+      "sample_values": [
+        "Hanoi",
+        "Ho Chi Minh",
+        "Unknown City"
+      ]
+    }
+  ]
+}

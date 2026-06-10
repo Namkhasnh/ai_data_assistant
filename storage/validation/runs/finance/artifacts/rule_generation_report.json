@@ -1,0 +1,23 @@
+{
+  "total_generated_rules": 4,
+  "generated_by_generator": {
+    "mapping": 0,
+    "regex": 0,
+    "transformation": 4,
+    "validation": 0
+  },
+  "skipped_columns": [
+    "balance"
+  ],
+  "duplicate_rules_removed": 0,
+  "warnings": [
+    "Knowledge file is empty: knowledge/cities.json",
+    "No deterministic mapping knowledge available for LOCATION"
+  ],
+  "generator_warnings": {
+    "mapping": [
+      "Knowledge file is empty: knowledge/cities.json",
+      "No deterministic mapping knowledge available for LOCATION"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "total_enriched_columns": 0,
+  "enriched_by_enricher": {},
+  "warnings": [],
+  "skipped_columns": [
+    "customer_name",
+    "email",
+    "phone",
+    "customer_type",
+    "city"
+  ],
+  "enricher_warnings": {}
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "account_id": "ACC-001",
+    "balance": 1000.5,
+    "branch_city": "Hanoi"
+  },
+  {
+    "account_id": "ACC-002",
+    "balance": -20.0,
+    "branch_city": "Ho Chi Minh"
+  },
+  {
+    "account_id": "ACC-003",
+    "balance": 0.0,
+    "branch_city": "Unknown City"
+  }
+]

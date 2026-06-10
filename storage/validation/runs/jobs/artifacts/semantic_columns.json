@@ -1,0 +1,52 @@
+{
+  "source_file": "jobs_sample.csv",
+  "column_count": 4,
+  "columns": [
+    {
+      "column_name": "title",
+      "semantic_type": "JOB_TITLE",
+      "confidence": 0.9199999999999999,
+      "detector_name": "keyword_detector",
+      "evidence": [
+        "column_name matched keyword 'title'",
+        "top_value matched keyword 'role'",
+        "sample_value matched keyword 'role'"
+      ]
+    },
+    {
+      "column_name": "salary",
+      "semantic_type": "SALARY",
+      "confidence": 0.88,
+      "detector_name": "keyword_detector",
+      "evidence": [
+        "column_name matched keyword 'salary'"
+      ]
+    },
+    {
+      "column_name": "location",
+      "semantic_type": "LOCATION",
+      "confidence": 0.8999999999999999,
+      "detector_name": "keyword_detector",
+      "evidence": [
+        "column_name matched keyword 'location'",
+        "top_value matched keyword 'city'",
+        "sample_value matched keyword 'city'"
+      ]
+    },
+    {
+      "column_name": "experience",
+      "semantic_type": "EXPERIENCE",
+      "confidence": 1.0,
+      "detector_name": "keyword_detector",
+      "evidence": [
+        "column_name matched keyword 'experience'",
+        "top_value matched keyword 'years'",
+        "top_value matched keyword 'years'",
+        "top_value matched keyword 'experience'",
+        "sample_value matched keyword 'years'",
+        "sample_value matched keyword 'years'",
+        "sample_value matched keyword 'experience'"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,264 @@
+{
+  "generated_at": "2026-06-10T09:05:34.853855Z",
+  "warnings": [],
+  "artifacts": [
+    {
+      "artifact": "cleaned_dataset.csv",
+      "path": "storage/validation/runs/crm/artifacts/cleaned_dataset.csv",
+      "module": "rule_execution",
+      "exists": true,
+      "content_hash": "f76ea2603976f4d2550b796cf4ed98ede54ba475ce51c7056f5881dd6c44f985",
+      "size_bytes": 210,
+      "modified_at": "2026-06-10T09:05:34.851243Z"
+    },
+    {
+      "artifact": "enriched_dataset.csv",
+      "path": "storage/validation/runs/crm/artifacts/enriched_dataset.csv",
+      "module": "enrichment",
+      "exists": true,
+      "content_hash": "f76ea2603976f4d2550b796cf4ed98ede54ba475ce51c7056f5881dd6c44f985",
+      "size_bytes": 210,
+      "modified_at": "2026-06-10T09:05:34.852410Z"
+    },
+    {
+      "artifact": "enrichment_report.json",
+      "path": "storage/validation/runs/crm/artifacts/enrichment_report.json",
+      "module": "enrichment",
+      "exists": true,
+      "content_hash": "50eba825d3bb60a403b5d890ab1b96d0e9dcbafbeae71892115e4a6fe0b82777",
+      "size_bytes": 216,
+      "modified_at": "2026-06-10T09:05:34.852518Z"
+    },
+    {
+      "artifact": "metadata.json",
+      "path": "storage/validation/runs/crm/artifacts/metadata.json",
+      "module": "profiling",
+      "exists": true,
+      "content_hash": "5c6863256822f25e9df1920c485bbeff61a89574b6a9da542cbadf5264379400",
+      "size_bytes": 2669,
+      "modified_at": "2026-06-10T09:05:34.841890Z"
+    },
+    {
+      "artifact": "rule_execution_report.json",
+      "path": "storage/validation/runs/crm/artifacts/rule_execution_report.json",
+      "module": "rule_execution",
+      "exists": true,
+      "content_hash": "671fc0b5da1e06bd5080dccfd44f5ddc1fe3742f6bd8c8e6f09c438c11fe88a8",
+      "size_bytes": 2325,
+      "modified_at": "2026-06-10T09:05:34.851475Z"
+    },
+    {
+      "artifact": "rule_generation_report.json",
+      "path": "storage/validation/runs/crm/artifacts/rule_generation_report.json",
+      "module": "rule_generation",
+      "exists": true,
+      "content_hash": "731846c6b652b102a249b5de1ef1ada79458a52b7b0509ebcdb2f96b3c1f8ff1",
+      "size_bytes": 521,
+      "modified_at": "2026-06-10T09:05:34.842766Z"
+    },
+    {
+      "artifact": "rules.json",
+      "path": "storage/validation/runs/crm/rules/rules.json",
+      "module": "rule_generation",
+      "exists": true,
+      "content_hash": "8959484bd29cfead36d4c35a516f108968d583c427d18855fc7ac4a7f0eaf932",
+      "size_bytes": 3410,
+      "modified_at": "2026-06-10T09:05:34.842673Z"
+    },
+    {
+      "artifact": "semantic_columns.json",
+      "path": "storage/validation/runs/crm/artifacts/semantic_columns.json",
+      "module": "semantic",
+      "exists": true,
+      "content_hash": "a83baeccad1b34f405d5812481b6790f44b2c4f6ed0ed20a11b766bfaf75a261",
+      "size_bytes": 1086,
+      "modified_at": "2026-06-10T09:05:34.842289Z"
+    },
+    {
+      "artifact": "standardization_report.json",
+      "path": "storage/validation/runs/crm/artifacts/standardization_report.json",
+      "module": "standardization",
+      "exists": true,
+      "content_hash": "be0c8c7d07eaeb482159232db0e37932d76a1b9dc6b103ea41d8518c26505c02",
+      "size_bytes": 232,
+      "modified_at": "2026-06-10T09:05:34.852034Z"
+    },
+    {
+      "artifact": "standardized_dataset.csv",
+      "path": "storage/validation/runs/crm/artifacts/standardized_dataset.csv",
+      "module": "standardization",
+      "exists": true,
+      "content_hash": "f76ea2603976f4d2550b796cf4ed98ede54ba475ce51c7056f5881dd6c44f985",
+      "size_bytes": 210,
+      "modified_at": "2026-06-10T09:05:34.851929Z"
+    }
+  ],
+  "change_log": {
+    "records": [
+      {
+        "timestamp": "2026-06-10T09:05:34.852935Z",
+        "module": "enrichment",
+        "artifact": "enriched_dataset.csv",
+        "status": "success",
+        "message": "Artifact present"
+      },
+      {
+        "timestamp": "2026-06-10T09:05:34.852935Z",
+        "module": "enrichment",
+        "artifact": "enrichment_report.json",
+        "status": "success",
+        "message": "Artifact present"
+      },
+      {
+        "timestamp": "2026-06-10T09:05:34.852935Z",
+        "module": "profiling",
+        "artifact": "metadata.json",
+        "status": "success",
+        "message": "Artifact present"
+      },
+      {
+        "timestamp": "2026-06-10T09:05:34.852935Z",
+        "module": "rule_execution",
+        "artifact": "cleaned_dataset.csv",
+        "status": "success",
+        "message": "Artifact present"
+      },
+      {
+        "timestamp": "2026-06-10T09:05:34.852935Z",
+        "module": "rule_execution",
+        "artifact": "rule_execution_report.json",
+        "status": "success",
+        "message": "Artifact present"
+      },
+      {
+        "timestamp": "2026-06-10T09:05:34.852935Z",
+        "module": "rule_generation",
+        "artifact": "rule_generation_report.json",
+        "status": "success",
+        "message": "Artifact present"
+      },
+      {
+        "timestamp": "2026-06-10T09:05:34.852935Z",
+        "module": "rule_generation",
+        "artifact": "rules.json",
+        "status": "success",
+        "message": "Artifact present"
+      },
+      {
+        "timestamp": "2026-06-10T09:05:34.852935Z",
+        "module": "semantic",
+        "artifact": "semantic_columns.json",
+        "status": "success",
+        "message": "Artifact present"
+      },
+      {
+        "timestamp": "2026-06-10T09:05:34.852935Z",
+        "module": "standardization",
+        "artifact": "standardization_report.json",
+        "status": "success",
+        "message": "Artifact present"
+      },
+      {
+        "timestamp": "2026-06-10T09:05:34.852935Z",
+        "module": "standardization",
+        "artifact": "standardized_dataset.csv",
+        "status": "success",
+        "message": "Artifact present"
+      }
+    ]
+  },
+  "rule_history": {
+    "records": [
+      {
+        "rule_id": "rule_transform_city_remove_extra_spaces_001",
+        "rule_type": "transformation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 1,
+        "first_seen": "2026-06-10T09:05:34.852543Z",
+        "last_seen": "2026-06-10T09:05:34.852543Z"
+      },
+      {
+        "rule_id": "rule_transform_city_trim_001",
+        "rule_type": "transformation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 1,
+        "first_seen": "2026-06-10T09:05:34.852543Z",
+        "last_seen": "2026-06-10T09:05:34.852543Z"
+      },
+      {
+        "rule_id": "rule_transform_customer_name_remove_extra_spaces_001",
+        "rule_type": "transformation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 1,
+        "first_seen": "2026-06-10T09:05:34.852543Z",
+        "last_seen": "2026-06-10T09:05:34.852543Z"
+      },
+      {
+        "rule_id": "rule_transform_customer_name_trim_001",
+        "rule_type": "transformation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 1,
+        "first_seen": "2026-06-10T09:05:34.852543Z",
+        "last_seen": "2026-06-10T09:05:34.852543Z"
+      },
+      {
+        "rule_id": "rule_transform_customer_type_remove_extra_spaces_001",
+        "rule_type": "transformation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 1,
+        "first_seen": "2026-06-10T09:05:34.852543Z",
+        "last_seen": "2026-06-10T09:05:34.852543Z"
+      },
+      {
+        "rule_id": "rule_transform_customer_type_trim_001",
+        "rule_type": "transformation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 1,
+        "first_seen": "2026-06-10T09:05:34.852543Z",
+        "last_seen": "2026-06-10T09:05:34.852543Z"
+      },
+      {
+        "rule_id": "rule_transform_email_remove_extra_spaces_001",
+        "rule_type": "transformation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 1,
+        "first_seen": "2026-06-10T09:05:34.852543Z",
+        "last_seen": "2026-06-10T09:05:34.852543Z"
+      },
+      {
+        "rule_id": "rule_transform_email_trim_001",
+        "rule_type": "transformation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 1,
+        "first_seen": "2026-06-10T09:05:34.852543Z",
+        "last_seen": "2026-06-10T09:05:34.852543Z"
+      },
+      {
+        "rule_id": "rule_transform_phone_remove_extra_spaces_001",
+        "rule_type": "transformation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 1,
+        "first_seen": "2026-06-10T09:05:34.852543Z",
+        "last_seen": "2026-06-10T09:05:34.852543Z"
+      },
+      {
+        "rule_id": "rule_transform_phone_trim_001",
+        "rule_type": "transformation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 1,
+        "first_seen": "2026-06-10T09:05:34.852543Z",
+        "last_seen": "2026-06-10T09:05:34.852543Z"
+      }
+    ]
+  }
+}

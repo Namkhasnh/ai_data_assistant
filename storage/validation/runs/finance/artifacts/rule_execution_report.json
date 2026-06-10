@@ -1,0 +1,36 @@
+{
+  "results": [
+    {
+      "rule_id": "rule_transform_account_id_trim_001",
+      "rule_type": "transformation",
+      "status": "applied",
+      "affected_rows": 0,
+      "execution_time_ms": 1.0414,
+      "message": "Rule applied"
+    },
+    {
+      "rule_id": "rule_transform_branch_city_trim_001",
+      "rule_type": "transformation",
+      "status": "applied",
+      "affected_rows": 0,
+      "execution_time_ms": 0.7188,
+      "message": "Rule applied"
+    },
+    {
+      "rule_id": "rule_transform_account_id_remove_extra_spaces_001",
+      "rule_type": "transformation",
+      "status": "applied",
+      "affected_rows": 0,
+      "execution_time_ms": 0.7162,
+      "message": "Rule applied"
+    },
+    {
+      "rule_id": "rule_transform_branch_city_remove_extra_spaces_001",
+      "rule_type": "transformation",
+      "status": "applied",
+      "affected_rows": 0,
+      "execution_time_ms": 0.7222,
+      "message": "Rule applied"
+    }
+  ]
+}

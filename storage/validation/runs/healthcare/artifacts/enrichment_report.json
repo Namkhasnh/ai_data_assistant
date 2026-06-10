@@ -1,0 +1,12 @@
+{
+  "total_enriched_columns": 0,
+  "enriched_by_enricher": {},
+  "warnings": [],
+  "skipped_columns": [
+    "patient_name",
+    "disease",
+    "medicine",
+    "hospital_city"
+  ],
+  "enricher_warnings": {}
+}

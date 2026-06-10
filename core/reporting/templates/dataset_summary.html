@@ -1,0 +1,47 @@
+{% set section = sections_by_id.get("dataset_summary") %}
+{% set column_section = sections_by_id.get("column_analysis") %}
+{% if section %}
+<section id="dataset-summary">
+  <h2>{{ section.title }}</h2>
+  {% if section.summary %}<p class="summary">{{ section.summary }}</p>{% endif %}
+  {% if section.data %}
+  <div class="metrics">
+    <div class="metric"><span>Rows</span><strong>{{ section.data["row_count"] }}</strong></div>
+    <div class="metric"><span>Columns</span><strong>{{ section.data["column_count"] }}</strong></div>
+    <div class="metric"><span>Duplicates</span><strong>{{ section.data["duplicate_count"] }}</strong></div>
+    <div class="metric"><span>Missing Values</span><strong>{{ section.data["missing_values"] }}</strong></div>
+  </div>
+  <h3>Column Analysis</h3>
+  {% if column_section and column_section.data["columns"] %}
+  <table>
+    <thead>
+      <tr>
+        <th>Column</th>
+        <th>Type</th>
+        <th>Nulls</th>
+        <th>Unique</th>
+        <th>Top Values</th>
+        <th>Semantic Type</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for column in column_section.data["columns"] %}
+      <tr>
+        <td><code>{{ column["name"] }}</code></td>
+        <td>{{ column["data_type"] }}</td>
+        <td>{{ column["null_count"] }} ({{ column["null_percentage"] }}%)</td>
+        <td>{{ column["unique_value_count"] }}</td>
+        <td>{{ column["top_values"] | join(", ") }}</td>
+        <td>{{ column["semantic_type"] }} ({{ column["semantic_confidence"] }})</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  {% else %}
+  <p class="empty">Column analysis is unavailable.</p>
+  {% endif %}
+  {% else %}
+  <p class="empty">Dataset summary is unavailable.</p>
+  {% endif %}
+</section>
+{% endif %}

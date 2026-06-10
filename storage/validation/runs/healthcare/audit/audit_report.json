@@ -1,0 +1,246 @@
+{
+  "generated_at": "2026-06-10T09:05:34.996737Z",
+  "warnings": [],
+  "artifacts": [
+    {
+      "artifact": "cleaned_dataset.csv",
+      "path": "storage/validation/runs/healthcare/artifacts/cleaned_dataset.csv",
+      "module": "rule_execution",
+      "exists": true,
+      "content_hash": "edf0daec5cc4c6f1aea761ab332df3a5f9ea1c2150957a5c7a89a5f5bd14640e",
+      "size_bytes": 154,
+      "modified_at": "2026-06-10T09:05:34.993467Z"
+    },
+    {
+      "artifact": "enriched_dataset.csv",
+      "path": "storage/validation/runs/healthcare/artifacts/enriched_dataset.csv",
+      "module": "enrichment",
+      "exists": true,
+      "content_hash": "edf0daec5cc4c6f1aea761ab332df3a5f9ea1c2150957a5c7a89a5f5bd14640e",
+      "size_bytes": 154,
+      "modified_at": "2026-06-10T09:05:34.994838Z"
+    },
+    {
+      "artifact": "enrichment_report.json",
+      "path": "storage/validation/runs/healthcare/artifacts/enrichment_report.json",
+      "module": "enrichment",
+      "exists": true,
+      "content_hash": "60881acfae5c047b2b05cde814021474d908f34b1e70276010dcb59c59e2f3c0",
+      "size_bytes": 208,
+      "modified_at": "2026-06-10T09:05:34.995091Z"
+    },
+    {
+      "artifact": "metadata.json",
+      "path": "storage/validation/runs/healthcare/artifacts/metadata.json",
+      "module": "profiling",
+      "exists": true,
+      "content_hash": "ed002597e94616b77838785890a9b8ee5c2e44859b0e1e77e906f2e7211f34e3",
+      "size_bytes": 2135,
+      "modified_at": "2026-06-10T09:05:34.983598Z"
+    },
+    {
+      "artifact": "rule_execution_report.json",
+      "path": "storage/validation/runs/healthcare/artifacts/rule_execution_report.json",
+      "module": "rule_execution",
+      "exists": true,
+      "content_hash": "503ef0409d17ffe29c75787ed57d5ca23ecd6aee80ce875eb1848834cc9e4d3a",
+      "size_bytes": 1877,
+      "modified_at": "2026-06-10T09:05:34.993652Z"
+    },
+    {
+      "artifact": "rule_generation_report.json",
+      "path": "storage/validation/runs/healthcare/artifacts/rule_generation_report.json",
+      "module": "rule_generation",
+      "exists": true,
+      "content_hash": "e93375caf685328acdf6c3de741a8949387184f244bc6f173cedd36f4384563c",
+      "size_bytes": 519,
+      "modified_at": "2026-06-10T09:05:34.984706Z"
+    },
+    {
+      "artifact": "rules.json",
+      "path": "storage/validation/runs/healthcare/rules/rules.json",
+      "module": "rule_generation",
+      "exists": true,
+      "content_hash": "c9f32e3a6caa2af4c6eb73bd92462f6a8a88da5256a078fab7c981feb748c259",
+      "size_bytes": 2780,
+      "modified_at": "2026-06-10T09:05:34.984568Z"
+    },
+    {
+      "artifact": "semantic_columns.json",
+      "path": "storage/validation/runs/healthcare/artifacts/semantic_columns.json",
+      "module": "semantic",
+      "exists": true,
+      "content_hash": "d991ae11f0792ff1f9bfff170acd1e4592c7b8b79db442c1d9236fb7440f9601",
+      "size_bytes": 931,
+      "modified_at": "2026-06-10T09:05:34.984096Z"
+    },
+    {
+      "artifact": "standardization_report.json",
+      "path": "storage/validation/runs/healthcare/artifacts/standardization_report.json",
+      "module": "standardization",
+      "exists": true,
+      "content_hash": "bf4c8d6dbc214b2f5acad5208f0adffe2ea865d0c4baa7eb51248d34a06a5dd3",
+      "size_bytes": 224,
+      "modified_at": "2026-06-10T09:05:34.994467Z"
+    },
+    {
+      "artifact": "standardized_dataset.csv",
+      "path": "storage/validation/runs/healthcare/artifacts/standardized_dataset.csv",
+      "module": "standardization",
+      "exists": true,
+      "content_hash": "edf0daec5cc4c6f1aea761ab332df3a5f9ea1c2150957a5c7a89a5f5bd14640e",
+      "size_bytes": 154,
+      "modified_at": "2026-06-10T09:05:34.994365Z"
+    }
+  ],
+  "change_log": {
+    "records": [
+      {
+        "timestamp": "2026-06-10T09:05:34.995674Z",
+        "module": "enrichment",
+        "artifact": "enriched_dataset.csv",
+        "status": "success",
+        "message": "Artifact present"
+      },
+      {
+        "timestamp": "2026-06-10T09:05:34.995674Z",
+        "module": "enrichment",
+        "artifact": "enrichment_report.json",
+        "status": "success",
+        "message": "Artifact present"
+      },
+      {
+        "timestamp": "2026-06-10T09:05:34.995674Z",
+        "module": "profiling",
+        "artifact": "metadata.json",
+        "status": "success",
+        "message": "Artifact present"
+      },
+      {
+        "timestamp": "2026-06-10T09:05:34.995674Z",
+        "module": "rule_execution",
+        "artifact": "cleaned_dataset.csv",
+        "status": "success",
+        "message": "Artifact present"
+      },
+      {
+        "timestamp": "2026-06-10T09:05:34.995674Z",
+        "module": "rule_execution",
+        "artifact": "rule_execution_report.json",
+        "status": "success",
+        "message": "Artifact present"
+      },
+      {
+        "timestamp": "2026-06-10T09:05:34.995674Z",
+        "module": "rule_generation",
+        "artifact": "rule_generation_report.json",
+        "status": "success",
+        "message": "Artifact present"
+      },
+      {
+        "timestamp": "2026-06-10T09:05:34.995674Z",
+        "module": "rule_generation",
+        "artifact": "rules.json",
+        "status": "success",
+        "message": "Artifact present"
+      },
+      {
+        "timestamp": "2026-06-10T09:05:34.995674Z",
+        "module": "semantic",
+        "artifact": "semantic_columns.json",
+        "status": "success",
+        "message": "Artifact present"
+      },
+      {
+        "timestamp": "2026-06-10T09:05:34.995674Z",
+        "module": "standardization",
+        "artifact": "standardization_report.json",
+        "status": "success",
+        "message": "Artifact present"
+      },
+      {
+        "timestamp": "2026-06-10T09:05:34.995674Z",
+        "module": "standardization",
+        "artifact": "standardized_dataset.csv",
+        "status": "success",
+        "message": "Artifact present"
+      }
+    ]
+  },
+  "rule_history": {
+    "records": [
+      {
+        "rule_id": "rule_transform_disease_remove_extra_spaces_001",
+        "rule_type": "transformation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 1,
+        "first_seen": "2026-06-10T09:05:34.995143Z",
+        "last_seen": "2026-06-10T09:05:34.995143Z"
+      },
+      {
+        "rule_id": "rule_transform_disease_trim_001",
+        "rule_type": "transformation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 1,
+        "first_seen": "2026-06-10T09:05:34.995143Z",
+        "last_seen": "2026-06-10T09:05:34.995143Z"
+      },
+      {
+        "rule_id": "rule_transform_hospital_city_remove_extra_spaces_001",
+        "rule_type": "transformation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 1,
+        "first_seen": "2026-06-10T09:05:34.995143Z",
+        "last_seen": "2026-06-10T09:05:34.995143Z"
+      },
+      {
+        "rule_id": "rule_transform_hospital_city_trim_001",
+        "rule_type": "transformation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 1,
+        "first_seen": "2026-06-10T09:05:34.995143Z",
+        "last_seen": "2026-06-10T09:05:34.995143Z"
+      },
+      {
+        "rule_id": "rule_transform_medicine_remove_extra_spaces_001",
+        "rule_type": "transformation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 1,
+        "first_seen": "2026-06-10T09:05:34.995143Z",
+        "last_seen": "2026-06-10T09:05:34.995143Z"
+      },
+      {
+        "rule_id": "rule_transform_medicine_trim_001",
+        "rule_type": "transformation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 1,
+        "first_seen": "2026-06-10T09:05:34.995143Z",
+        "last_seen": "2026-06-10T09:05:34.995143Z"
+      },
+      {
+        "rule_id": "rule_transform_patient_name_remove_extra_spaces_001",
+        "rule_type": "transformation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 1,
+        "first_seen": "2026-06-10T09:05:34.995143Z",
+        "last_seen": "2026-06-10T09:05:34.995143Z"
+      },
+      {
+        "rule_id": "rule_transform_patient_name_trim_001",
+        "rule_type": "transformation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 1,
+        "first_seen": "2026-06-10T09:05:34.995143Z",
+        "last_seen": "2026-06-10T09:05:34.995143Z"
+      }
+    ]
+  }
+}

@@ -1,0 +1,300 @@
+{
+  "generated_at": "2026-06-10T09:05:34.364462Z",
+  "warnings": [],
+  "artifacts": [
+    {
+      "artifact": "cleaned_dataset.csv",
+      "path": "storage/validation/runs/jobs/artifacts/cleaned_dataset.csv",
+      "module": "rule_execution",
+      "exists": true,
+      "content_hash": "5e71a6c604e34162e1cdebb4d28c930b74dd630afd0baeb5307e94cdd3072438",
+      "size_bytes": 490,
+      "modified_at": "2026-06-10T09:05:34.358275Z"
+    },
+    {
+      "artifact": "enriched_dataset.csv",
+      "path": "storage/validation/runs/jobs/artifacts/enriched_dataset.csv",
+      "module": "enrichment",
+      "exists": true,
+      "content_hash": "722d52ba0c41061c1953fa080d2a8b8e7b263de5cba178cb69661df323f9c876",
+      "size_bytes": 768,
+      "modified_at": "2026-06-10T09:05:34.362843Z"
+    },
+    {
+      "artifact": "enrichment_report.json",
+      "path": "storage/validation/runs/jobs/artifacts/enrichment_report.json",
+      "module": "enrichment",
+      "exists": true,
+      "content_hash": "7e020e221b0f1b1c53e2fc3b824eec9646ba9390f5dd7f15f6fcc08c7c3fc557",
+      "size_bytes": 190,
+      "modified_at": "2026-06-10T09:05:34.362978Z"
+    },
+    {
+      "artifact": "metadata.json",
+      "path": "storage/validation/runs/jobs/artifacts/metadata.json",
+      "module": "profiling",
+      "exists": true,
+      "content_hash": "7c76e6ff27eca1a0f1be79727bdea8b002b3ab6998c74f488a18339a2358bfcb",
+      "size_bytes": 2296,
+      "modified_at": "2026-06-10T09:05:34.341044Z"
+    },
+    {
+      "artifact": "rule_execution_report.json",
+      "path": "storage/validation/runs/jobs/artifacts/rule_execution_report.json",
+      "module": "rule_execution",
+      "exists": true,
+      "content_hash": "2562e352f58e9ca5e416e9d8f1708e9ad9ca6925e8fc4d23655d689c2cd6cb2a",
+      "size_bytes": 3130,
+      "modified_at": "2026-06-10T09:05:34.358443Z"
+    },
+    {
+      "artifact": "rule_generation_report.json",
+      "path": "storage/validation/runs/jobs/artifacts/rule_generation_report.json",
+      "module": "rule_generation",
+      "exists": true,
+      "content_hash": "6528ef8325516711ae2c2562bab6d71c07143826496ef5c08b5bdb62b6a2f2e0",
+      "size_bytes": 520,
+      "modified_at": "2026-06-10T09:05:34.342394Z"
+    },
+    {
+      "artifact": "rules.json",
+      "path": "storage/validation/runs/jobs/rules/rules.json",
+      "module": "rule_generation",
+      "exists": true,
+      "content_hash": "4c897121eca71e2b782ab1b45e6c5b5d13dc54a1e5044fda4a2553ecc76d4023",
+      "size_bytes": 5350,
+      "modified_at": "2026-06-10T09:05:34.342294Z"
+    },
+    {
+      "artifact": "semantic_columns.json",
+      "path": "storage/validation/runs/jobs/artifacts/semantic_columns.json",
+      "module": "semantic",
+      "exists": true,
+      "content_hash": "6660782acbfdc05d902146c2caae14a9fe947a4848bb52bff628bd38913d0c72",
+      "size_bytes": 1480,
+      "modified_at": "2026-06-10T09:05:34.341736Z"
+    },
+    {
+      "artifact": "standardization_report.json",
+      "path": "storage/validation/runs/jobs/artifacts/standardization_report.json",
+      "module": "standardization",
+      "exists": true,
+      "content_hash": "742cbd280bd1e12f6fecdea369426172cee1d66347eeaee76d35b70cd4148eab",
+      "size_bytes": 237,
+      "modified_at": "2026-06-10T09:05:34.360510Z"
+    },
+    {
+      "artifact": "standardized_dataset.csv",
+      "path": "storage/validation/runs/jobs/artifacts/standardized_dataset.csv",
+      "module": "standardization",
+      "exists": true,
+      "content_hash": "4abe0a21f0543a64155ce6c4b86e14f0d46cc598c7a18857272eb01b6b1bf11c",
+      "size_bytes": 667,
+      "modified_at": "2026-06-10T09:05:34.360406Z"
+    }
+  ],
+  "change_log": {
+    "records": [
+      {
+        "timestamp": "2026-06-10T09:05:34.363532Z",
+        "module": "enrichment",
+        "artifact": "enriched_dataset.csv",
+        "status": "success",
+        "message": "Artifact present"
+      },
+      {
+        "timestamp": "2026-06-10T09:05:34.363532Z",
+        "module": "enrichment",
+        "artifact": "enrichment_report.json",
+        "status": "success",
+        "message": "Artifact present"
+      },
+      {
+        "timestamp": "2026-06-10T09:05:34.363532Z",
+        "module": "profiling",
+        "artifact": "metadata.json",
+        "status": "success",
+        "message": "Artifact present"
+      },
+      {
+        "timestamp": "2026-06-10T09:05:34.363532Z",
+        "module": "rule_execution",
+        "artifact": "cleaned_dataset.csv",
+        "status": "success",
+        "message": "Artifact present"
+      },
+      {
+        "timestamp": "2026-06-10T09:05:34.363532Z",
+        "module": "rule_execution",
+        "artifact": "rule_execution_report.json",
+        "status": "success",
+        "message": "Artifact present"
+      },
+      {
+        "timestamp": "2026-06-10T09:05:34.363532Z",
+        "module": "rule_generation",
+        "artifact": "rule_generation_report.json",
+        "status": "success",
+        "message": "Artifact present"
+      },
+      {
+        "timestamp": "2026-06-10T09:05:34.363532Z",
+        "module": "rule_generation",
+        "artifact": "rules.json",
+        "status": "success",
+        "message": "Artifact present"
+      },
+      {
+        "timestamp": "2026-06-10T09:05:34.363532Z",
+        "module": "semantic",
+        "artifact": "semantic_columns.json",
+        "status": "success",
+        "message": "Artifact present"
+      },
+      {
+        "timestamp": "2026-06-10T09:05:34.363532Z",
+        "module": "standardization",
+        "artifact": "standardization_report.json",
+        "status": "success",
+        "message": "Artifact present"
+      },
+      {
+        "timestamp": "2026-06-10T09:05:34.363532Z",
+        "module": "standardization",
+        "artifact": "standardized_dataset.csv",
+        "status": "success",
+        "message": "Artifact present"
+      }
+    ]
+  },
+  "rule_history": {
+    "records": [
+      {
+        "rule_id": "rule_mapping_title_001",
+        "rule_type": "mapping",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 1,
+        "first_seen": "2026-06-10T09:05:34.363011Z",
+        "last_seen": "2026-06-10T09:05:34.363011Z"
+      },
+      {
+        "rule_id": "rule_regex_experience_001",
+        "rule_type": "regex",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 1,
+        "first_seen": "2026-06-10T09:05:34.363011Z",
+        "last_seen": "2026-06-10T09:05:34.363011Z"
+      },
+      {
+        "rule_id": "rule_regex_salary_001",
+        "rule_type": "regex",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 1,
+        "first_seen": "2026-06-10T09:05:34.363011Z",
+        "last_seen": "2026-06-10T09:05:34.363011Z"
+      },
+      {
+        "rule_id": "rule_transform_experience_remove_extra_spaces_001",
+        "rule_type": "transformation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 1,
+        "first_seen": "2026-06-10T09:05:34.363011Z",
+        "last_seen": "2026-06-10T09:05:34.363011Z"
+      },
+      {
+        "rule_id": "rule_transform_experience_trim_001",
+        "rule_type": "transformation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 1,
+        "first_seen": "2026-06-10T09:05:34.363011Z",
+        "last_seen": "2026-06-10T09:05:34.363011Z"
+      },
+      {
+        "rule_id": "rule_transform_location_remove_extra_spaces_001",
+        "rule_type": "transformation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 1,
+        "first_seen": "2026-06-10T09:05:34.363011Z",
+        "last_seen": "2026-06-10T09:05:34.363011Z"
+      },
+      {
+        "rule_id": "rule_transform_location_trim_001",
+        "rule_type": "transformation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 1,
+        "first_seen": "2026-06-10T09:05:34.363011Z",
+        "last_seen": "2026-06-10T09:05:34.363011Z"
+      },
+      {
+        "rule_id": "rule_transform_salary_remove_extra_spaces_001",
+        "rule_type": "transformation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 1,
+        "first_seen": "2026-06-10T09:05:34.363011Z",
+        "last_seen": "2026-06-10T09:05:34.363011Z"
+      },
+      {
+        "rule_id": "rule_transform_salary_trim_001",
+        "rule_type": "transformation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 1,
+        "first_seen": "2026-06-10T09:05:34.363011Z",
+        "last_seen": "2026-06-10T09:05:34.363011Z"
+      },
+      {
+        "rule_id": "rule_transform_title_remove_extra_spaces_001",
+        "rule_type": "transformation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 1,
+        "first_seen": "2026-06-10T09:05:34.363011Z",
+        "last_seen": "2026-06-10T09:05:34.363011Z"
+      },
+      {
+        "rule_id": "rule_transform_title_trim_001",
+        "rule_type": "transformation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 1,
+        "first_seen": "2026-06-10T09:05:34.363011Z",
+        "last_seen": "2026-06-10T09:05:34.363011Z"
+      },
+      {
+        "rule_id": "rule_validation_experience_years_001",
+        "rule_type": "validation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 1,
+        "first_seen": "2026-06-10T09:05:34.363011Z",
+        "last_seen": "2026-06-10T09:05:34.363011Z"
+      },
+      {
+        "rule_id": "rule_validation_salary_max_001",
+        "rule_type": "validation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 1,
+        "first_seen": "2026-06-10T09:05:34.363011Z",
+        "last_seen": "2026-06-10T09:05:34.363011Z"
+      },
+      {
+        "rule_id": "rule_validation_salary_min_001",
+        "rule_type": "validation",
+        "created_by": "semantic",
+        "enabled": true,
+        "execution_count": 1,
+        "first_seen": "2026-06-10T09:05:34.363011Z",
+        "last_seen": "2026-06-10T09:05:34.363011Z"
+      }
+    ]
+  }
+}

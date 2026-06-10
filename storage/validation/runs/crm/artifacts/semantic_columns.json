@@ -1,0 +1,45 @@
+{
+  "source_file": "crm_sample.csv",
+  "column_count": 5,
+  "columns": [
+    {
+      "column_name": "customer_name",
+      "semantic_type": "UNKNOWN",
+      "confidence": 0.0,
+      "detector_name": "detector_registry",
+      "evidence": []
+    },
+    {
+      "column_name": "email",
+      "semantic_type": "UNKNOWN",
+      "confidence": 0.0,
+      "detector_name": "detector_registry",
+      "evidence": []
+    },
+    {
+      "column_name": "phone",
+      "semantic_type": "UNKNOWN",
+      "confidence": 0.0,
+      "detector_name": "detector_registry",
+      "evidence": []
+    },
+    {
+      "column_name": "customer_type",
+      "semantic_type": "UNKNOWN",
+      "confidence": 0.0,
+      "detector_name": "detector_registry",
+      "evidence": []
+    },
+    {
+      "column_name": "city",
+      "semantic_type": "LOCATION",
+      "confidence": 0.8999999999999999,
+      "detector_name": "keyword_detector",
+      "evidence": [
+        "column_name matched keyword 'city'",
+        "top_value matched keyword 'city'",
+        "sample_value matched keyword 'city'"
+      ]
+    }
+  ]
+}

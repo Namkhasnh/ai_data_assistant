@@ -25,7 +25,13 @@ def test_kb_enricher_adds_configured_columns_and_preserves_unknowns(
         ),
         encoding="utf-8",
     )
-    dataframe = pd.DataFrame({"title": ["Data Engineer", "Unknown Title"]})
+    dataframe = pd.DataFrame(
+        {
+            "title": ["Data Engineer", "Unknown Title"],
+            "standardized_title": ["Data Engineer", None],
+            "standardized_location": ["Hà Nội", None],
+        }
+    )
     original = dataframe.copy(deep=True)
     config_item = EnrichmentConfigItem(
         enricher_id="test_title_family_001",
@@ -42,10 +48,19 @@ def test_kb_enricher_adds_configured_columns_and_preserves_unknowns(
     )
 
     assert enriched["title"].tolist() == ["Data Engineer", "Unknown Title"]
+    assert enriched["standardized_title"].tolist() == ["Data Engineer", None]
+    assert enriched["standardized_location"].tolist() == ["Hà Nội", None]
     assert enriched.loc[0, "job_family"] == "Engineering"
     assert enriched.loc[0, "job_domain"] == "Data"
     assert pd.isna(enriched.loc[1, "job_family"])
     assert pd.isna(enriched.loc[1, "job_domain"])
+    assert list(enriched.columns) == [
+        "title",
+        "standardized_title",
+        "standardized_location",
+        "job_family",
+        "job_domain",
+    ]
     pd.testing.assert_frame_equal(dataframe, original)
 
 
