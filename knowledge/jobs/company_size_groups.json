@@ -1,0 +1,39 @@
+{
+  "Enterprise": {
+    "aliases": [
+      "enterprise",
+      "fortune 500",
+      "global company",
+      "large corporation",
+      "multinational"
+    ]
+  },
+  "Large": {
+    "aliases": [
+      "large company",
+      "large-scale",
+      "national company"
+    ]
+  },
+  "Medium": {
+    "aliases": [
+      "medium company",
+      "mid-sized",
+      "scale-up"
+    ]
+  },
+  "Small": {
+    "aliases": [
+      "small business",
+      "small company",
+      "sme"
+    ]
+  },
+  "Startup": {
+    "aliases": [
+      "early-stage",
+      "seed-stage",
+      "startup"
+    ]
+  }
+}

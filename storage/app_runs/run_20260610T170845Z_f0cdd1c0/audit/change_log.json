@@ -1,0 +1,158 @@
+{
+  "records": [
+    {
+      "timestamp": "2026-06-10T17:10:28.663615Z",
+      "module": "ai_suggestions",
+      "artifact": "ai_suggestions.json",
+      "status": "missing",
+      "message": "Artifact missing: storage/app_runs/run_20260610T170845Z_f0cdd1c0/artifacts/ai_suggestions.json"
+    },
+    {
+      "timestamp": "2026-06-10T17:10:28.663615Z",
+      "module": "enrichment",
+      "artifact": "enriched_dataset.csv",
+      "status": "success",
+      "message": "Artifact present"
+    },
+    {
+      "timestamp": "2026-06-10T17:10:28.663615Z",
+      "module": "enrichment",
+      "artifact": "enrichment_report.json",
+      "status": "success",
+      "message": "Artifact present"
+    },
+    {
+      "timestamp": "2026-06-10T17:10:28.663615Z",
+      "module": "profiling",
+      "artifact": "metadata.json",
+      "status": "success",
+      "message": "Artifact present"
+    },
+    {
+      "timestamp": "2026-06-10T17:10:28.663615Z",
+      "module": "rule_execution",
+      "artifact": "cleaned_dataset.csv",
+      "status": "success",
+      "message": "Artifact present"
+    },
+    {
+      "timestamp": "2026-06-10T17:10:28.663615Z",
+      "module": "rule_execution",
+      "artifact": "rule_execution_report.json",
+      "status": "success",
+      "message": "Artifact present"
+    },
+    {
+      "timestamp": "2026-06-10T17:10:28.663615Z",
+      "module": "rule_generation",
+      "artifact": "rule_generation_report.json",
+      "status": "success",
+      "message": "Artifact present"
+    },
+    {
+      "timestamp": "2026-06-10T17:10:28.663615Z",
+      "module": "rule_generation",
+      "artifact": "rules.json",
+      "status": "success",
+      "message": "Artifact present"
+    },
+    {
+      "timestamp": "2026-06-10T17:10:28.663615Z",
+      "module": "semantic",
+      "artifact": "semantic_columns.json",
+      "status": "success",
+      "message": "Artifact present"
+    },
+    {
+      "timestamp": "2026-06-10T17:10:28.663615Z",
+      "module": "standardization",
+      "artifact": "standardization_report.json",
+      "status": "success",
+      "message": "Artifact present"
+    },
+    {
+      "timestamp": "2026-06-10T17:10:28.663615Z",
+      "module": "standardization",
+      "artifact": "standardized_dataset.csv",
+      "status": "success",
+      "message": "Artifact present"
+    },
+    {
+      "timestamp": "2026-06-10T17:18:41.191556Z",
+      "module": "ai_suggestions",
+      "artifact": "ai_suggestions.json",
+      "status": "missing",
+      "message": "Artifact missing: storage/app_runs/run_20260610T170845Z_f0cdd1c0/artifacts/ai_suggestions.json"
+    },
+    {
+      "timestamp": "2026-06-10T17:18:41.191556Z",
+      "module": "enrichment",
+      "artifact": "enriched_dataset.csv",
+      "status": "success",
+      "message": "Artifact present"
+    },
+    {
+      "timestamp": "2026-06-10T17:18:41.191556Z",
+      "module": "enrichment",
+      "artifact": "enrichment_report.json",
+      "status": "success",
+      "message": "Artifact present"
+    },
+    {
+      "timestamp": "2026-06-10T17:18:41.191556Z",
+      "module": "profiling",
+      "artifact": "metadata.json",
+      "status": "success",
+      "message": "Artifact present"
+    },
+    {
+      "timestamp": "2026-06-10T17:18:41.191556Z",
+      "module": "rule_execution",
+      "artifact": "cleaned_dataset.csv",
+      "status": "success",
+      "message": "Artifact present"
+    },
+    {
+      "timestamp": "2026-06-10T17:18:41.191556Z",
+      "module": "rule_execution",
+      "artifact": "rule_execution_report.json",
+      "status": "success",
+      "message": "Artifact present"
+    },
+    {
+      "timestamp": "2026-06-10T17:18:41.191556Z",
+      "module": "rule_generation",
+      "artifact": "rule_generation_report.json",
+      "status": "success",
+      "message": "Artifact present"
+    },
+    {
+      "timestamp": "2026-06-10T17:18:41.191556Z",
+      "module": "rule_generation",
+      "artifact": "rules.json",
+      "status": "success",
+      "message": "Artifact present"
+    },
+    {
+      "timestamp": "2026-06-10T17:18:41.191556Z",
+      "module": "semantic",
+      "artifact": "semantic_columns.json",
+      "status": "success",
+      "message": "Artifact present"
+    },
+    {
+      "timestamp": "2026-06-10T17:18:41.191556Z",
+      "module": "standardization",
+      "artifact": "standardization_report.json",
+      "status": "success",
+      "message": "Artifact present"
+    },
+    {
+      "timestamp": "2026-06-10T17:18:41.191556Z",
+      "module": "standardization",
+      "artifact": "standardized_dataset.csv",
+      "status": "success",
+      "message": "Artifact present"
+    }
+  ]
+}

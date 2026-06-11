@@ -1,0 +1,63 @@
+{
+  "Chinese": {
+    "aliases": [
+      "chinese",
+      "hsk",
+      "hsk3",
+      "hsk4",
+      "hsk5",
+      "hsk6",
+      "mandarin",
+      "tiếng trung"
+    ]
+  },
+  "English": {
+    "aliases": [
+      "b1",
+      "b2",
+      "c1",
+      "c2",
+      "english",
+      "ielts",
+      "ielts 6.5",
+      "tiếng anh",
+      "toeic",
+      "toeic 700",
+      "toeic 800"
+    ]
+  },
+  "French": {
+    "aliases": [
+      "french",
+      "tiếng pháp"
+    ]
+  },
+  "German": {
+    "aliases": [
+      "german",
+      "tiếng đức"
+    ]
+  },
+  "Japanese": {
+    "aliases": [
+      "japanese",
+      "jlpt",
+      "n1",
+      "n2",
+      "n3",
+      "n4",
+      "tiếng nhật"
+    ]
+  },
+  "Korean": {
+    "aliases": [
+      "korean",
+      "tiếng hàn",
+      "topik",
+      "topik 3",
+      "topik 4",
+      "topik 5",
+      "topik 6"
+    ]
+  }
+}

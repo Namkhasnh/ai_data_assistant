@@ -1,0 +1,57 @@
+{
+  "Associate": {
+    "aliases": [
+      "associate",
+      "associate degree",
+      "cao đẳng"
+    ],
+    "rank": 2
+  },
+  "Bachelor": {
+    "aliases": [
+      "bachelor",
+      "bachelor degree",
+      "cử nhân",
+      "đại học"
+    ],
+    "rank": 3
+  },
+  "High School": {
+    "aliases": [
+      "high school",
+      "secondary school",
+      "trung học phổ thông"
+    ],
+    "rank": 1
+  },
+  "MBA": {
+    "aliases": [
+      "mba"
+    ],
+    "rank": 4
+  },
+  "Master": {
+    "aliases": [
+      "master",
+      "master degree",
+      "thạc sĩ"
+    ],
+    "rank": 4
+  },
+  "PhD": {
+    "aliases": [
+      "doctorate",
+      "phd",
+      "tiến sĩ"
+    ],
+    "rank": 5
+  },
+  "Professional Certificate": {
+    "aliases": [
+      "aws certification",
+      "google professional certificate",
+      "professional certificate"
+    ],
+    "rank": 3
+  }
+}

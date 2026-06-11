@@ -1,0 +1,32 @@
+{
+  "Remote": {
+    "priority": 100,
+    "aliases": [
+      "fully remote",
+      "làm việc từ xa",
+      "remote",
+      "wfh",
+      "work from home"
+    ]
+  },
+  "Hybrid": {
+    "priority": 200,
+    "aliases": [
+      "2 days remote",
+      "3 days onsite",
+      "hybrid",
+      "hybrid working",
+      "linh hoạt",
+      "làm việc kết hợp"
+    ]
+  },
+  "Onsite": {
+    "priority": 300,
+    "aliases": [
+      "full office",
+      "làm việc tại văn phòng",
+      "onsite",
+      "work at office"
+    ]
+  }
+}

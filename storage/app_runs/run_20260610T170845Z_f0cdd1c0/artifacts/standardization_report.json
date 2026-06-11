@@ -1,0 +1,22 @@
+{
+  "total_standardized_columns": 4,
+  "standardized_by_standardizer": {
+    "mapping": 2,
+    "numeric_bucket": 1,
+    "categorical": 1
+  },
+  "warnings": [],
+  "skipped_columns": [
+    "job_id",
+    "experience",
+    "job_description",
+    "job_requirements",
+    "benefits",
+    "work_location_detail",
+    "working_time",
+    "company_name",
+    "company_size",
+    "company_address"
+  ],
+  "standardizer_warnings": {}
+}

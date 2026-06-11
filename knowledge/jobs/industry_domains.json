@@ -1,0 +1,118 @@
+{
+  "Banking": {
+    "aliases": [
+      "agribank",
+      "bank",
+      "banking",
+      "basel ii",
+      "bidv",
+      "credit",
+      "loan",
+      "payment",
+      "vietcombank"
+    ]
+  },
+  "E-commerce": {
+    "aliases": [
+      "e-commerce",
+      "ecommerce",
+      "lazada",
+      "marketplace",
+      "online retail",
+      "shopee",
+      "tiki"
+    ]
+  },
+  "Education": {
+    "aliases": [
+      "edtech",
+      "education",
+      "school",
+      "student",
+      "university"
+    ]
+  },
+  "Finance": {
+    "aliases": [
+      "accounting",
+      "fintech",
+      "investment",
+      "securities",
+      "trading",
+      "wealth management"
+    ]
+  },
+  "Healthcare": {
+    "aliases": [
+      "clinic",
+      "healthcare",
+      "hospital",
+      "medical",
+      "patient",
+      "telemedicine",
+      "vinmec"
+    ]
+  },
+  "Insurance": {
+    "aliases": [
+      "claim",
+      "claims",
+      "insurance",
+      "policy",
+      "premium",
+      "prudential",
+      "underwriting"
+    ]
+  },
+  "Logistics": {
+    "aliases": [
+      "delivery",
+      "freight",
+      "logistics",
+      "shipping",
+      "warehouse"
+    ]
+  },
+  "Manufacturing": {
+    "aliases": [
+      "factory",
+      "industrial",
+      "manufacturing",
+      "production line",
+      "supply chain"
+    ]
+  },
+  "Real Estate": {
+    "aliases": [
+      "property",
+      "real estate",
+      "realty",
+      "rental"
+    ]
+  },
+  "Technology": {
+    "aliases": [
+      "saas",
+      "software",
+      "tech startup",
+      "technology"
+    ]
+  },
+  "Telecommunications": {
+    "aliases": [
+      "broadband",
+      "telco",
+      "telecom",
+      "telecommunications"
+    ]
+  },
+  "Travel": {
+    "aliases": [
+      "booking",
+      "hospitality",
+      "hotel",
+      "tourism",
+      "travel"
+    ]
+  }
+}

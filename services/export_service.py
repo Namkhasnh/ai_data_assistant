@@ -68,8 +68,24 @@ class ExportService:
         return registry
 
     def _load_dataset(self, warnings: list[str]) -> pd.DataFrame | None:
+        semantic_path = self.artifact_dir / "semantic_dataset.csv"
+        business_path = self.artifact_dir / "business_dataset.csv"
         enriched_path = self.artifact_dir / "enriched_dataset.csv"
         standardized_path = self.artifact_dir / "standardized_dataset.csv"
+
+        if semantic_path.exists():
+            dataframe = self._read_csv(semantic_path, warnings)
+            if dataframe is not None:
+                return dataframe
+        else:
+            warnings.append(f"semantic_dataset.csv not found: {semantic_path}")
+
+        if business_path.exists():
+            dataframe = self._read_csv(business_path, warnings)
+            if dataframe is not None:
+                return dataframe
+        else:
+            warnings.append(f"business_dataset.csv not found: {business_path}")
 
         if enriched_path.exists():
             dataframe = self._read_csv(enriched_path, warnings)

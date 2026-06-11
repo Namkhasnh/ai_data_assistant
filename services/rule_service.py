@@ -31,6 +31,17 @@ class RuleService:
             raise ValueError(f"Rules file is invalid JSON: {path}") from exc
         return RuleSet.model_validate(payload)
 
+    def save_rules(self, rule_set: RuleSet, rules_path: str | Path) -> Path:
+        """Persist a reviewed rule set to rules.json."""
+
+        output_path = Path(rules_path)
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        output_path.write_text(
+            json.dumps(rule_set.model_dump(mode="json"), indent=2, ensure_ascii=False) + "\n",
+            encoding="utf-8",
+        )
+        return output_path
+
     def execute_rules(
         self,
         df: pd.DataFrame,

@@ -1,0 +1,1196 @@
+{
+  "AI Engineer": {
+    "aliases": [
+      "AI Developer",
+      "Artificial Intelligence Engineer"
+    ],
+    "job_group": "AI Engineer",
+    "specialization": "Artificial Intelligence",
+    "tech_domain": "AI"
+  },
+  "AI Research Engineer": {
+    "aliases": [
+      "AI Researcher",
+      "Applied AI Research Engineer",
+      "Research Engineer AI"
+    ],
+    "job_group": "AI Engineer",
+    "specialization": "AI Research",
+    "tech_domain": "AI"
+  },
+  "Applied AI Engineer": {
+    "aliases": [
+      "Applied Artificial Intelligence Engineer",
+      "Applied Machine Learning Engineer"
+    ],
+    "job_group": "AI Engineer",
+    "specialization": "Applied AI",
+    "tech_domain": "AI"
+  },
+  "Computer Vision Engineer": {
+    "aliases": [
+      "CV Engineer",
+      "Computer Vision Developer",
+      "Computer Vision Specialist"
+    ],
+    "job_group": "AI Engineer",
+    "specialization": "Computer Vision",
+    "tech_domain": "AI"
+  },
+  "Generative AI Engineer": {
+    "aliases": [
+      "GenAI Engineer",
+      "Generative AI Developer"
+    ],
+    "job_group": "AI Engineer",
+    "specialization": "Generative AI",
+    "tech_domain": "AI"
+  },
+  "LLM Engineer": {
+    "aliases": [
+      "LLM Developer",
+      "Large Language Model Engineer"
+    ],
+    "job_group": "AI Engineer",
+    "specialization": "Large Language Models",
+    "tech_domain": "AI"
+  },
+  "Machine Learning Engineer": {
+    "aliases": [
+      "ML Developer",
+      "ML Engineer",
+      "Machine Learning Developer"
+    ],
+    "job_group": "AI Engineer",
+    "specialization": "Machine Learning",
+    "tech_domain": "AI"
+  },
+  "MLOps Engineer": {
+    "aliases": [
+      "Machine Learning Operations Engineer",
+      "Model Operations Engineer"
+    ],
+    "job_group": "AI Engineer",
+    "specialization": "MLOps",
+    "tech_domain": "AI"
+  },
+  "NLP Engineer": {
+    "aliases": [
+      "Natural Language Processing Engineer",
+      "Text Mining Engineer"
+    ],
+    "job_group": "AI Engineer",
+    "specialization": "Natural Language Processing",
+    "tech_domain": "AI"
+  },
+  "Prompt Engineer": {
+    "aliases": [
+      "AI Prompt Engineer",
+      "Prompt Designer"
+    ],
+    "job_group": "AI Engineer",
+    "specialization": "Prompt Engineering",
+    "tech_domain": "AI"
+  },
+  "Analytics Engineer": {
+    "aliases": [
+      "Analytics Data Engineer",
+      "Data Analytics Engineer"
+    ],
+    "job_group": "Data Engineer",
+    "specialization": "Analytics Engineering",
+    "tech_domain": "Data"
+  },
+  "Big Data Engineer": {
+    "aliases": [
+      "Big Data Developer",
+      "Hadoop Engineer",
+      "Spark Engineer"
+    ],
+    "job_group": "Data Engineer",
+    "specialization": "Big Data",
+    "tech_domain": "Data"
+  },
+  "Data Architect": {
+    "aliases": [
+      "Data Architecture Specialist",
+      "Enterprise Data Architect"
+    ],
+    "job_group": "Data Architect",
+    "specialization": "Data Architecture",
+    "tech_domain": "Data"
+  },
+  "Data Engineer": {
+    "aliases": [
+      "Data Engineering Specialist",
+      "Data Pipeline Engineer"
+    ],
+    "job_group": "Data Engineer",
+    "specialization": "Data Engineering",
+    "tech_domain": "Data"
+  },
+  "Data Platform Engineer": {
+    "aliases": [
+      "Data Infrastructure Engineer",
+      "Data Platform Developer"
+    ],
+    "job_group": "Data Engineer",
+    "specialization": "Data Platform",
+    "tech_domain": "Data"
+  },
+  "Data Quality Engineer": {
+    "aliases": [
+      "Data QA Engineer",
+      "Data Validation Engineer"
+    ],
+    "job_group": "Data Engineer",
+    "specialization": "Data Quality",
+    "tech_domain": "Data"
+  },
+  "Data Scientist": {
+    "aliases": [
+      "Applied Data Scientist",
+      "Machine Learning Scientist"
+    ],
+    "job_group": "Data Scientist",
+    "specialization": "Data Science",
+    "tech_domain": "Data"
+  },
+  "Database Engineer": {
+    "aliases": [
+      "DB Engineer",
+      "Database Developer"
+    ],
+    "job_group": "Data Engineer",
+    "specialization": "Database Engineering",
+    "tech_domain": "Data"
+  },
+  "ETL Developer": {
+    "aliases": [
+      "ETL Engineer",
+      "ETL Specialist"
+    ],
+    "job_group": "Data Engineer",
+    "specialization": "ETL",
+    "tech_domain": "Data"
+  },
+  "Machine Learning Data Engineer": {
+    "aliases": [
+      "ML Data Engineer",
+      "Machine Learning Pipeline Engineer"
+    ],
+    "job_group": "Data Engineer",
+    "specialization": "Machine Learning Data Engineering",
+    "tech_domain": "Data"
+  },
+  "API Developer": {
+    "aliases": [
+      "API Engineer",
+      "REST API Developer"
+    ],
+    "job_group": "Backend Engineer",
+    "specialization": "API Development",
+    "tech_domain": "Backend"
+  },
+  "Backend Developer": {
+    "aliases": [
+      "Back-end Developer",
+      "Server Developer"
+    ],
+    "job_group": "Backend Engineer",
+    "specialization": "Backend Development",
+    "tech_domain": "Backend"
+  },
+  "Backend Engineer": {
+    "aliases": [
+      "Back-end Engineer",
+      "Server Engineer"
+    ],
+    "job_group": "Backend Engineer",
+    "specialization": "Backend Engineering",
+    "tech_domain": "Backend"
+  },
+  "Java Backend Engineer": {
+    "aliases": [
+      "Java Backend Developer",
+      "Java Server Engineer"
+    ],
+    "job_group": "Backend Engineer",
+    "specialization": "Java Backend",
+    "tech_domain": "Backend"
+  },
+  "Node.js Developer": {
+    "aliases": [
+      "Node Developer",
+      "Node.js Engineer"
+    ],
+    "job_group": "Backend Engineer",
+    "specialization": "Node.js Backend",
+    "tech_domain": "Backend"
+  },
+  "Python Backend Engineer": {
+    "aliases": [
+      "Python Backend Developer",
+      "Python Server Engineer"
+    ],
+    "job_group": "Backend Engineer",
+    "specialization": "Python Backend",
+    "tech_domain": "Backend"
+  },
+  "Server-Side Engineer": {
+    "aliases": [
+      "Server Side Developer",
+      "Server-Side Developer"
+    ],
+    "job_group": "Backend Engineer",
+    "specialization": "Server-Side Engineering",
+    "tech_domain": "Backend"
+  },
+  "Software Engineer Backend": {
+    "aliases": [
+      "Backend Software Developer",
+      "Backend Software Engineer"
+    ],
+    "job_group": "Backend Engineer",
+    "specialization": "Backend Software Engineering",
+    "tech_domain": "Backend"
+  },
+  "Frontend Developer": {
+    "aliases": [
+      "Front-end Developer",
+      "Web UI Developer"
+    ],
+    "job_group": "Frontend Engineer",
+    "specialization": "Frontend Development",
+    "tech_domain": "Frontend"
+  },
+  "Frontend Engineer": {
+    "aliases": [
+      "Front-end Engineer",
+      "UI Engineer"
+    ],
+    "job_group": "Frontend Engineer",
+    "specialization": "Frontend Engineering",
+    "tech_domain": "Frontend"
+  },
+  "JavaScript Developer": {
+    "aliases": [
+      "JS Developer",
+      "JavaScript Engineer"
+    ],
+    "job_group": "Frontend Engineer",
+    "specialization": "JavaScript",
+    "tech_domain": "Frontend"
+  },
+  "React Developer": {
+    "aliases": [
+      "React Engineer",
+      "React.js Developer"
+    ],
+    "job_group": "Frontend Engineer",
+    "specialization": "React",
+    "tech_domain": "Frontend"
+  },
+  "UI Developer": {
+    "aliases": [
+      "User Interface Developer",
+      "Web Interface Developer"
+    ],
+    "job_group": "Frontend Engineer",
+    "specialization": "User Interface Development",
+    "tech_domain": "Frontend"
+  },
+  "Vue.js Developer": {
+    "aliases": [
+      "Vue Developer",
+      "Vue.js Engineer"
+    ],
+    "job_group": "Frontend Engineer",
+    "specialization": "Vue.js",
+    "tech_domain": "Frontend"
+  },
+  "Web Developer": {
+    "aliases": [
+      "Web Engineer",
+      "Website Developer"
+    ],
+    "job_group": "Frontend Engineer",
+    "specialization": "Web Development",
+    "tech_domain": "Frontend"
+  },
+  "Web Frontend Engineer": {
+    "aliases": [
+      "Frontend Web Developer",
+      "Web Front-end Engineer"
+    ],
+    "job_group": "Frontend Engineer",
+    "specialization": "Web Frontend",
+    "tech_domain": "Frontend"
+  },
+  "Fullstack Developer": {
+    "aliases": [
+      "Full Stack Developer",
+      "Full-stack Developer"
+    ],
+    "job_group": "Fullstack Engineer",
+    "specialization": "Fullstack Development",
+    "tech_domain": "Fullstack"
+  },
+  "Fullstack Engineer": {
+    "aliases": [
+      "Full Stack Engineer",
+      "Full-stack Engineer"
+    ],
+    "job_group": "Fullstack Engineer",
+    "specialization": "Fullstack Engineering",
+    "tech_domain": "Fullstack"
+  },
+  "JavaScript Fullstack Engineer": {
+    "aliases": [
+      "Fullstack JavaScript Developer",
+      "JavaScript Full Stack Engineer"
+    ],
+    "job_group": "Fullstack Engineer",
+    "specialization": "JavaScript Fullstack",
+    "tech_domain": "Fullstack"
+  },
+  "MERN Stack Developer": {
+    "aliases": [
+      "MERN Developer",
+      "MERN Stack Engineer"
+    ],
+    "job_group": "Fullstack Engineer",
+    "specialization": "MERN Stack",
+    "tech_domain": "Fullstack"
+  },
+  "MEAN Stack Developer": {
+    "aliases": [
+      "MEAN Developer",
+      "MEAN Stack Engineer"
+    ],
+    "job_group": "Fullstack Engineer",
+    "specialization": "MEAN Stack",
+    "tech_domain": "Fullstack"
+  },
+  "Python Fullstack Engineer": {
+    "aliases": [
+      "Python Full Stack Developer",
+      "Python Fullstack Developer"
+    ],
+    "job_group": "Fullstack Engineer",
+    "specialization": "Python Fullstack",
+    "tech_domain": "Fullstack"
+  },
+  "Web Application Developer": {
+    "aliases": [
+      "Fullstack Web Developer",
+      "Web App Developer"
+    ],
+    "job_group": "Fullstack Engineer",
+    "specialization": "Web Applications",
+    "tech_domain": "Fullstack"
+  },
+  "Software Engineer Fullstack": {
+    "aliases": [
+      "Fullstack Software Developer",
+      "Fullstack Software Engineer"
+    ],
+    "job_group": "Fullstack Engineer",
+    "specialization": "Fullstack Software Engineering",
+    "tech_domain": "Fullstack"
+  },
+  "Android Developer": {
+    "aliases": [
+      "Android App Developer",
+      "Android Software Developer"
+    ],
+    "job_group": "Mobile Engineer",
+    "specialization": "Android",
+    "tech_domain": "Mobile"
+  },
+  "Android Engineer": {
+    "aliases": [
+      "Android App Engineer",
+      "Android Software Engineer"
+    ],
+    "job_group": "Mobile Engineer",
+    "specialization": "Android Engineering",
+    "tech_domain": "Mobile"
+  },
+  "Flutter Developer": {
+    "aliases": [
+      "Flutter Engineer",
+      "Flutter Mobile Developer"
+    ],
+    "job_group": "Mobile Engineer",
+    "specialization": "Flutter",
+    "tech_domain": "Mobile"
+  },
+  "iOS Developer": {
+    "aliases": [
+      "Apple iOS Developer",
+      "iPhone App Developer"
+    ],
+    "job_group": "Mobile Engineer",
+    "specialization": "iOS",
+    "tech_domain": "Mobile"
+  },
+  "iOS Engineer": {
+    "aliases": [
+      "Apple iOS Engineer",
+      "iPhone App Engineer"
+    ],
+    "job_group": "Mobile Engineer",
+    "specialization": "iOS Engineering",
+    "tech_domain": "Mobile"
+  },
+  "Mobile Developer": {
+    "aliases": [
+      "App Developer",
+      "Mobile App Developer"
+    ],
+    "job_group": "Mobile Engineer",
+    "specialization": "Mobile Development",
+    "tech_domain": "Mobile"
+  },
+  "Mobile Engineer": {
+    "aliases": [
+      "App Engineer",
+      "Mobile App Engineer"
+    ],
+    "job_group": "Mobile Engineer",
+    "specialization": "Mobile Engineering",
+    "tech_domain": "Mobile"
+  },
+  "React Native Developer": {
+    "aliases": [
+      "React Native Engineer",
+      "React Native Mobile Developer"
+    ],
+    "job_group": "Mobile Engineer",
+    "specialization": "React Native",
+    "tech_domain": "Mobile"
+  },
+  "Build Engineer": {
+    "aliases": [
+      "Build Release Engineer",
+      "Build and Release Engineer"
+    ],
+    "job_group": "DevOps Engineer",
+    "specialization": "Build Engineering",
+    "tech_domain": "DevOps"
+  },
+  "CI/CD Engineer": {
+    "aliases": [
+      "CICD Engineer",
+      "Continuous Delivery Engineer",
+      "Continuous Integration Engineer"
+    ],
+    "job_group": "DevOps Engineer",
+    "specialization": "CI/CD",
+    "tech_domain": "DevOps"
+  },
+  "DevOps Engineer": {
+    "aliases": [
+      "Dev Ops Engineer",
+      "DevOps Developer"
+    ],
+    "job_group": "DevOps Engineer",
+    "specialization": "DevOps",
+    "tech_domain": "DevOps"
+  },
+  "DevOps Lead": {
+    "aliases": [
+      "DevOps Team Lead",
+      "Lead DevOps Engineer"
+    ],
+    "job_group": "DevOps Engineer",
+    "specialization": "DevOps Leadership",
+    "tech_domain": "DevOps"
+  },
+  "Infrastructure Engineer": {
+    "aliases": [
+      "Infra Engineer",
+      "Systems Infrastructure Engineer"
+    ],
+    "job_group": "DevOps Engineer",
+    "specialization": "Infrastructure Engineering",
+    "tech_domain": "DevOps"
+  },
+  "Kubernetes Engineer": {
+    "aliases": [
+      "K8s Engineer",
+      "Kubernetes Platform Engineer"
+    ],
+    "job_group": "DevOps Engineer",
+    "specialization": "Kubernetes",
+    "tech_domain": "DevOps"
+  },
+  "Release Engineer": {
+    "aliases": [
+      "Deployment Engineer",
+      "Release Automation Engineer"
+    ],
+    "job_group": "DevOps Engineer",
+    "specialization": "Release Engineering",
+    "tech_domain": "DevOps"
+  },
+  "Site Reliability Engineer": {
+    "aliases": [
+      "SRE",
+      "Site Reliability Developer"
+    ],
+    "job_group": "DevOps Engineer",
+    "specialization": "Site Reliability Engineering",
+    "tech_domain": "DevOps"
+  },
+  "AWS Engineer": {
+    "aliases": [
+      "AWS Cloud Engineer",
+      "Amazon Web Services Engineer"
+    ],
+    "job_group": "Cloud Engineer",
+    "specialization": "AWS",
+    "tech_domain": "Cloud"
+  },
+  "Azure Engineer": {
+    "aliases": [
+      "Azure Cloud Engineer",
+      "Microsoft Azure Engineer"
+    ],
+    "job_group": "Cloud Engineer",
+    "specialization": "Azure",
+    "tech_domain": "Cloud"
+  },
+  "Cloud Engineer": {
+    "aliases": [
+      "Cloud Developer",
+      "Cloud Systems Engineer"
+    ],
+    "job_group": "Cloud Engineer",
+    "specialization": "Cloud Engineering",
+    "tech_domain": "Cloud"
+  },
+  "Cloud Infrastructure Engineer": {
+    "aliases": [
+      "Cloud Infra Engineer",
+      "Cloud Infrastructure Developer"
+    ],
+    "job_group": "Cloud Engineer",
+    "specialization": "Cloud Infrastructure",
+    "tech_domain": "Cloud"
+  },
+  "Cloud Operations Engineer": {
+    "aliases": [
+      "Cloud Operations Specialist",
+      "Cloud Ops Engineer"
+    ],
+    "job_group": "Cloud Engineer",
+    "specialization": "Cloud Operations",
+    "tech_domain": "Cloud"
+  },
+  "Cloud Platform Engineer": {
+    "aliases": [
+      "Cloud Platform Developer",
+      "Platform Cloud Engineer"
+    ],
+    "job_group": "Cloud Engineer",
+    "specialization": "Cloud Platform",
+    "tech_domain": "Cloud"
+  },
+  "Google Cloud Engineer": {
+    "aliases": [
+      "GCP Engineer",
+      "Google Cloud Platform Engineer"
+    ],
+    "job_group": "Cloud Engineer",
+    "specialization": "Google Cloud",
+    "tech_domain": "Cloud"
+  },
+  "Platform Engineer": {
+    "aliases": [
+      "Developer Platform Engineer",
+      "Internal Platform Engineer"
+    ],
+    "job_group": "Platform Engineer",
+    "specialization": "Platform Engineering",
+    "tech_domain": "Cloud"
+  },
+  "Application Security Engineer": {
+    "aliases": [
+      "AppSec Engineer",
+      "Application Security Specialist"
+    ],
+    "job_group": "Security Engineer",
+    "specialization": "Application Security",
+    "tech_domain": "Security"
+  },
+  "Cloud Security Engineer": {
+    "aliases": [
+      "Cloud Security Specialist",
+      "Security Cloud Engineer"
+    ],
+    "job_group": "Security Engineer",
+    "specialization": "Cloud Security",
+    "tech_domain": "Security"
+  },
+  "Cybersecurity Engineer": {
+    "aliases": [
+      "Cyber Security Engineer",
+      "Cybersecurity Specialist"
+    ],
+    "job_group": "Security Engineer",
+    "specialization": "Cybersecurity",
+    "tech_domain": "Security"
+  },
+  "DevSecOps Engineer": {
+    "aliases": [
+      "DevSecOps Specialist",
+      "Security DevOps Engineer"
+    ],
+    "job_group": "Security Engineer",
+    "specialization": "DevSecOps",
+    "tech_domain": "Security"
+  },
+  "Information Security Engineer": {
+    "aliases": [
+      "InfoSec Engineer",
+      "Information Security Specialist"
+    ],
+    "job_group": "Security Engineer",
+    "specialization": "Information Security",
+    "tech_domain": "Security"
+  },
+  "Penetration Tester": {
+    "aliases": [
+      "Ethical Hacker",
+      "Pen Tester"
+    ],
+    "job_group": "Security Engineer",
+    "specialization": "Penetration Testing",
+    "tech_domain": "Security"
+  },
+  "Security Analyst": {
+    "aliases": [
+      "Cybersecurity Analyst",
+      "Information Security Analyst"
+    ],
+    "job_group": "Security Engineer",
+    "specialization": "Security Analysis",
+    "tech_domain": "Security"
+  },
+  "Security Engineer": {
+    "aliases": [
+      "IT Security Engineer",
+      "Security Specialist"
+    ],
+    "job_group": "Security Engineer",
+    "specialization": "Security Engineering",
+    "tech_domain": "Security"
+  },
+  "Automation QA Engineer": {
+    "aliases": [
+      "Automation Quality Engineer",
+      "QA Automation Engineer"
+    ],
+    "job_group": "QA Engineer",
+    "specialization": "Test Automation",
+    "tech_domain": "QA"
+  },
+  "Automation Tester": {
+    "aliases": [
+      "Automated Tester",
+      "Test Automation Specialist"
+    ],
+    "job_group": "QA Engineer",
+    "specialization": "Automation Testing",
+    "tech_domain": "QA"
+  },
+  "Manual Tester": {
+    "aliases": [
+      "Manual QA Tester",
+      "Software Tester Manual"
+    ],
+    "job_group": "QA Engineer",
+    "specialization": "Manual Testing",
+    "tech_domain": "QA"
+  },
+  "QA Analyst": {
+    "aliases": [
+      "Quality Analyst",
+      "Quality Assurance Analyst"
+    ],
+    "job_group": "QA Engineer",
+    "specialization": "Quality Analysis",
+    "tech_domain": "QA"
+  },
+  "QA Engineer": {
+    "aliases": [
+      "Quality Assurance Engineer",
+      "Software QA Engineer"
+    ],
+    "job_group": "QA Engineer",
+    "specialization": "Quality Assurance",
+    "tech_domain": "QA"
+  },
+  "QA Lead": {
+    "aliases": [
+      "Lead QA Engineer",
+      "Quality Assurance Lead"
+    ],
+    "job_group": "QA Engineer",
+    "specialization": "QA Leadership",
+    "tech_domain": "QA"
+  },
+  "SDET": {
+    "aliases": [
+      "Software Development Engineer in Test",
+      "Software Engineer in Test"
+    ],
+    "job_group": "QA Engineer",
+    "specialization": "Software Development in Test",
+    "tech_domain": "QA"
+  },
+  "Test Engineer": {
+    "aliases": [
+      "Software Test Engineer",
+      "Testing Engineer"
+    ],
+    "job_group": "QA Engineer",
+    "specialization": "Test Engineering",
+    "tech_domain": "QA"
+  },
+  "BI Analyst": {
+    "aliases": [
+      "BI Specialist",
+      "Business Intelligence Specialist"
+    ],
+    "job_group": "Business Intelligence",
+    "specialization": "BI Analysis",
+    "tech_domain": "Business Intelligence"
+  },
+  "BI Developer": {
+    "aliases": [
+      "BI Implementation Developer",
+      "Business Intelligence Engineer"
+    ],
+    "job_group": "Business Intelligence",
+    "specialization": "BI Development",
+    "tech_domain": "Business Intelligence"
+  },
+  "Business Analyst": {
+    "aliases": [
+      "BA",
+      "Business Systems Analyst"
+    ],
+    "job_group": "Business Intelligence",
+    "specialization": "Business Analysis",
+    "tech_domain": "Business Intelligence"
+  },
+  "Business Intelligence Analyst": {
+    "aliases": [
+      "BI Reporting Analyst",
+      "Business Intelligence Reporting Analyst"
+    ],
+    "job_group": "Business Intelligence",
+    "specialization": "Business Intelligence Analysis",
+    "tech_domain": "Business Intelligence"
+  },
+  "Business Intelligence Developer": {
+    "aliases": [
+      "BI Engineer",
+      "BI Platform Developer"
+    ],
+    "job_group": "Business Intelligence",
+    "specialization": "Business Intelligence Development",
+    "tech_domain": "Business Intelligence"
+  },
+  "Data Analyst": {
+    "aliases": [
+      "Business Data Analyst",
+      "Data Analytics Analyst",
+      "Senior Data Analyst"
+    ],
+    "job_group": "Business Intelligence",
+    "specialization": "Data Analysis",
+    "tech_domain": "Business Intelligence"
+  },
+  "Reporting Analyst": {
+    "aliases": [
+      "BI Reporting Specialist",
+      "Report Analyst"
+    ],
+    "job_group": "Business Intelligence",
+    "specialization": "Reporting",
+    "tech_domain": "Business Intelligence"
+  },
+  "Tableau Developer": {
+    "aliases": [
+      "Tableau BI Developer",
+      "Tableau Specialist"
+    ],
+    "job_group": "Business Intelligence",
+    "specialization": "Tableau",
+    "tech_domain": "Business Intelligence"
+  },
+  "Agile Product Owner": {
+    "aliases": [
+      "Agile PO",
+      "Agile Product Manager"
+    ],
+    "job_group": "Product",
+    "specialization": "Agile Product Ownership",
+    "tech_domain": "Product"
+  },
+  "Associate Product Manager": {
+    "aliases": [
+      "APM",
+      "Junior Product Manager"
+    ],
+    "job_group": "Product",
+    "specialization": "Associate Product Management",
+    "tech_domain": "Product"
+  },
+  "Product Analyst": {
+    "aliases": [
+      "Product Data Analyst",
+      "Product Insights Analyst"
+    ],
+    "job_group": "Product",
+    "specialization": "Product Analytics",
+    "tech_domain": "Product"
+  },
+  "Product Manager": {
+    "aliases": [
+      "PM",
+      "Product Lead"
+    ],
+    "job_group": "Product",
+    "specialization": "Product Management",
+    "tech_domain": "Product"
+  },
+  "Product Owner": {
+    "aliases": [
+      "PO",
+      "Product Ownership Specialist"
+    ],
+    "job_group": "Product",
+    "specialization": "Product Ownership",
+    "tech_domain": "Product"
+  },
+  "Scrum Master": {
+    "aliases": [
+      "Agile Scrum Master",
+      "Scrum Lead"
+    ],
+    "job_group": "Product",
+    "specialization": "Scrum",
+    "tech_domain": "Product"
+  },
+  "Technical Product Manager": {
+    "aliases": [
+      "Technical PM",
+      "Technical Product Lead"
+    ],
+    "job_group": "Product",
+    "specialization": "Technical Product Management",
+    "tech_domain": "Product"
+  },
+  "Technical Program Manager": {
+    "aliases": [
+      "TPM",
+      "Technical Programme Manager"
+    ],
+    "job_group": "Product",
+    "specialization": "Technical Program Management",
+    "tech_domain": "Product"
+  },
+  "Application Architect": {
+    "aliases": [
+      "Application Solution Architect",
+      "Software Application Architect"
+    ],
+    "job_group": "Software Architect",
+    "specialization": "Application Architecture",
+    "tech_domain": "Architecture"
+  },
+  "Cloud Architect": {
+    "aliases": [
+      "Cloud Solution Architect",
+      "Cloud Solutions Architect"
+    ],
+    "job_group": "Software Architect",
+    "specialization": "Cloud Architecture",
+    "tech_domain": "Architecture"
+  },
+  "Data Solution Architect": {
+    "aliases": [
+      "Data Architecture Consultant",
+      "Data Solutions Architect"
+    ],
+    "job_group": "Software Architect",
+    "specialization": "Data Solution Architecture",
+    "tech_domain": "Architecture"
+  },
+  "Enterprise Architect": {
+    "aliases": [
+      "Enterprise Solution Architect",
+      "Enterprise Technology Architect"
+    ],
+    "job_group": "Software Architect",
+    "specialization": "Enterprise Architecture",
+    "tech_domain": "Architecture"
+  },
+  "Infrastructure Architect": {
+    "aliases": [
+      "Infrastructure Solution Architect",
+      "Systems Architect"
+    ],
+    "job_group": "Software Architect",
+    "specialization": "Infrastructure Architecture",
+    "tech_domain": "Architecture"
+  },
+  "Security Architect": {
+    "aliases": [
+      "Cybersecurity Architect",
+      "Information Security Architect"
+    ],
+    "job_group": "Software Architect",
+    "specialization": "Security Architecture",
+    "tech_domain": "Architecture"
+  },
+  "Software Architect": {
+    "aliases": [
+      "Application Software Architect",
+      "Technical Architect"
+    ],
+    "job_group": "Software Architect",
+    "specialization": "Software Architecture",
+    "tech_domain": "Architecture"
+  },
+  "Solution Architect": {
+    "aliases": [
+      "Solutions Architect",
+      "Technology Solution Architect"
+    ],
+    "job_group": "Software Architect",
+    "specialization": "Solution Architecture",
+    "tech_domain": "Architecture"
+  },
+  "Development Manager": {
+    "aliases": [
+      "Development Team Manager",
+      "Engineering Development Manager"
+    ],
+    "job_group": "Engineering Management",
+    "specialization": "Development Management",
+    "tech_domain": "Management"
+  },
+  "Engineering Director": {
+    "aliases": [
+      "Director of Engineering",
+      "Software Engineering Director"
+    ],
+    "job_group": "Engineering Management",
+    "specialization": "Engineering Direction",
+    "tech_domain": "Management"
+  },
+  "Engineering Manager": {
+    "aliases": [
+      "Engineer Manager",
+      "Software Engineering Manager"
+    ],
+    "job_group": "Engineering Management",
+    "specialization": "Engineering Management",
+    "tech_domain": "Management"
+  },
+  "Head of Engineering": {
+    "aliases": [
+      "Engineering Head",
+      "Head of Software Engineering"
+    ],
+    "job_group": "Engineering Management",
+    "specialization": "Engineering Leadership",
+    "tech_domain": "Management"
+  },
+  "IT Manager": {
+    "aliases": [
+      "IT Operations Manager",
+      "Information Technology Manager"
+    ],
+    "job_group": "Engineering Management",
+    "specialization": "IT Management",
+    "tech_domain": "Management"
+  },
+  "Software Development Manager": {
+    "aliases": [
+      "Software Delivery Manager",
+      "Software Development Lead"
+    ],
+    "job_group": "Engineering Management",
+    "specialization": "Software Development Management",
+    "tech_domain": "Management"
+  },
+  "Technical Lead": {
+    "aliases": [
+      "Lead Engineer",
+      "Tech Lead"
+    ],
+    "job_group": "Engineering Management",
+    "specialization": "Technical Leadership",
+    "tech_domain": "Management"
+  },
+  "Technology Manager": {
+    "aliases": [
+      "IT Technology Manager",
+      "Technology Team Manager"
+    ],
+    "job_group": "Engineering Management",
+    "specialization": "Technology Management",
+    "tech_domain": "Management"
+  },
+  "Embedded C Developer": {
+    "aliases": [
+      "C Embedded Developer",
+      "Embedded C Engineer"
+    ],
+    "job_group": "Embedded Engineer",
+    "specialization": "Embedded C",
+    "tech_domain": "Embedded"
+  },
+  "Embedded Developer": {
+    "aliases": [
+      "Embedded Firmware Developer",
+      "Embedded Software Developer"
+    ],
+    "job_group": "Embedded Engineer",
+    "specialization": "Embedded Development",
+    "tech_domain": "Embedded"
+  },
+  "Embedded Engineer": {
+    "aliases": [
+      "Embedded Software Engineer",
+      "Embedded Systems Engineer"
+    ],
+    "job_group": "Embedded Engineer",
+    "specialization": "Embedded Systems",
+    "tech_domain": "Embedded"
+  },
+  "Embedded Linux Engineer": {
+    "aliases": [
+      "Embedded Linux Developer",
+      "Linux Embedded Engineer"
+    ],
+    "job_group": "Embedded Engineer",
+    "specialization": "Embedded Linux",
+    "tech_domain": "Embedded"
+  },
+  "Firmware Developer": {
+    "aliases": [
+      "Firmware Software Developer",
+      "Firmware Specialist"
+    ],
+    "job_group": "Embedded Engineer",
+    "specialization": "Firmware Development",
+    "tech_domain": "Embedded"
+  },
+  "Firmware Engineer": {
+    "aliases": [
+      "Firmware Software Engineer",
+      "Low-Level Software Engineer"
+    ],
+    "job_group": "Embedded Engineer",
+    "specialization": "Firmware Engineering",
+    "tech_domain": "Embedded"
+  },
+  "IoT Engineer": {
+    "aliases": [
+      "Internet of Things Engineer",
+      "IoT Developer"
+    ],
+    "job_group": "Embedded Engineer",
+    "specialization": "IoT",
+    "tech_domain": "Embedded"
+  },
+  "Robotics Engineer": {
+    "aliases": [
+      "Robotics Developer",
+      "Robotics Software Engineer"
+    ],
+    "job_group": "Embedded Engineer",
+    "specialization": "Robotics",
+    "tech_domain": "Embedded"
+  },
+  "Game Developer": {
+    "aliases": [
+      "Game Programmer",
+      "Video Game Developer"
+    ],
+    "job_group": "Game Developer",
+    "specialization": "Game Development",
+    "tech_domain": "Game"
+  },
+  "Game Engineer": {
+    "aliases": [
+      "Game Software Engineer",
+      "Video Game Engineer"
+    ],
+    "job_group": "Game Developer",
+    "specialization": "Game Engineering",
+    "tech_domain": "Game"
+  },
+  "Gameplay Programmer": {
+    "aliases": [
+      "Gameplay Developer",
+      "Gameplay Engineer"
+    ],
+    "job_group": "Game Developer",
+    "specialization": "Gameplay Programming",
+    "tech_domain": "Game"
+  },
+  "Graphics Programmer": {
+    "aliases": [
+      "Graphics Developer",
+      "Rendering Engineer"
+    ],
+    "job_group": "Game Developer",
+    "specialization": "Graphics Programming",
+    "tech_domain": "Game"
+  },
+  "Unity Developer": {
+    "aliases": [
+      "Unity Engineer",
+      "Unity Game Developer"
+    ],
+    "job_group": "Game Developer",
+    "specialization": "Unity",
+    "tech_domain": "Game"
+  },
+  "Unreal Engine Developer": {
+    "aliases": [
+      "Unreal Developer",
+      "Unreal Engine Engineer"
+    ],
+    "job_group": "Game Developer",
+    "specialization": "Unreal Engine",
+    "tech_domain": "Game"
+  },
+  "Game Server Developer": {
+    "aliases": [
+      "Backend Game Developer",
+      "Game Backend Developer"
+    ],
+    "job_group": "Game Developer",
+    "specialization": "Game Server Development",
+    "tech_domain": "Game"
+  },
+  "Technical Game Designer": {
+    "aliases": [
+      "Game Technical Designer",
+      "Technical Designer"
+    ],
+    "job_group": "Game Developer",
+    "specialization": "Technical Game Design",
+    "tech_domain": "Game"
+  }
+}

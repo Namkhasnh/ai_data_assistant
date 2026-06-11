@@ -1,0 +1,21 @@
+{
+  "total_enriched_columns": 4,
+  "enriched_by_enricher": {
+    "knowledge": 4
+  },
+  "warnings": [],
+  "skipped_columns": [
+    "job_id",
+    "salary",
+    "experience",
+    "job_description",
+    "job_requirements",
+    "benefits",
+    "work_location_detail",
+    "working_time",
+    "company_name",
+    "company_size",
+    "company_address"
+  ],
+  "enricher_warnings": {}
+}

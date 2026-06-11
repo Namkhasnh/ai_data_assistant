@@ -1,0 +1,49 @@
+{
+  "generated_at": "2026-06-11T06:23:56.344788Z",
+  "source_column_count": 24,
+  "semantic_column_count": 9,
+  "total_columns": 33,
+  "source_columns": [
+    "job_id",
+    "title",
+    "salary",
+    "location",
+    "experience",
+    "job_description",
+    "job_requirements",
+    "benefits",
+    "work_location_detail",
+    "working_time",
+    "company_name",
+    "company_size",
+    "company_address",
+    "experience_years",
+    "salary_min",
+    "salary_max",
+    "standardized_title",
+    "standardized_location",
+    "experience_level",
+    "salary_type",
+    "job_family",
+    "job_domain",
+    "region",
+    "country"
+  ],
+  "semantic_columns": [
+    "job_group",
+    "specialization",
+    "seniority",
+    "city",
+    "province",
+    "salary_avg",
+    "currency",
+    "salary_unit",
+    "skills"
+  ],
+  "warnings": [
+    "Unknown values encountered in package 'job_title'.",
+    "Knowledge package location attempted to overwrite existing column: region",
+    "Knowledge package location attempted to overwrite existing column: country",
+    "Unknown values encountered in package 'location'."
+  ]
+}

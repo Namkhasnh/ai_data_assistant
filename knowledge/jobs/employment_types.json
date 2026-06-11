@@ -1,0 +1,49 @@
+{
+  "Contract": {
+    "aliases": [
+      "12-month contract",
+      "6-month contract",
+      "contract",
+      "hợp đồng"
+    ]
+  },
+  "Freelance": {
+    "aliases": [
+      "contractor",
+      "freelance"
+    ]
+  },
+  "Full-time": {
+    "aliases": [
+      "full time",
+      "full-time",
+      "permanent",
+      "toàn thời gian"
+    ]
+  },
+  "Internship": {
+    "aliases": [
+      "intern",
+      "internship",
+      "thực tập"
+    ]
+  },
+  "Part-time": {
+    "aliases": [
+      "bán thời gian",
+      "part time",
+      "part-time"
+    ]
+  },
+  "Seasonal": {
+    "aliases": [
+      "seasonal"
+    ]
+  },
+  "Temporary": {
+    "aliases": [
+      "temp",
+      "temporary"
+    ]
+  }
+}

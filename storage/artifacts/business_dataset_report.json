@@ -1,0 +1,39 @@
+{
+  "generated_at": "2026-06-10T17:41:57.055005Z",
+  "total_columns": 24,
+  "excluded_columns": [
+    "experience_years__is_valid",
+    "experience_years__validation_error",
+    "salary_max__is_valid",
+    "salary_max__validation_error",
+    "salary_min__is_valid",
+    "salary_min__validation_error"
+  ],
+  "included_columns": [
+    "job_id",
+    "title",
+    "salary",
+    "location",
+    "experience",
+    "job_description",
+    "job_requirements",
+    "benefits",
+    "work_location_detail",
+    "working_time",
+    "company_name",
+    "company_size",
+    "company_address",
+    "experience_years",
+    "salary_min",
+    "salary_max",
+    "standardized_title",
+    "standardized_location",
+    "experience_level",
+    "salary_type",
+    "job_family",
+    "job_domain",
+    "region",
+    "country"
+  ],
+  "warnings": []
+}

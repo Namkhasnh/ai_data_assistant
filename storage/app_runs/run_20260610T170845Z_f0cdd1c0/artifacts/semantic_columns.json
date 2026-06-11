@@ -1,0 +1,123 @@
+{
+  "source_file": "topcv_jobs.csv",
+  "column_count": 13,
+  "columns": [
+    {
+      "column_name": "job_id",
+      "semantic_type": "UNKNOWN",
+      "confidence": 0.0,
+      "detector_name": "detector_registry",
+      "evidence": []
+    },
+    {
+      "column_name": "title",
+      "semantic_type": "JOB_TITLE",
+      "confidence": 0.86,
+      "detector_name": "keyword_detector",
+      "evidence": [
+        "column_name matched keyword 'title'"
+      ]
+    },
+    {
+      "column_name": "salary",
+      "semantic_type": "SALARY",
+      "confidence": 0.88,
+      "detector_name": "keyword_detector",
+      "evidence": [
+        "column_name matched keyword 'salary'"
+      ]
+    },
+    {
+      "column_name": "location",
+      "semantic_type": "LOCATION",
+      "confidence": 0.84,
+      "detector_name": "keyword_detector",
+      "evidence": [
+        "column_name matched keyword 'location'"
+      ]
+    },
+    {
+      "column_name": "experience",
+      "semantic_type": "EXPERIENCE",
+      "confidence": 0.82,
+      "detector_name": "keyword_detector",
+      "evidence": [
+        "column_name matched keyword 'experience'"
+      ]
+    },
+    {
+      "column_name": "job_description",
+      "semantic_type": "DESCRIPTION",
+      "confidence": 0.78,
+      "detector_name": "keyword_detector",
+      "evidence": [
+        "column_name matched keyword 'description'"
+      ]
+    },
+    {
+      "column_name": "job_requirements",
+      "semantic_type": "DESCRIPTION",
+      "confidence": 0.78,
+      "detector_name": "keyword_detector",
+      "evidence": [
+        "column_name matched keyword 'requirements'"
+      ]
+    },
+    {
+      "column_name": "benefits",
+      "semantic_type": "DESCRIPTION",
+      "confidence": 0.78,
+      "detector_name": "keyword_detector",
+      "evidence": [
+        "column_name matched keyword 'benefits'"
+      ]
+    },
+    {
+      "column_name": "work_location_detail",
+      "semantic_type": "LOCATION",
+      "confidence": 0.84,
+      "detector_name": "keyword_detector",
+      "evidence": [
+        "column_name matched keyword 'location'"
+      ]
+    },
+    {
+      "column_name": "working_time",
+      "semantic_type": "UNKNOWN",
+      "confidence": 0.0,
+      "detector_name": "detector_registry",
+      "evidence": []
+    },
+    {
+      "column_name": "company_name",
+      "semantic_type": "COMPANY",
+      "confidence": 0.94,
+      "detector_name": "keyword_detector",
+      "evidence": [
+        "column_name matched keyword 'company'",
+        "top_value matched keyword 'công ty'",
+        "sample_value matched keyword 'công ty'",
+        "sample_value matched keyword 'công ty'",
+        "sample_value matched keyword 'công ty'"
+      ]
+    },
+    {
+      "column_name": "company_size",
+      "semantic_type": "COMPANY",
+      "confidence": 0.82,
+      "detector_name": "keyword_detector",
+      "evidence": [
+        "column_name matched keyword 'company'"
+      ]
+    },
+    {
+      "column_name": "company_address",
+      "semantic_type": "LOCATION",
+      "confidence": 0.84,
+      "detector_name": "keyword_detector",
+      "evidence": [
+        "column_name matched keyword 'address'"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "Python": {
+    "aliases": [
+      "python"
+    ],
+    "category": "programming_language"
+  },
+  "Java": {
+    "aliases": [
+      "java"
+    ],
+    "category": "programming_language"
+  },
+  "C++": {
+    "aliases": [
+      "c++",
+      "cpp"
+    ],
+    "category": "programming_language"
+  },
+  "TensorFlow": {
+    "aliases": [
+      "tensorflow",
+      "tf"
+    ],
+    "category": "framework"
+  },
+  "PyTorch": {
+    "aliases": [
+      "pytorch"
+    ],
+    "category": "framework"
+  },
+  "SQL": {
+    "aliases": [
+      "sql"
+    ],
+    "category": "database"
+  },
+  "Docker": {
+    "aliases": [
+      "docker"
+    ],
+    "category": "tool"
+  },
+  "AWS": {
+    "aliases": [
+      "aws",
+      "amazon web services"
+    ],
+    "category": "cloud"
+  }
+}

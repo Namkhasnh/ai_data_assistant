@@ -1,0 +1,33 @@
+{
+  "Hà Nội": {
+    "aliases": [
+      "Ha Noi",
+      "Hanoi"
+    ],
+    "city": "Hà Nội",
+    "province": "Hà Nội",
+    "region": "North",
+    "country": "Vietnam"
+  },
+  "TP Hồ Chí Minh": {
+    "aliases": [
+      "HCM",
+      "TPHCM",
+      "Ho Chi Minh City"
+    ],
+    "city": "TP Hồ Chí Minh",
+    "province": "TP Hồ Chí Minh",
+    "region": "South",
+    "country": "Vietnam"
+  },
+  "Đà Nẵng": {
+    "aliases": [
+      "Da Nang",
+      "Danang"
+    ],
+    "city": "Đà Nẵng",
+    "province": "Đà Nẵng",
+    "region": "Central",
+    "country": "Vietnam"
+  }
+}

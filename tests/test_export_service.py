@@ -128,6 +128,7 @@ def test_export_service_warns_when_upstream_artifacts_are_missing(tmp_path):
     assert report.total_exports == 4
     assert report.successful_exports == 0
     assert report.failed_exports == 4
+    assert any("semantic_dataset.csv not found" in warning for warning in report.warnings)
     assert any("enriched_dataset.csv not found" in warning for warning in report.warnings)
     assert any("standardized_dataset.csv not found" in warning for warning in report.warnings)
     assert any("audit_report.json not found" in warning for warning in report.warnings)

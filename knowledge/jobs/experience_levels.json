@@ -1,0 +1,42 @@
+{
+  "Intern": {
+    "aliases": [
+      "intern",
+      "internship",
+      "thực tập"
+    ],
+    "min_years": 0
+  },
+  "Junior": {
+    "aliases": [
+      "fresh graduate",
+      "junior"
+    ],
+    "min_years": 0
+  },
+  "Middle": {
+    "aliases": [
+      "mid-level",
+      "middle"
+    ],
+    "min_years": 2
+  },
+  "Senior": {
+    "aliases": [
+      "senior"
+    ],
+    "min_years": 5
+  },
+  "Lead": {
+    "aliases": [
+      "lead"
+    ],
+    "min_years": 8
+  },
+  "Principal": {
+    "aliases": [
+      "principal"
+    ],
+    "min_years": 10
+  }
+}
